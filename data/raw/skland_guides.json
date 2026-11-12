@@ -1,0 +1,2555 @@
+[
+    {
+        "applicableScope":  "",
+        "author":  "青石向晚",
+        "id":  "2120430515119446229",
+        "stats":  {
+                      "collects":  "398",
+                      "likes":  "156",
+                      "views":  "7235"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【二重奏】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：每回合首次晋升精锐干员时，获得1次额外的晋升奖励",
+                               "initiator":  "复奏",
+                               "name":  "二重奏"
+                           },
+                           {
+                               "effect":  "【人才锁定】 \u0026lt;@autochess.dgreen\u0026gt;点击使用（消耗1）\u0026lt;/\u0026gt;：刷新调度中心，必定包含1名比当前调度中心等级更高一阶（最高不超过6阶）的干员\u0026lt;@ba.acrem\u0026gt;（每回合限3次）\u0026lt;/\u0026gt;",
+                               "initiator":  "雅拉",
+                               "name":  "人才锁定"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  false,
+                                           "module":  "应急储备",
+                                           "name":  "华法琳",
+                                           "shopLevel":  4,
+                                           "skill":  "紧急包扎"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“誓言”",
+                                           "name":  "灵知",
+                                           "shopLevel":  4,
+                                           "skill":  "零度爆发"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“图书馆”",
+                                           "name":  "霍尔海雅",
+                                           "shopLevel":  4,
+                                           "skill":  "但为求索"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "想要留住的声音",
+                                           "name":  "纯烬艾雅法拉",
+                                           "shopLevel":  5,
+                                           "skill":  "云霭荫佑"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "邀约",
+                                           "name":  "凛御银灰",
+                                           "shopLevel":  5,
+                                           "skill":  "御敌的锋锐"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "千分之一的心",
+                                           "name":  "圣聆初雪",
+                                           "shopLevel":  5,
+                                           "skill":  "群山俯首"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "迷迭香特限证章",
+                                           "name":  "迷迭香",
+                                           "shopLevel":  5,
+                                           "skill":  "思维膨大"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "无",
+                                           "name":  "冻河",
+                                           "shopLevel":  5,
+                                           "skill":  "一无所有之人"
+                                       }
+                                   ],
+                         "idea":  "前夫哥的破解版，迅捷成了就是无限真银斩，前夫哥再给精准转，以前夫哥和初雪为核心，3精准，初雪也吃迅捷和灵巧再配合ffo，也可以技能不带停，而且还有奥术附加伤害。两人合力就是集聚怪，对空，冰冻，反影为一体的究极怪物",
+                         "items":  [
+                                       "变形同构体",
+                                       "精准狙击镜"
+                                   ],
+                         "regularBonds":  [
+                                              "奥术",
+                                              "聚合",
+                                              "精准",
+                                              "灵巧",
+                                              "绝技",
+                                              "迅捷"
+                                          ],
+                         "seasonBonds":  [
+                                             "谢拉格"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "卫戍破解版—只需要升4本，无限真银斩加永动初雪"
+    },
+    {
+        "applicableScope":  "",
+        "author":  "MLT不是麻辣烫",
+        "id":  "2120358988790611711",
+        "stats":  {
+                      "collects":  "150",
+                      "likes":  "77",
+                      "views":  "2295"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【变形同构】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：每5回合获得1件特殊装备\u0026lt;@ba.vup\u0026gt;\u0026lt;变形同构体\u0026gt;\u0026lt;/\u0026gt; \u0026lt;@ba.acrem\u0026gt;\u0026lt;变形同构体\u0026gt;：与特定装备一同装备时装备者将视为特定盟约成员\u0026lt;/\u0026gt;",
+                               "initiator":  "“变形者集群”",
+                               "name":  "变形同构"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“日复一日”",
+                                           "name":  "车尔尼",
+                                           "shopLevel":  3,
+                                           "skill":  "曲惊四座"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“明天的种子”",
+                                           "name":  "空弦",
+                                           "shopLevel":  3,
+                                           "skill":  "箭矢·暴风"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "朽坏传承",
+                                           "name":  "黑键",
+                                           "shopLevel":  4,
+                                           "skill":  "寂静之声"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "应急储备",
+                                           "name":  "华法琳",
+                                           "shopLevel":  4,
+                                           "skill":  "紧急包扎"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“错过的声音”",
+                                           "name":  "艾雅法拉",
+                                           "shopLevel":  4,
+                                           "skill":  "点燃"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“图书馆”",
+                                           "name":  "霍尔海雅",
+                                           "shopLevel":  4,
+                                           "skill":  "但为求索"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "目不能及之处",
+                                           "name":  "薇薇安娜",
+                                           "shopLevel":  5,
+                                           "skill":  "“明灭”"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "想要留住的声音",
+                                           "name":  "纯烬艾雅法拉",
+                                           "shopLevel":  5,
+                                           "skill":  "云霭荫佑"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "迟来的纪念",
+                                           "name":  "遥",
+                                           "shopLevel":  6,
+                                           "skill":  "幽隙栖萤"
+                                       }
+                                   ],
+                         "idea":  "本阵容可长时间停留在四本\n\n前期靠云迹+复奏叠层奇迹\n因为所需的医疗都在四五本\n前期尽可能多拿能T能奶的保活\n\n尽量控制在五回合升三本，在第八回合之前升四本\n对子多留一些，在四本去碰奶羊和薇薇安娜，没碰出的话，在第十一回合前上到五本去找\n\n同构体和小鼓优先给到空弦和雅雅，确保能开出6莱塔\n有充裕同构体的话，可给小羊（不是奶羊）转职灵巧，与华法琳配合站位可额外叠层灵巧\n\n站位推荐如下：\n中期：空弦 → 黑键  华法琳 → 霍尔海雅\n后期：空弦 → 奶羊  华法琳 → 小羊（没转职的依旧朝向雅雅）\n\n最终成型：\n8莱塔尼亚，3精准，3奥术，2聚合，2灵巧，2远见，2奇迹",
+                         "items":  [
+                                       "灵巧涡轮手套",
+                                       "卫戍推荐信",
+                                       "简易通讯机",
+                                       "见钱眼开玩偶",
+                                       "精打细算玩偶",
+                                       "寻呼模块",
+                                       "莱塔尼亚小鼓",
+                                       "变形同构体"
+                                   ],
+                         "regularBonds":  [
+                                              "奥术",
+                                              "聚合",
+                                              "精准",
+                                              "绝技",
+                                              "远见"
+                                          ],
+                         "seasonBonds":  [
+                                             "莱塔尼亚"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "巫王驾到！"
+    },
+    {
+        "applicableScope":  "不ban精准或灵巧，最好不ban灵巧，远见不ban更好还能刷经济。可以凑坚守加生存，到最后精灵基本都是一两百层，电狗和云迹能一直用到最后，还能对策频次怪。要是能开奥术也不错，三奥术防隐匿，不过大丑很能抗所以也不太怕。",
+        "author":  "海伯利安之殇",
+        "id":  "2120035477467843899",
+        "stats":  {
+                      "collects":  "1901",
+                      "likes":  "982",
+                      "views":  "24680"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【暴躁铁皮】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：第1回合获得1名可以装备4件装备的特殊干员\u0026lt;@ba.vup\u0026gt;\u0026lt;“暴躁铁皮”\u0026gt;\u0026lt;/\u0026gt;",
+                               "initiator":  "森蚺",
+                               "name":  "暴躁铁皮"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  true,
+                                           "module":  "无",
+                                           "name":  "云迹",
+                                           "shopLevel":  2,
+                                           "skill":  "掠空飞翎"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“暴躁铁皮”证章",
+                                           "name":  "“暴躁铁皮”",
+                                           "shopLevel":  5,
+                                           "skill":  "大丑的愤怒"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "新型电控设备技术原型",
+                                           "name":  "承曦格雷伊",
+                                           "shopLevel":  2,
+                                           "skill":  "晨曦信标"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“明天的种子”",
+                                           "name":  "空弦",
+                                           "shopLevel":  3,
+                                           "skill":  "箭矢·暴风"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "内敛锋芒",
+                                           "name":  "渡桥",
+                                           "shopLevel":  2,
+                                           "skill":  "遥控解体"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "寻乡人的启明星",
+                                           "name":  "青枳",
+                                           "shopLevel":  3,
+                                           "skill":  "冲锋号令·γ型"
+                                       }
+                                   ],
+                         "idea":  "精准和灵巧至少其中一个无ban再玩，最好不ban灵巧。第二回合直接升本，前九回合都可以待在二本找电话（简易通讯机），给大丑直接用无限复制大丑。最低要求三个大丑合成精锐后再升本，可以考虑多留一个大丑（也就是一共四只，后面要是找到博士投影就可以给第二个也精锐）。二本期间找电狗（承曦）和云迹叠精灵，可以找渡桥（放后台凑远见+弱化版空弦），三合一碰空弦（青枳也可以）。初步成型能爽叠灵巧就直接升四本找吸血刀（汲取者镰刀），升五本找转（变形者），一个转可以配盾牌，精准望远镜等等来让大丑爽吃三四个盟约。找一个协助干员凑协助盟约。这样大丑自带吸血还能爽吃一堆盟约buff，并且攻速快所以开技能也快，伤害高吸血高基本死不掉（打隐秘铳骑超高减伤都能吸得起来血）。无论道中还是BOSS都是超强战力，一玩一个不吱声，而且操作无脑简单，快拿去上分吧！",
+                         "items":  [
+                                       "简易通讯机",
+                                       "汲取者之喙",
+                                       "变形同构体",
+                                       "精准狙击镜",
+                                       "坚守盾牌"
+                                   ],
+                         "regularBonds":  [
+                                              "精准",
+                                              "灵巧",
+                                              "绝技",
+                                              "远见"
+                                          ],
+                         "seasonBonds":  [
+
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "森蚺大丑精灵全程无漏一兜三，BOSS输出占比最高，大丑超强生存完全不死"
+    },
+    {
+        "applicableScope":  "",
+        "author":  "十三天天",
+        "id":  "2120373362380711053",
+        "stats":  {
+                      "collects":  "67",
+                      "likes":  "20",
+                      "views":  "1362"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【暴躁铁皮】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：第1回合获得1名可以装备4件装备的特殊干员\u0026lt;@ba.vup\u0026gt;\u0026lt;“暴躁铁皮”\u0026gt;\u0026lt;/\u0026gt;",
+                               "initiator":  "森蚺",
+                               "name":  "暴躁铁皮"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“暴躁铁皮”证章",
+                                           "name":  "“暴躁铁皮”",
+                                           "shopLevel":  5,
+                                           "skill":  "大丑的愤怒"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "支持者来信",
+                                           "name":  "远牙",
+                                           "shopLevel":  4,
+                                           "skill":  "同盟支援"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "隐秘行动工具包",
+                                           "name":  "砾",
+                                           "shopLevel":  2,
+                                           "skill":  "影袭"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“长骑”",
+                                           "name":  "瑕光",
+                                           "shopLevel":  3,
+                                           "skill":  "慑敌辉光"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“鞘中人”",
+                                           "name":  "玛恩纳",
+                                           "shopLevel":  4,
+                                           "skill":  "未照耀的荣光"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "空弦特限证章",
+                                           "name":  "空弦",
+                                           "shopLevel":  3,
+                                           "skill":  "箭矢·暴风"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "耀阳锋刃",
+                                           "name":  "耀骑士临光",
+                                           "shopLevel":  6,
+                                           "skill":  "耀阳颔首"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "旅游必需品",
+                                           "name":  "史尔特尔",
+                                           "shopLevel":  6,
+                                           "skill":  "黄昏"
+                                       }
+                                   ],
+                         "idea":  "激活6【卡西米尔】\n大丑装备转职球和：\n【卡西米尔战旗】、【突袭手雷】、【佣兵铭牌】",
+                         "items":  [
+                                       "变形同构体",
+                                       "简易通讯机",
+                                       "拟态物质",
+                                       "博士投影",
+                                       "卡西米尔竞技旗",
+                                       "精准狙击镜",
+                                       "突袭手雷",
+                                       "不屈弹射器",
+                                       "天马之耀"
+                                   ],
+                         "regularBonds":  [
+                                              "不屈",
+                                              "精准",
+                                              "突袭",
+                                              "绝技"
+                                          ],
+                         "seasonBonds":  [
+                                             "卡西米尔"
+                                         ],
+                         "type":  "最终阵容"
+                     },
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“暴躁铁皮”证章",
+                                           "name":  "“暴躁铁皮”",
+                                           "shopLevel":  5,
+                                           "skill":  "大丑的愤怒"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "新型电控设备技术原型",
+                                           "name":  "承曦格雷伊",
+                                           "shopLevel":  2,
+                                           "skill":  "晨曦信标"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "无",
+                                           "name":  "云迹",
+                                           "shopLevel":  2,
+                                           "skill":  "掠空飞翎"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“暮约”",
+                                           "name":  "复奏",
+                                           "shopLevel":  2,
+                                           "skill":  "合奏起拍"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "空弦特限证章",
+                                           "name":  "空弦",
+                                           "shopLevel":  3,
+                                           "skill":  "箭矢·暴风"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "隐秘行动工具包",
+                                           "name":  "砾",
+                                           "shopLevel":  2,
+                                           "skill":  "影袭"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "回家的路",
+                                           "name":  "摆渡人",
+                                           "shopLevel":  1,
+                                           "skill":  "同胞的意志"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“长骑”",
+                                           "name":  "瑕光",
+                                           "shopLevel":  3,
+                                           "skill":  "慑敌辉光"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "超级喷漆套装",
+                                           "name":  "伊桑",
+                                           "shopLevel":  3,
+                                           "skill":  "十字悬挂"
+                                       }
+                                   ],
+                         "idea":  "停留在商店Ⅱ本找电话，复制大丑，禁用初雪也可上本找；\n其他盟约激活如下：\n①.电狗+云迹【灵巧】\n②.云迹+复奏【奇迹】\n（复奏可不上场）\n③.空弦+电狗【精准】\n（可额外凑三精准）\n④.摆渡人+砾【不屈】\n⑤.瑕光+伊桑【突袭】\n\n",
+                         "items":  [
+
+                                   ],
+                         "regularBonds":  [
+                                              "不屈",
+                                              "奇迹",
+                                              "精准",
+                                              "突袭",
+                                              "灵巧",
+                                              "绝技"
+                                          ],
+                         "seasonBonds":  [
+
+                                         ],
+                         "type":  "阶段阵容 (1-7回合)"
+                     },
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“暴躁铁皮”证章",
+                                           "name":  "“暴躁铁皮”",
+                                           "shopLevel":  5,
+                                           "skill":  "大丑的愤怒"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "无",
+                                           "name":  "云迹",
+                                           "shopLevel":  2,
+                                           "skill":  "掠空飞翎"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“暮约”",
+                                           "name":  "复奏",
+                                           "shopLevel":  2,
+                                           "skill":  "合奏起拍"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "空弦特限证章",
+                                           "name":  "空弦",
+                                           "shopLevel":  3,
+                                           "skill":  "箭矢·暴风"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "隐秘行动工具包",
+                                           "name":  "砾",
+                                           "shopLevel":  2,
+                                           "skill":  "影袭"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“长骑”",
+                                           "name":  "瑕光",
+                                           "shopLevel":  3,
+                                           "skill":  "慑敌辉光"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“鞘中人”",
+                                           "name":  "玛恩纳",
+                                           "shopLevel":  4,
+                                           "skill":  "未照耀的荣光"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "支持者来信",
+                                           "name":  "远牙",
+                                           "shopLevel":  4,
+                                           "skill":  "同盟支援"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“图书馆”",
+                                           "name":  "霍尔海雅",
+                                           "shopLevel":  4,
+                                           "skill":  "群星逶迤"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "易枯萎的航船",
+                                           "name":  "隐德来希",
+                                           "shopLevel":  5,
+                                           "skill":  "灵与欲的惜别"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "耀阳锋刃",
+                                           "name":  "耀骑士临光",
+                                           "shopLevel":  6,
+                                           "skill":  "耀阳颔首"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "旅游必需品",
+                                           "name":  "史尔特尔",
+                                           "shopLevel":  6,
+                                           "skill":  "黄昏"
+                                       }
+                                   ],
+                         "idea":  "给大丑装备转职球\n其他盟约激活如下：\n①.大丑+瑕光+玛恩纳+砾+远牙+耀光\n【6卡西米尔】\n③.空弦+雅雅+牙牙【3精准】\n（可以给大丑或者玛恩纳转职精准）\n④.42/隐隐+砾【2不屈】\n（可以给大丑或者耀光转职不屈）\n⑤.瑕光+42/隐隐+耀光【突袭】\n（可以给大丑转职不屈）",
+                         "items":  [
+
+                                   ],
+                         "regularBonds":  [
+                                              "不屈",
+                                              "奇迹",
+                                              "精准",
+                                              "突袭",
+                                              "灵巧",
+                                              "绝技"
+                                          ],
+                         "seasonBonds":  [
+                                             "卡西米尔"
+                                         ],
+                         "type":  "阶段阵容 (8-13回合)"
+                     }
+                 ],
+        "title":  "【卡西米尔】超强大丑不屈突袭硬抗隐秘铳"
+    },
+    {
+        "applicableScope":  "",
+        "author":  "Hanserrr",
+        "id":  "2119688022455878781",
+        "stats":  {
+                      "collects":  "3925",
+                      "likes":  "1971",
+                      "views":  "55211"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【出航时刻】 \u0026lt;@autochess.dgreen\u0026gt;【伊比利亚】盟约激活人数达到4时解锁\u0026lt;/\u0026gt; \u0026lt;@autochess.dgreen\u0026gt;拖拽使用（消耗1）\u0026lt;/\u0026gt;：选择一名调度中心内的干员，使其替换为不高于该干员等阶的【伊比利亚】干员\u0026lt;@ba.acrem\u0026gt;（每回合限2次）\u0026lt;/\u0026gt;",
+                               "initiator":  "引星棘刺",
+                               "name":  "出航时刻"
+                           },
+                           {
+                               "effect":  "【集结指示】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：在第4、7、10、13回合进入休整期时获得1个\u0026lt;@ba.vup\u0026gt;\u0026lt;寻呼模块\u0026gt;\u0026lt;/\u0026gt; \u0026lt;@ba.acrem\u0026gt;\u0026lt;寻呼模块\u0026gt;：装备时销毁，在调度中心出现至多3名拥有该干员第一盟约的其他干员，免费获取其中1名（等阶不高于当前调度中心）\u0026lt;/\u0026gt;",
+                               "initiator":  "杰西卡",
+                               "name":  "集结指示"
+                           },
+                           {
+                               "effect":  "【二重奏】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：每回合首次晋升精锐干员时，获得1次额外的晋升奖励",
+                               "initiator":  "复奏",
+                               "name":  "二重奏"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  true,
+                                           "module":  "多彩盐漠生活",
+                                           "name":  "瑰盐",
+                                           "shopLevel":  2,
+                                           "skill":  "上佳的应急药呀"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "纯铜单筒望远镜",
+                                           "name":  "流明",
+                                           "shopLevel":  4,
+                                           "skill":  "灯火不灭"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“启航”",
+                                           "name":  "海沫",
+                                           "shopLevel":  3,
+                                           "skill":  "回首，断舍"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“明天的种子”",
+                                           "name":  "空弦",
+                                           "shopLevel":  3,
+                                           "skill":  "箭矢·暴风"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "看不见的大海",
+                                           "name":  "旅骨",
+                                           "shopLevel":  3,
+                                           "skill":  "座浅"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“图书馆”",
+                                           "name":  "霍尔海雅",
+                                           "shopLevel":  4,
+                                           "skill":  "但为求索"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "标准比色卡",
+                                           "name":  "蓝毒",
+                                           "shopLevel":  2,
+                                           "skill":  "二重射击·自动"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“盐与沙”",
+                                           "name":  "棘刺",
+                                           "shopLevel":  5,
+                                           "skill":  "至高之术"
+                                       }
+                                   ],
+                         "idea":  "前期尽量抓战力过渡\n三本后抓旅骨空弦海沫 没有海沫的话温蒂是下位替代\n三精准蓝毒解决了伊比利亚对单的痛点\nboss战蓝毒是绝对核心 自用n15隐秘蓝毒50%输出\n什么时候意识到蓝毒才是核心什么时候玩懂伊比利亚",
+                         "items":  [
+
+                                   ],
+                         "regularBonds":  [
+                                              "奥术",
+                                              "聚合",
+                                              "精准",
+                                              "绝技"
+                                          ],
+                         "seasonBonds":  [
+                                             "伊比利亚"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "无需六本干员！ 伊比利亚大c是蓝毒！"
+    },
+    {
+        "applicableScope":  "",
+        "author":  "阿玥YUE",
+        "id":  "2119678702295243883",
+        "stats":  {
+                      "collects":  "429",
+                      "likes":  "176",
+                      "views":  "6224"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【集结指示】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：在第4、7、10、13回合进入休整期时获得1个\u0026lt;@ba.vup\u0026gt;\u0026lt;寻呼模块\u0026gt;\u0026lt;/\u0026gt; \u0026lt;@ba.acrem\u0026gt;\u0026lt;寻呼模块\u0026gt;：装备时销毁，在调度中心出现至多3名拥有该干员第一盟约的其他干员，免费获取其中1名（等阶不高于当前调度中心）\u0026lt;/\u0026gt;",
+                               "initiator":  "杰西卡",
+                               "name":  "集结指示"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“时间的痕迹”",
+                                           "name":  "折桠",
+                                           "shopLevel":  1,
+                                           "skill":  "生存决心"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“睡前故事”",
+                                           "name":  "乌啾",
+                                           "shopLevel":  3,
+                                           "skill":  "“捉迷藏！”"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "军械库",
+                                           "name":  "维伊",
+                                           "shopLevel":  4,
+                                           "skill":  "“自呼号生发”"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "无",
+                                           "name":  "冻河",
+                                           "shopLevel":  5,
+                                           "skill":  "踽踽独行之春"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "迟到的勋章",
+                                           "name":  "怒潮凛冬",
+                                           "shopLevel":  5,
+                                           "skill":  "绝不罢休"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "无",
+                                           "name":  "塔露拉",
+                                           "shopLevel":  6,
+                                           "skill":  "日冕重烈"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“图书馆”",
+                                           "name":  "霍尔海雅",
+                                           "shopLevel":  4,
+                                           "skill":  "但为求索"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "寻乡人的启明星",
+                                           "name":  "青枳",
+                                           "shopLevel":  3,
+                                           "skill":  "冲锋号令·γ型"
+                                       }
+                                   ],
+                         "idea":  "3升2\n4/5升3\n出了霍尔海雅升4\n出了冻河升5",
+                         "items":  [
+
+                                   ],
+                         "regularBonds":  [
+                                              "奥术",
+                                              "迅捷"
+                                          ],
+                         "seasonBonds":  [
+                                             "乌萨斯"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "轮椅乌萨奇"
+    },
+    {
+        "applicableScope":  "",
+        "author":  "ONN",
+        "id":  "2119659275765524488",
+        "stats":  {
+                      "collects":  "573",
+                      "likes":  "185",
+                      "views":  "10271"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【流动乐章】 \u0026lt;@autochess.dgreen\u0026gt;点击使用（消耗1）\u0026lt;/\u0026gt;：获得1名【莱塔尼亚】干员（等阶不高于当前调度中心），每次使用后指令消耗资金永久\u0026lt;@ba.vdown\u0026gt;+1\u0026lt;/\u0026gt;",
+                               "initiator":  "车尔尼",
+                               "name":  "流动乐章"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  true,
+                                           "module":  "想要留住的声音",
+                                           "name":  "纯烬艾雅法拉",
+                                           "shopLevel":  5,
+                                           "skill":  "火山回响"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "朽坏传承",
+                                           "name":  "黑键",
+                                           "shopLevel":  4,
+                                           "skill":  "荒芜回响"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“图书馆”",
+                                           "name":  "霍尔海雅",
+                                           "shopLevel":  4,
+                                           "skill":  "但为求索"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "目不能及之处",
+                                           "name":  "薇薇安娜",
+                                           "shopLevel":  5,
+                                           "skill":  "“明灭”"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "风信子与匕首",
+                                           "name":  "卡涅利安",
+                                           "shopLevel":  3,
+                                           "skill":  "沙缚镣锁"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "蜕化的残迹",
+                                           "name":  "浊心斯卡蒂",
+                                           "shopLevel":  6,
+                                           "skill":  "\"潮涌，潮枯\""
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "《语义范式百科》",
+                                           "name":  "逻各斯",
+                                           "shopLevel":  6,
+                                           "skill":  "延异视阈"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“过往的注脚”",
+                                           "name":  "锏",
+                                           "shopLevel":  6,
+                                           "skill":  "归于宁静"
+                                       }
+                                   ],
+                         "idea":  "前期凑3莱塔尼亚拿车尔尼保道中，升5本凑6莱塔尼亚找薇薇安娜碰锏",
+                         "items":  [
+                                       "卫戍推荐信",
+                                       "可靠怀表",
+                                       "坚守盾牌",
+                                       "莱塔尼亚小鼓",
+                                       "迅捷作战粮",
+                                       "变形同构体",
+                                       "双模机械臂"
+                                   ],
+                         "regularBonds":  [
+                                              "奥术",
+                                              "聚合",
+                                              "精准",
+                                              "绝技",
+                                              "远见"
+                                          ],
+                         "seasonBonds":  [
+                                             "莱塔尼亚"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "莱塔尼亚奥术精准"
+    },
+    {
+        "applicableScope":  "有阿戈尔，坚守，助力等tag，其他羁绊能凑就凑，都是实打实的战力提升，重要的是随机应变",
+        "author":  "公羽世家",
+        "id":  "2119646537562390695",
+        "stats":  {
+                      "collects":  "1345",
+                      "likes":  "537",
+                      "views":  "28310"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【崇高牺牲】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：【阿戈尔】干员被击倒时，使已激活的【阿戈尔】盟约叠加等同于该干员等阶的层数",
+                               "initiator":  "克莱门莎",
+                               "name":  "崇高牺牲"
+                           },
+                           {
+                               "effect":  "【众志合一】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：场上存在3、4或5种以上激活盟约时，所有干员攻击力、生命上限分别\u0026lt;@ba.vup\u0026gt;+20%\u0026lt;/\u0026gt;/\u0026lt;@ba.vup\u0026gt;30%\u0026lt;/\u0026gt;/\u0026lt;@ba.vup\u0026gt;40%\u0026lt;/\u0026gt;",
+                               "initiator":  "阿米娅",
+                               "name":  "众志合一"
+                           },
+                           {
+                               "effect":  "【猎人战法】 \u0026lt;@autochess.dgreen\u0026gt;调度中心等级达到4级解锁\u0026lt;/\u0026gt; \u0026lt;@autochess.dgreen\u0026gt;点击使用（消耗1）\u0026lt;/\u0026gt;：获得1名【阿戈尔】干员（等阶不高于当前调度中心） \u0026lt;@ba.vdown\u0026gt;\u0026lt;在场6名不同【阿戈尔】干员\u0026gt; 效果替换为前3名【阿戈尔】干员首次被击倒时召唤整备区最右侧一名可部署至当前位置的【阿戈尔】干员\u0026lt;/\u0026gt;",
+                               "initiator":  "歌蕾蒂娅",
+                               "name":  "猎人战法"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  false,
+                                           "module":  "使者之约",
+                                           "name":  "水月",
+                                           "shopLevel":  4,
+                                           "skill":  "囚徒困境"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "枪支调试工具组",
+                                           "name":  "安哲拉",
+                                           "shopLevel":  2,
+                                           "skill":  "攻击力强化·γ型"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "基于咖啡的神经活性剂",
+                                           "name":  "深巡",
+                                           "shopLevel":  3,
+                                           "skill":  "行动能力剥夺"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "无",
+                                           "name":  "克莱门莎",
+                                           "shopLevel":  6,
+                                           "skill":  "与海为敌"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“故乡的山岩”",
+                                           "name":  "帕拉斯",
+                                           "shopLevel":  6,
+                                           "skill":  "英勇的祝福"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "执政官手镜",
+                                           "name":  "歌蕾蒂娅",
+                                           "shopLevel":  5,
+                                           "skill":  "缺水的碎漩狂舞"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "半自动造型工具套组",
+                                           "name":  "罗比菈塔",
+                                           "shopLevel":  3,
+                                           "skill":  "全自动造型仪"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "乌尔比安的衣橱",
+                                           "name":  "乌尔比安",
+                                           "shopLevel":  5,
+                                           "skill":  "必须开辟的通路"
+                                       }
+                                   ],
+                         "idea":  "这把没有红蒂，运气不好，不过助力阿戈尔意外的很强，坚守叠生命，助力防御力，简直是城墙级别，道中兜底，结局要克莱门莎打爆条（需要加爆条伤害的装备）",
+                         "items":  [
+                                       "奥术法阵",
+                                       "维式重锤",
+                                       "坚守盾牌",
+                                       "瓶装烈性反应",
+                                       "佣兵名牌",
+                                       "突袭手雷"
+                                   ],
+                         "regularBonds":  [
+                                              "助力",
+                                              "灵巧",
+                                              "坚守",
+                                              "绝技"
+                                          ],
+                         "seasonBonds":  [
+                                             "阿戈尔"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "我们阿戈尔终于起来了😭（如果捡不到聚合应该怎么办）"
+    },
+    {
+        "applicableScope":  "",
+        "author":  "錦亚澄asumi",
+        "id":  "2119643616472469549",
+        "stats":  {
+                      "collects":  "1002",
+                      "likes":  "394",
+                      "views":  "16972"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【利滚利】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：每回合剩余的资金可以继承，剩余至少\u0026lt;@ba.vup\u0026gt;5\u0026lt;/\u0026gt;资金时，每回合额外获得\u0026lt;@ba.vup\u0026gt;1\u0026lt;/\u0026gt;资金",
+                               "initiator":  "坎诺特",
+                               "name":  "利滚利"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  false,
+                                           "module":  "邀约",
+                                           "name":  "凛御银灰",
+                                           "shopLevel":  5,
+                                           "skill":  "御敌的锋锐"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“誓言”",
+                                           "name":  "灵知",
+                                           "shopLevel":  4,
+                                           "skill":  "零度爆发"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“故乡的山岩”",
+                                           "name":  "帕拉斯",
+                                           "shopLevel":  6,
+                                           "skill":  "英勇的祝福"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "千分之一的心",
+                                           "name":  "圣聆初雪",
+                                           "shopLevel":  5,
+                                           "skill":  "群山俯首"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "腿部护理套装",
+                                           "name":  "哈洛德",
+                                           "shopLevel":  2,
+                                           "skill":  "重症优先"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“过往的注脚”",
+                                           "name":  "锏",
+                                           "shopLevel":  6,
+                                           "skill":  "归于宁静"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "超级喷漆套装",
+                                           "name":  "伊桑",
+                                           "shopLevel":  3,
+                                           "skill":  "十字悬挂"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“续针”",
+                                           "name":  "初雪",
+                                           "shopLevel":  3,
+                                           "skill":  "自然震慑"
+                                       }
+                                   ],
+                         "idea":  "留对子吸血升本，4本找灵知碰5本初雪",
+                         "items":  [
+                                       "多功能补剂",
+                                       "佣兵名牌",
+                                       "变形同构体",
+                                       "迅捷作战粮",
+                                       "谢拉格不融冰"
+                                   ],
+                         "regularBonds":  [
+                                              "奥术",
+                                              "灵巧",
+                                              "绝技"
+                                          ],
+                         "seasonBonds":  [
+                                             "谢拉格"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "这是群山许诺给我的力量"
+    },
+    {
+        "applicableScope":  "盟约不完全刚需精准奥术灵巧，只禁用以上三个的其中之一时无伤大雅，空弦华法琳被办会有点难受但也不是完全玩不了，萨是核心不能与以上其中一个同时被禁。策略看自己喜欢即可，有搜牌和经济能力最好，战力如果对自己运营有自信或者不相信队友的话也可以选",
+        "author":  "予世不及",
+        "id":  "2120412783959272260",
+        "stats":  {
+                      "collects":  "37",
+                      "likes":  "12",
+                      "views":  "597"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【纸片替身】 \u0026lt;@autochess.dgreen\u0026gt;拖拽使用（消耗0）\u0026lt;/\u0026gt;：选择一名调度中心内的干员，使其变为相同等阶的随机干员\u0026lt;@ba.acrem\u0026gt;（每回合限2次）\u0026lt;/\u0026gt;",
+                               "initiator":  "风丸",
+                               "name":  "纸片替身"
+                           },
+                           {
+                               "effect":  "【众志合一】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：场上存在3、4或5种以上激活盟约时，所有干员攻击力、生命上限分别\u0026lt;@ba.vup\u0026gt;+20%\u0026lt;/\u0026gt;/\u0026lt;@ba.vup\u0026gt;30%\u0026lt;/\u0026gt;/\u0026lt;@ba.vup\u0026gt;40%\u0026lt;/\u0026gt;",
+                               "initiator":  "阿米娅",
+                               "name":  "众志合一"
+                           },
+                           {
+                               "effect":  "【变形同构】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：每5回合获得1件特殊装备\u0026lt;@ba.vup\u0026gt;\u0026lt;变形同构体\u0026gt;\u0026lt;/\u0026gt; \u0026lt;@ba.acrem\u0026gt;\u0026lt;变形同构体\u0026gt;：与特定装备一同装备时装备者将视为特定盟约成员\u0026lt;/\u0026gt;",
+                               "initiator":  "“变形者集群”",
+                               "name":  "变形同构"
+                           },
+                           {
+                               "effect":  "【不稳定要素】 \u0026lt;@autochess.dgreen\u0026gt;第4回合解锁\u0026lt;/\u0026gt; \u0026lt;@autochess.dgreen\u0026gt;拖拽使用（消耗0）\u0026lt;/\u0026gt;：选择一名我方干员，立即使其变为更高一阶的随机干员（最高不超过6阶）",
+                               "initiator":  "昆图斯",
+                               "name":  "不稳定要素"
+                           },
+                           {
+                               "effect":  "【私募基金】 \u0026lt;@autochess.dgreen\u0026gt;点击使用（消耗0）\u0026lt;/\u0026gt;：随机获得\u0026lt;@ba.vup\u0026gt;1-6\u0026lt;/\u0026gt;资金\u0026lt;@ba.acrem\u0026gt;（冷却回合数等同于获得资金）\u0026lt;/\u0026gt;",
+                               "initiator":  "小贾斯汀",
+                               "name":  "私募基金"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“图书馆”",
+                                           "name":  "霍尔海雅",
+                                           "shopLevel":  4,
+                                           "skill":  "但为求索"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "仪式感",
+                                           "name":  "鸿雪",
+                                           "shopLevel":  5,
+                                           "skill":  "点题"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "应急储备",
+                                           "name":  "华法琳",
+                                           "shopLevel":  4,
+                                           "skill":  "紧急包扎"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "《语义范式百科》",
+                                           "name":  "逻各斯",
+                                           "shopLevel":  6,
+                                           "skill":  "延异视阈"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "晴雨",
+                                           "name":  "佩佩",
+                                           "shopLevel":  5,
+                                           "skill":  "时光震荡"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "小小的种子",
+                                           "name":  "莎草",
+                                           "shopLevel":  2,
+                                           "skill":  "巧思乍现"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "电磁调节器",
+                                           "name":  "异客",
+                                           "shopLevel":  4,
+                                           "skill":  "辉煌裂片"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "中枢神经探测模块",
+                                           "name":  "真言",
+                                           "shopLevel":  6,
+                                           "skill":  "意识联协"
+                                       }
+                                   ],
+                         "idea":  "运营核心是前期小幅度叠精准奥术灵巧，优先找云迹拼灵巧过渡前期，格雷伊和霜叶灰喉前期优质过渡可以抓，记得留一下莎草。六到七回合左右升四本，或者在三本碰对子优先找空弦华法琳霍尔海雅，获得初步的启动资格。九到十回合升五本，找到鸿雪佩佩即游戏结束。六本看情况自己选择上，去找缪缪拿转是最重要的，真言可有可无。\n最终成型阵容为三精准三奥术两灵巧两聚合，三到六萨\n有萨转可以找优质精准和奥术终端，推荐蕾缪安逻各斯塔露拉，如果转的数量比较多可以给雅雅萨转和真言精准转开出六萨，最终阵营即可成型",
+                         "items":  [
+                                       "萨尔贡浓茶",
+                                       "变形同构体",
+                                       "简易通讯机",
+                                       "精准狙击镜",
+                                       "寻呼模块",
+                                       "人事部文档"
+                                   ],
+                         "regularBonds":  [
+                                              "奥术",
+                                              "聚合",
+                                              "精准",
+                                              "灵巧",
+                                              "绝技"
+                                          ],
+                         "seasonBonds":  [
+                                             "萨尔贡"
+                                         ],
+                         "type":  "最终阵容"
+                     },
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  false,
+                                           "module":  "幽明烛光",
+                                           "name":  "幽灵鲨",
+                                           "shopLevel":  1,
+                                           "skill":  "攻击力强化·γ型"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "不歇律动",
+                                           "name":  "霜叶",
+                                           "shopLevel":  1,
+                                           "skill":  "寒霜枪刃"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "回家的路",
+                                           "name":  "摆渡人",
+                                           "shopLevel":  1,
+                                           "skill":  "奔流"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "母爱的倒影",
+                                           "name":  "灰喉",
+                                           "shopLevel":  1,
+                                           "skill":  "回流"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "新型电控设备技术原型",
+                                           "name":  "承曦格雷伊",
+                                           "shopLevel":  2,
+                                           "skill":  "晨曦信标"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "无",
+                                           "name":  "云迹",
+                                           "shopLevel":  2,
+                                           "skill":  "紧急升空"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "小小的种子",
+                                           "name":  "莎草",
+                                           "shopLevel":  2,
+                                           "skill":  "巧思乍现"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "大菲林脱敏实验",
+                                           "name":  "卡达",
+                                           "shopLevel":  1,
+                                           "skill":  "攻击力强化·β型"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“黑色”贩卖机",
+                                           "name":  "Miss.Christine",
+                                           "shopLevel":  2,
+                                           "skill":  "自由用餐礼仪"
+                                       }
+                                   ],
+                         "idea":  "前期找低费过渡，漏怪交给队友",
+                         "items":  [
+
+                                   ],
+                         "regularBonds":  [
+                                              "奥术",
+                                              "精准",
+                                              "灵巧"
+                                          ],
+                         "seasonBonds":  [
+
+                                         ],
+                         "type":  "阶段阵容 (1-3回合)"
+                     },
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“明天的种子”",
+                                           "name":  "空弦",
+                                           "shopLevel":  3,
+                                           "skill":  "箭矢·暴风"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "叙拉古式入门礼",
+                                           "name":  "伺夜",
+                                           "shopLevel":  3,
+                                           "skill":  "领袖的尊严"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "看不见的大海",
+                                           "name":  "旅骨",
+                                           "shopLevel":  3,
+                                           "skill":  "座浅"
+                                       }
+                                   ],
+                         "idea":  "中期找空弦等开三精准，其他盟约可同时开启过渡",
+                         "items":  [
+
+                                   ],
+                         "regularBonds":  [
+                                              "精准"
+                                          ],
+                         "seasonBonds":  [
+
+                                         ],
+                         "type":  "阶段阵容 (4-7回合)"
+                     },
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“明天的种子”",
+                                           "name":  "空弦",
+                                           "shopLevel":  3,
+                                           "skill":  "箭矢·暴风"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "应急储备",
+                                           "name":  "华法琳",
+                                           "shopLevel":  4,
+                                           "skill":  "紧急包扎"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“封闭的希望”",
+                                           "name":  "夜莺",
+                                           "shopLevel":  4,
+                                           "skill":  "圣域"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“图书馆”",
+                                           "name":  "霍尔海雅",
+                                           "shopLevel":  4,
+                                           "skill":  "但为求索"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "电磁调节器",
+                                           "name":  "异客",
+                                           "shopLevel":  4,
+                                           "skill":  "辉煌裂片"
+                                       }
+                                   ],
+                         "idea":  "这一时期找雅雅和华法琳，三个人开始启动精准奥术",
+                         "items":  [
+
+                                   ],
+                         "regularBonds":  [
+                                              "奥术",
+                                              "聚合",
+                                              "精准"
+                                          ],
+                         "seasonBonds":  [
+
+                                         ],
+                         "type":  "阶段阵容 (8-10回合)"
+                     },
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  false,
+                                           "module":  "远方问候",
+                                           "name":  "溯光星源",
+                                           "shopLevel":  5,
+                                           "skill":  "星图闪烁"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "仪式感",
+                                           "name":  "鸿雪",
+                                           "shopLevel":  5,
+                                           "skill":  "点题"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "晴雨",
+                                           "name":  "佩佩",
+                                           "shopLevel":  5,
+                                           "skill":  "时光震荡"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "记忆存档",
+                                           "name":  "Mon3tr",
+                                           "shopLevel":  5,
+                                           "skill":  "策略：超压链接"
+                                       }
+                                   ],
+                         "idea":  "找到鸿雪佩佩即可彻底成型，觉得灵巧不够的话可以再低压波或队友成型时换其他灵巧叠层手，我个人更喜欢用m3，打boss时记得把叠层手下掉换成终端",
+                         "items":  [
+
+                                   ],
+                         "regularBonds":  [
+
+                                          ],
+                         "seasonBonds":  [
+
+                                         ],
+                         "type":  "阶段阵容 (11-13回合)"
+                     }
+                 ],
+        "title":  "精灵奥萨为什么是最轮椅的阵容"
+    },
+    {
+        "applicableScope":  "突袭好大雷没ban就可以无脑用\nboss前一定要转6卡\n精准镜塞给3技能玛恩纳",
+        "author":  "琨珸",
+        "id":  "2119628371243420138",
+        "stats":  {
+                      "collects":  "302",
+                      "likes":  "127",
+                      "views":  "8280"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【变形同构】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：每5回合获得1件特殊装备\u0026lt;@ba.vup\u0026gt;\u0026lt;变形同构体\u0026gt;\u0026lt;/\u0026gt; \u0026lt;@ba.acrem\u0026gt;\u0026lt;变形同构体\u0026gt;：与特定装备一同装备时装备者将视为特定盟约成员\u0026lt;/\u0026gt;",
+                               "initiator":  "“变形者集群”",
+                               "name":  "变形同构"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  false,
+                                           "module":  "长枪替补套装",
+                                           "name":  "野鬃",
+                                           "shopLevel":  1,
+                                           "skill":  "夹枪冲锋"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "隐秘行动工具包",
+                                           "name":  "砾",
+                                           "shopLevel":  2,
+                                           "skill":  "影袭"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "一往无前",
+                                           "name":  "历阵锐枪芬",
+                                           "shopLevel":  3,
+                                           "skill":  "执守阵线"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "工匠团的回响",
+                                           "name":  "瑕光",
+                                           "shopLevel":  3,
+                                           "skill":  "光芒涌动"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“鞘中人”",
+                                           "name":  "玛恩纳",
+                                           "shopLevel":  4,
+                                           "skill":  "未照耀的荣光"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "耀阳锋刃",
+                                           "name":  "耀骑士临光",
+                                           "shopLevel":  6,
+                                           "skill":  "逐夜烁光"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "新的生活",
+                                           "name":  "赫德雷",
+                                           "shopLevel":  4,
+                                           "skill":  "重锋不熄"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "旧物",
+                                           "name":  "风丸",
+                                           "shopLevel":  3,
+                                           "skill":  "纸艺·双影"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "回家的路",
+                                           "name":  "摆渡人",
+                                           "shopLevel":  1,
+                                           "skill":  "奔流"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "萨米的不灭心脏碎片",
+                                           "name":  "史尔特尔",
+                                           "shopLevel":  6,
+                                           "skill":  "黄昏"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“明天的种子”",
+                                           "name":  "空弦",
+                                           "shopLevel":  3,
+                                           "skill":  "箭矢·暴风"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "内敛锋芒",
+                                           "name":  "渡桥",
+                                           "shopLevel":  2,
+                                           "skill":  "遥控解体"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "新型电控设备技术原型",
+                                           "name":  "承曦格雷伊",
+                                           "shopLevel":  2,
+                                           "skill":  "晨曦信标"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "目不能及之处",
+                                           "name":  "薇薇安娜",
+                                           "shopLevel":  5,
+                                           "skill":  "“明灭”"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“不谢的苗圃”",
+                                           "name":  "波登可",
+                                           "shopLevel":  2,
+                                           "skill":  "花香疗法"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "无名的身份牌",
+                                           "name":  "陨星",
+                                           "shopLevel":  1,
+                                           "skill":  "霰射弹头"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "寻乡人的启明星",
+                                           "name":  "青枳",
+                                           "shopLevel":  3,
+                                           "skill":  "冲锋号令·γ型"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "她们的未来",
+                                           "name":  "焰尾",
+                                           "shopLevel":  5,
+                                           "skill":  "“红松林”"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "故事的结局",
+                                           "name":  "魔王",
+                                           "shopLevel":  6,
+                                           "skill":  "编织重构现世"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "迟来的纪念",
+                                           "name":  "遥",
+                                           "shopLevel":  6,
+                                           "skill":  "幽隙栖萤"
+                                       }
+                                   ],
+                         "idea":  "前期\n精准远见过度，给二星渡桥转精准。渡桥空弦互相转。\n迅捷波登可，陨星，青枳都是很好的过度卡，转给迅捷霞光更是一技能不倒就可以不死。如果真的很高可以试着中期1技能w，终端3技能六卡锏。\n\n启动终端\n不屈摆渡人，和转不屈的霞光是启动用的套件，在霞光转到不屈前不用特意叠。\n突袭核心在于给史尔特尔一个卡西米尔转职终端，中间可以借海默拿经济和过度。\n\n如果以上都没有，就想办法转出精二叔叔，拿满装备，副盟约抓一个魔王保护一下叔叔输出。隐匿服也是针对高输出boss的好装备。\n\n\n补充重点（因为可以抓的干员表只有20个，这些是一些补充）\n经济的话，远见已经给出答案，剩下的就是奇迹，奇迹的星极可以作为无脑抓二合一的对象，小鱼则比较适配叔叔的嘲讽，同时和吉星，波登可的过渡，吃一下保底刷新免费的经济收益。突袭的伊桑也是优质的经济卡。",
+                         "items":  [
+                                       "不屈弹射器",
+                                       "迅捷作战粮",
+                                       "突袭手雷",
+                                       "卡西米尔竞技旗",
+                                       "拟态物质",
+                                       "博士投影",
+                                       "天马之盔",
+                                       "天马之枪",
+                                       "天马之耀",
+                                       "双模机械臂",
+                                       "变形同构体",
+                                       "伪装服"
+                                   ],
+                         "regularBonds":  [
+                                              "聚合",
+                                              "不屈",
+                                              "调和",
+                                              "精准",
+                                              "突袭",
+                                              "坚守",
+                                              "绝技",
+                                              "迅捷",
+                                              "远见"
+                                          ],
+                         "seasonBonds":  [
+                                             "卡西米尔"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "变形者卡西米尔"
+    },
+    {
+        "applicableScope":  "",
+        "author":  "玛卡麻了巴卡",
+        "id":  "2119600551361739936",
+        "stats":  {
+                      "collects":  "1098",
+                      "likes":  "450",
+                      "views":  "17483"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【黑白相易】 \u0026lt;@autochess.dgreen\u0026gt;拖拽使用（消耗1）\u0026lt;/\u0026gt;：选择一名我方干员移除，获得1名不高于该干员等阶的【炎】干员 \u0026lt;@ba.vdown\u0026gt;\u0026lt;在场6名不同【炎】干员\u0026gt; 效果替换为战斗开始时收集【炎】干员部分属性召唤“炎佑”\u0026lt;/\u0026gt; \u0026lt;@ba.vdown\u0026gt;\u0026lt;在场9名不同【炎】干员\u0026gt; 效果改为召唤两只“炎佑”\u0026lt;/\u0026gt;",
+                               "initiator":  "望",
+                               "name":  "黑白相易"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  true,
+                                           "module":  "内敛锋芒",
+                                           "name":  "渡桥",
+                                           "shopLevel":  2,
+                                           "skill":  "承压功率"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "无",
+                                           "name":  "风絮",
+                                           "shopLevel":  3,
+                                           "skill":  "扶风起"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“明天的种子”",
+                                           "name":  "空弦",
+                                           "shopLevel":  3,
+                                           "skill":  "箭矢·暴风"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“钦天司时”",
+                                           "name":  "黍",
+                                           "shopLevel":  5,
+                                           "skill":  "离离枯荣"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "热切的期盼",
+                                           "name":  "烛煌",
+                                           "shopLevel":  6,
+                                           "skill":  "众恶的焚场"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "无题长卷",
+                                           "name":  "夕",
+                                           "shopLevel":  6,
+                                           "skill":  "写意胜形"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "雪浸过的斗笠",
+                                           "name":  "仇白",
+                                           "shopLevel":  4,
+                                           "skill":  "问雪"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "人间百味",
+                                           "name":  "余",
+                                           "shopLevel":  4,
+                                           "skill":  "灶里乾坤"
+                                       }
+                                   ],
+                         "idea":  "前期有炎的低费棋子可以拿一张，没必要精英，一本不强求找拜松，拜松单卡强度不高，后面可以通过望的技能敲出来，优先保血量，差不多三到四本才有强度；渡桥空弦给炎转，空弦贴黍姐放，渡桥贴任意一炎放，前期尽量叠远见，用不到的棋子让望变，如果可以摸到人口加一就最后boss关下掉空弦渡桥开9炎",
+                         "items":  [
+                                       "炎国短刀"
+                                   ],
+                         "regularBonds":  [
+                                              "绝技",
+                                              "远见"
+                                          ],
+                         "seasonBonds":  [
+                                             "炎"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "重铸大炎荣光，望别义不容辞"
+    },
+    {
+        "applicableScope":  "",
+        "author":  "小圆盾",
+        "id":  "2119597268695777131",
+        "stats":  {
+                      "collects":  "289",
+                      "likes":  "132",
+                      "views":  "6778"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【众志合一】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：场上存在3、4或5种以上激活盟约时，所有干员攻击力、生命上限分别\u0026lt;@ba.vup\u0026gt;+20%\u0026lt;/\u0026gt;/\u0026lt;@ba.vup\u0026gt;30%\u0026lt;/\u0026gt;/\u0026lt;@ba.vup\u0026gt;40%\u0026lt;/\u0026gt;",
+                               "initiator":  "阿米娅",
+                               "name":  "众志合一"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  false,
+                                           "module":  "千分之一的心",
+                                           "name":  "圣聆初雪",
+                                           "shopLevel":  5,
+                                           "skill":  "群山俯首"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "新型电控设备技术原型",
+                                           "name":  "承曦格雷伊",
+                                           "shopLevel":  2,
+                                           "skill":  "晨曦信标"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“续针”",
+                                           "name":  "初雪",
+                                           "shopLevel":  3,
+                                           "skill":  "自然震慑"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "邀约",
+                                           "name":  "凛御银灰",
+                                           "shopLevel":  5,
+                                           "skill":  "变革已至"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "母爱的倒影",
+                                           "name":  "灰喉",
+                                           "shopLevel":  1,
+                                           "skill":  "回流"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "过去的狩猎",
+                                           "name":  "雪猎",
+                                           "shopLevel":  2,
+                                           "skill":  "风雪连弩"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "腿部护理套装",
+                                           "name":  "哈洛德",
+                                           "shopLevel":  2,
+                                           "skill":  "重症优先"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "无",
+                                           "name":  "云迹",
+                                           "shopLevel":  2,
+                                           "skill":  "紧急升空"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "以雪为线",
+                                           "name":  "耶拉",
+                                           "shopLevel":  3,
+                                           "skill":  "攻击力强化·γ型"
+                                       }
+                                   ],
+                         "idea":  "谢拉格要绑着灵巧玩了，所以核心是云迹（而且云迹同时可以叠奇迹，找干员更省钱）\n前期主凑小盟约不强追3谢，示例的云迹+晨曦格雷伊+雪猎+灰喉直接2灵巧3精准\n之后找3谢，核心是耶拉和初雪，耶拉主要拿来产冰不刚需上场，初雪用来叠层，要等到干员攻速高起来且带冰才有用所以不优先\n碰见投资人顺手拿了，开3投资方便产冰\n后期要的效果就是大部分干员带冰吃高额灵巧，冻怪打输出",
+                         "items":  [
+                                       "谢拉格不融冰"
+                                   ],
+                         "regularBonds":  [
+                                              "奇迹",
+                                              "精准",
+                                              "灵巧",
+                                              "绝技"
+                                          ],
+                         "seasonBonds":  [
+                                             "谢拉格"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "谢拉格的逛街大山太深邃了，还是得小盟约，唯有小盟约"
+    },
+    {
+        "applicableScope":  "在有维多利亚、灵巧云迹未ban的局可以考虑玩该阵容。\n前期猛兜，若有飞行多上对空，若有频次上格雷伊。中期可能需要队友帮兜，但是前期一般会留下较高血量来提供高容错。后期需要考虑好站位，让大丑能够打到boss，基本上能做到一个大丑就有50播报。\n\n——碎碎念——\n   这套玩法借鉴了不少b站大佬的视频，为了方便各位博士能够快速上手这个轮椅玩法，结合自己的游玩体验写了这篇攻略，不过我自己的理解肯定有限，如果博士有其他理解欢迎指出🙏\n   维丑玩法给我的感觉和灵巧阿戈尔很像，不过灵巧阿戈尔是中后期发力，维丑则是前后期发力。二者对博士的战场摆放能力都有较高的要求，道中需要让大丑尽可能覆盖多路，boss战需要考虑boss的行进路线。\n   看到这里还不去卫一把试试吗🤓",
+        "author":  "xiaoguzi",
+        "id":  "2120389865357667046",
+        "stats":  {
+                      "collects":  "31",
+                      "likes":  "15",
+                      "views":  "445"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【暴躁铁皮】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：第1回合获得1名可以装备4件装备的特殊干员\u0026lt;@ba.vup\u0026gt;\u0026lt;“暴躁铁皮”\u0026gt;\u0026lt;/\u0026gt;",
+                               "initiator":  "森蚺",
+                               "name":  "暴躁铁皮"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  true,
+                                           "module":  "无",
+                                           "name":  "云迹",
+                                           "shopLevel":  2,
+                                           "skill":  "掠空飞翎"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“私家英雄”",
+                                           "name":  "涤火杰西卡",
+                                           "shopLevel":  4,
+                                           "skill":  "饱和迸射"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "铁钳号·爬行者",
+                                           "name":  "白铁",
+                                           "shopLevel":  4,
+                                           "skill":  "铁钳号·原型机"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“故乡的山岩”",
+                                           "name":  "帕拉斯",
+                                           "shopLevel":  6,
+                                           "skill":  "英勇的祝福"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "城主的冒险",
+                                           "name":  "维娜·维多利亚",
+                                           "shopLevel":  5,
+                                           "skill":  "俱以我之名"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "闲暇时分",
+                                           "name":  "凯瑟琳",
+                                           "shopLevel":  3,
+                                           "skill":  "战火淬炼"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "腿部护理套装",
+                                           "name":  "哈洛德",
+                                           "shopLevel":  2,
+                                           "skill":  "重症优先"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“暴躁铁皮”证章",
+                                           "name":  "“暴躁铁皮”",
+                                           "shopLevel":  5,
+                                           "skill":  "大丑的愤怒"
+                                       }
+                                   ],
+                         "idea":  "阵容整体思路为前期停留二本至8-10回合（等到升本变为0-2费），搜简易通讯终端给大丑来得到金大丑（若大丑点金早则可以考虑早升本），后迅速升本至五本，搜维娜碰缪缪拿变形球，给大丑转职为维多利亚后并开出六维多利亚阵容成型\n\n整体运营分为前期与后期两个阶段\n——前期——\n   —推荐盟约-推荐干员（重要级自上至下）—\n       1.灵巧-云迹：必开盟约，前期多上云迹叠灵巧，可以极大的提升大丑战力\n       2.奇迹-云迹：顺便叠奇迹，提升后期搜牌搜到推王的可能\n       3.聚合-能开出来就行：由于大丑不吃奶，如何提升生存非常重要的，聚合能够给大丑持续回血，大大提升兜底能力\n       4.坚守/助力-罗比菈塔：同上，若二碰三出了罗比可以用来叠坚守/助力\n       5.远见-渡桥/空弦：若远见没ban可以开，不强求\n   ——推荐装备——\n       很多人不喜欢抓装备，而玩大丑维装备是非常重要的，道中一些强力装备能够给阵容带来质变，基本上看到必抓：\n       1.简易通讯终端：用来得到三个大丑\n       2.阿米娅/可露希尔玩偶：经济装备必抓\n       3.回血饮料：提供自回血，提升大丑生存\n   ——整体节奏——\n       1回合抓两个干员（优先开盟约）\n       2回合升本买装备\n       悬赏可以无脑三块，只要大丑站位好基本都能收（投石车看情况，被冲飞过一次）\n       后停留二本，开盟约帮助队友兜底，注意可留一些对子至后续升五后碰缪缪，三本可碰的干员也就空弦和罗比，碰出奥尔佳也可以考虑拿，乌萨斯面罩也是不错的装备\n       后期速本至五本，搜维娜碰缪缪\n\n——后期——\n   ——推荐盟约-干员——\n       1.维多利亚（二级）-维娜：也就是六维，为大丑提供极强的攻击能力，不强求高层数\n       2.灵巧-帕拉斯：保证大丑在灵巧干员周围以吃到灵巧加成\n       3.其他生存盟约看着开\n   ——推荐装备——\n       1.变形球+锤子：必备，需要为大丑专职维多利亚，锤子凯瑟琳会给，前期不一定要抓\n       2.汲取者之镰：最强生存装备，大丑装备后无需担心生存问题\n       3.不退者之盾：提供免控，十分重要\n       4.骰子：换指令不会使大丑消失，换到点金等指令就是血赚\n",
+                         "items":  [
+                                       "简易通讯机",
+                                       "虹彩活血饮料",
+                                       "精打细算玩偶",
+                                       "见钱眼开玩偶",
+                                       "不退者之盾",
+                                       "投机骰子",
+                                       "变形同构体",
+                                       "乌萨斯呼吸器",
+                                       "汲取者之喙"
+                                   ],
+                         "regularBonds":  [
+                                              "助力",
+                                              "奇迹",
+                                              "灵巧",
+                                              "绝技"
+                                          ],
+                         "seasonBonds":  [
+                                             "维多利亚"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "前期兜底后期斩首boss，超级轮椅的二本大丑灵巧维玩法"
+    },
+    {
+        "applicableScope":  "",
+        "author":  "鹤叶武一",
+        "id":  "2119572187623476444",
+        "stats":  {
+                      "collects":  "958",
+                      "likes":  "328",
+                      "views":  "12995"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【精巧设计】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：每回合首次装备合并进阶时，在调度中心出现3件装备（可能出现更高一阶的装备）免费获取其中1件 \u0026lt;@autochess.dgreen\u0026gt;点击使用（消耗0）\u0026lt;/\u0026gt;：使调度中心出现1件新的装备并替换\u0026lt;@ba.acrem\u0026gt;（每回合限2次）\u0026lt;/\u0026gt;",
+                               "initiator":  "Mechanist",
+                               "name":  "精巧设计"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  true,
+                                           "module":  "酒神之心",
+                                           "name":  "酒神",
+                                           "shopLevel":  6,
+                                           "skill":  "空剧场"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“私家英雄”",
+                                           "name":  "涤火杰西卡",
+                                           "shopLevel":  4,
+                                           "skill":  "饱和迸射"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "铁钳号·爬行者",
+                                           "name":  "白铁",
+                                           "shopLevel":  4,
+                                           "skill":  "极致火力"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "半自动造型工具套组",
+                                           "name":  "罗比菈塔",
+                                           "shopLevel":  3,
+                                           "skill":  "全自动造型仪"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "城主的冒险",
+                                           "name":  "维娜·维多利亚",
+                                           "shopLevel":  5,
+                                           "skill":  "俱以我之名"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "无",
+                                           "name":  "云迹",
+                                           "shopLevel":  2,
+                                           "skill":  "掠空飞翎"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "风的颜色",
+                                           "name":  "水灯心",
+                                           "shopLevel":  3,
+                                           "skill":  "所熟知的"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“故乡的山岩”",
+                                           "name":  "帕拉斯",
+                                           "shopLevel":  6,
+                                           "skill":  "英勇的祝福"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "怀中御守",
+                                           "name":  "铃兰",
+                                           "shopLevel":  5,
+                                           "skill":  "全力以赴"
+                                       }
+                                   ],
+                         "idea":  "酒神疯狂发装备，dj疯狂叠层，三助力二坚守，提供坦度，有转职给帕拉斯，1秒千鞭轻松过终极！运气好9人口还可以再上一个铃兰，或者中期上铃兰在酒神后面发装备。",
+                         "items":  [
+                                       "终极维式重锤",
+                                       "变形同构体"
+                                   ],
+                         "regularBonds":  [
+                                              "助力",
+                                              "奇迹",
+                                              "灵巧",
+                                              "独行",
+                                              "坚守",
+                                              "绝技"
+                                          ],
+                         "seasonBonds":  [
+                                             "维多利亚"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "超级灵巧维，只追最上限！"
+    },
+    {
+        "applicableScope":  "",
+        "author":  "涉猎鸢",
+        "id":  "2119556635704697091",
+        "stats":  {
+                      "collects":  "349",
+                      "likes":  "146",
+                      "views":  "8605"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【利滚利】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：每回合剩余的资金可以继承，剩余至少\u0026lt;@ba.vup\u0026gt;5\u0026lt;/\u0026gt;资金时，每回合额外获得\u0026lt;@ba.vup\u0026gt;1\u0026lt;/\u0026gt;资金",
+                               "initiator":  "坎诺特",
+                               "name":  "利滚利"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  true,
+                                           "module":  "朽坏传承",
+                                           "name":  "黑键",
+                                           "shopLevel":  4,
+                                           "skill":  "寂静之声"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“封闭的希望”",
+                                           "name":  "夜莺",
+                                           "shopLevel":  4,
+                                           "skill":  "圣域"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“日复一日”",
+                                           "name":  "车尔尼",
+                                           "shopLevel":  3,
+                                           "skill":  "曲惊四座"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“故乡的山岩”",
+                                           "name":  "帕拉斯",
+                                           "shopLevel":  6,
+                                           "skill":  "胜利的连击"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“过往的注脚”",
+                                           "name":  "锏",
+                                           "shopLevel":  6,
+                                           "skill":  "归于宁静"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "想要留住的声音",
+                                           "name":  "纯烬艾雅法拉",
+                                           "shopLevel":  5,
+                                           "skill":  "云霭荫佑"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "新型电控设备技术原型",
+                                           "name":  "承曦格雷伊",
+                                           "shopLevel":  2,
+                                           "skill":  "晨曦信标"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“明天的种子”",
+                                           "name":  "空弦",
+                                           "shopLevel":  3,
+                                           "skill":  "箭矢·散逸"
+                                       }
+                                   ],
+                         "idea":  "自刎归天",
+                         "items":  [
+                                       "变形同构体",
+                                       "莱塔尼亚小鼓",
+                                       "精准狙击镜"
+                                   ],
+                         "regularBonds":  [
+                                              "聚合",
+                                              "精准",
+                                              "灵巧",
+                                              "绝技",
+                                              "远见"
+                                          ],
+                         "seasonBonds":  [
+                                             "莱塔尼亚"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "关羽之歌"
+    },
+    {
+        "applicableScope":  "",
+        "author":  "大囧卡",
+        "id":  "2119552220731015487",
+        "stats":  {
+                      "collects":  "708",
+                      "likes":  "247",
+                      "views":  "13222"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【团伙行动】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：每回合内主动刷新4次调度中心后，获得1名【叙拉古】干员（等阶不高于当前调度中心），每回合至多触发1次",
+                               "initiator":  "贾维",
+                               "name":  "团伙行动"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  true,
+                                           "module":  "无",
+                                           "name":  "塔露拉",
+                                           "shopLevel":  6,
+                                           "skill":  "日冕重烈"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "杀手也有假期",
+                                           "name":  "忍冬",
+                                           "shopLevel":  3,
+                                           "skill":  "隐狐之艺"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "叙拉古式入门礼",
+                                           "name":  "伺夜",
+                                           "shopLevel":  3,
+                                           "skill":  "领袖的尊严"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "狼时",
+                                           "name":  "荒芜拉普兰德",
+                                           "shopLevel":  6,
+                                           "skill":  "终幕·浩劫"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“明天的种子”",
+                                           "name":  "空弦",
+                                           "shopLevel":  3,
+                                           "skill":  "箭矢·暴风"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "无",
+                                           "name":  "予愿安洁莉娜",
+                                           "shopLevel":  0,
+                                           "skill":  "酸橙的心事"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "怀中御守",
+                                           "name":  "铃兰",
+                                           "shopLevel":  5,
+                                           "skill":  "狐火渺然"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "实用的工具",
+                                           "name":  "贝洛内",
+                                           "shopLevel":  5,
+                                           "skill":  "清算"
+                                       }
+                                   ],
+                         "idea":  "刚需异拉，夏游杰，铃兰\n四爷加空弦加任意精准开三精准，有大变开精准可以空一个干员位上个手上有用的干员",
+                         "items":  [
+                                       "维式重锤",
+                                       "变形同构体",
+                                       "精准狙击镜",
+                                       "人事部记录",
+                                       "拟态物质",
+                                       "博士投影",
+                                       "汲取者之心",
+                                       "动能轰击弩"
+                                   ],
+                         "regularBonds":  [
+                                              "精准",
+                                              "绝技"
+                                          ],
+                         "seasonBonds":  [
+                                             "叙拉古"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "3精致叙拉古，拉狗来的早一回合能叠近200层（我目前这个阵容最高724层）"
+    },
+    {
+        "applicableScope":  "精准奥术维局推荐，如果ban了精准奥术就不太推荐这套了可以玩走地维，也很有强度",
+        "author":  "訫",
+        "id":  "2119645040845374130",
+        "stats":  {
+                      "collects":  "350",
+                      "likes":  "89",
+                      "views":  "5475"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【变形同构】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：每5回合获得1件特殊装备\u0026lt;@ba.vup\u0026gt;\u0026lt;变形同构体\u0026gt;\u0026lt;/\u0026gt; \u0026lt;@ba.acrem\u0026gt;\u0026lt;变形同构体\u0026gt;：与特定装备一同装备时装备者将视为特定盟约成员\u0026lt;/\u0026gt;",
+                               "initiator":  "“变形者集群”",
+                               "name":  "变形同构"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  false,
+                                           "module":  "无题长卷",
+                                           "name":  "夕",
+                                           "shopLevel":  6,
+                                           "skill":  "工笔入化"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“黑色”贩卖机",
+                                           "name":  "Miss.Christine",
+                                           "shopLevel":  2,
+                                           "skill":  "狂饮之宴"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“图书馆”",
+                                           "name":  "霍尔海雅",
+                                           "shopLevel":  4,
+                                           "skill":  "但为求索"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“明天的种子”",
+                                           "name":  "空弦",
+                                           "shopLevel":  3,
+                                           "skill":  "箭矢·暴风"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "闲暇时分",
+                                           "name":  "凯瑟琳",
+                                           "shopLevel":  3,
+                                           "skill":  "战火淬炼"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“私家英雄”",
+                                           "name":  "涤火杰西卡",
+                                           "shopLevel":  4,
+                                           "skill":  "掩蔽护卫"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "热切的期盼",
+                                           "name":  "烛煌",
+                                           "shopLevel":  6,
+                                           "skill":  "众恶的焚场"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "城主的冒险",
+                                           "name":  "维娜·维多利亚",
+                                           "shopLevel":  5,
+                                           "skill":  "重铸晖光"
+                                       }
+                                   ],
+                         "idea":  "简单轻松的大变维，完全体是炎奥精准迅捷维，下限高上限更高，只要有空弦雅雅就能愉快叠层，有夕更是能做超级大烛煌，你还在等什么！",
+                         "items":  [
+                                       "变形同构体",
+                                       "迅捷作战粮",
+                                       "精准狙击镜",
+                                       "奥术法阵",
+                                       "电流维式重锤",
+                                       "炎国短刀"
+                                   ],
+                         "regularBonds":  [
+                                              "奥术",
+                                              "精准",
+                                              "绝技",
+                                              "远见"
+                                          ],
+                         "seasonBonds":  [
+                                             "维多利亚"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "轻松400层之炎精准奥迅捷维"
+    },
+    {
+        "applicableScope":  "灵巧助力阿戈尔开即可，没有助力就换坚守聚合，助力主要是能叠早开的灵巧",
+        "author":  "大氚老师",
+        "id":  "2120165028755480406",
+        "stats":  {
+                      "collects":  "32",
+                      "likes":  "20",
+                      "views":  "965"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【优等生】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：第1回合获得1名可以造成神经、灼燃、凋亡损伤的特殊干员，其属于【调和】盟约 \u0026lt;@ba.acrem\u0026gt;【调和】：激活时使场上核心盟约的激活人数+1，【调和】干员享受已激活的核心盟约的效果\u0026lt;/\u0026gt;",
+                               "initiator":  "Pith",
+                               "name":  "优等生"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“故乡的山岩”",
+                                           "name":  "帕拉斯",
+                                           "shopLevel":  6,
+                                           "skill":  "胜利的连击"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "应急储备",
+                                           "name":  "华法琳",
+                                           "shopLevel":  4,
+                                           "skill":  "紧急包扎"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "蜕化的残迹",
+                                           "name":  "浊心斯卡蒂",
+                                           "shopLevel":  6,
+                                           "skill":  "同葬无光之愿"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "使者之约",
+                                           "name":  "水月",
+                                           "shopLevel":  4,
+                                           "skill":  "唤醒"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“唱片”收藏箱",
+                                           "name":  "归溟幽灵鲨",
+                                           "shopLevel":  4,
+                                           "skill":  "生存的渴望"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "枪支调试工具组",
+                                           "name":  "安哲拉",
+                                           "shopLevel":  2,
+                                           "skill":  "攻击力强化·γ型"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "乌尔比安的衣橱",
+                                           "name":  "乌尔比安",
+                                           "shopLevel":  5,
+                                           "skill":  "必须开辟的通路"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "盟约·辅助干员证章",
+                                           "name":  "盟约·辅助干员",
+                                           "shopLevel":  3,
+                                           "skill":  "战术咏唱·双型"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "无",
+                                           "name":  "克莱门莎",
+                                           "shopLevel":  6,
+                                           "skill":  "与海为敌"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "幽明烛光",
+                                           "name":  "幽灵鲨",
+                                           "shopLevel":  1,
+                                           "skill":  "攻击力强化·γ型"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "往日残梦",
+                                           "name":  "斯卡蒂",
+                                           "shopLevel":  3,
+                                           "skill":  "迅捷打击·γ型"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "基于咖啡的神经活性剂",
+                                           "name":  "深巡",
+                                           "shopLevel":  3,
+                                           "skill":  "行动能力剥夺"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "执政官手镜",
+                                           "name":  "歌蕾蒂娅",
+                                           "shopLevel":  5,
+                                           "skill":  "缺水的碎漩狂舞"
+                                       },
+                                       {
+                                           "isElite":  false,
+                                           "module":  "“缪尔赛思和朋友们”",
+                                           "name":  "缪尔赛思",
+                                           "shopLevel":  6,
+                                           "skill":  "渐进性润化"
+                                       }
+                                   ],
+                         "idea":  "前期少d多抓，助力早开，灵巧云迹慢慢叠，可以多拿点强怪赚钱，二回合升二，四五回合升三本，六七回合升四，八九回合升五，十十一回合升六，然后小p加两阻挡三个干员做鱼尾有助力很能活和叠层，中期找水月ff0叠灵巧，6阿之后鱼尾可以从三个减少的一个两个，多叠点阿戈尔，后期外援只有ff0牛牛，克莱门莎来的早小p也可以下，转职给牛牛但副c输出也不低",
+                         "items":  [
+                                       "变形同构体",
+                                       "阿戈尔重刃"
+                                   ],
+                         "regularBonds":  [
+                                              "助力",
+                                              "聚合",
+                                              "调和",
+                                              "灵巧",
+                                              "绝技"
+                                          ],
+                         "seasonBonds":  [
+                                             "阿戈尔"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "主公有灵巧阿戈尔助力，何忧卫戍不兴"
+    },
+    {
+        "applicableScope":  "这套阵容最关键的一张牌就是霍尔海雅，尽量不要在霍尔海雅被ban后强行玩，当然要玩也是可以的不过得配合夕和溯光星源这种高费卡来叠层，压力会大很多，这套阵容的生存在奶羊和瑶来之前其实是偏差的，所以在遇到萨卡兹悖谬暴虐兵长时一定要吧车尼尔下掉，直接放掉便好，不然可以会被直接击穿阵线",
+        "author":  "余生有余",
+        "id":  "2119975763311388699",
+        "stats":  {
+                      "collects":  "103",
+                      "likes":  "47",
+                      "views":  "1543"
+                  },
+        "strategies":  [
+                           {
+                               "effect":  "【以己之长】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：所有干员造成的物理和法术伤害变为\u0026lt;@ba.vup\u0026gt;弱点伤害\u0026lt;/\u0026gt;\u0026lt;@ba.acrem\u0026gt;（根据敌人的防御力和法术抗性变更伤害类型）\u0026lt;/\u0026gt;，精锐干员额外获得攻击力\u0026lt;@ba.vup\u0026gt;+16%\u0026lt;/\u0026gt;，攻击速度\u0026lt;@ba.vup\u0026gt;+16\u0026lt;/\u0026gt;",
+                               "initiator":  "陈",
+                               "name":  "以己之长"
+                           },
+                           {
+                               "effect":  "【纸片替身】 \u0026lt;@autochess.dgreen\u0026gt;拖拽使用（消耗0）\u0026lt;/\u0026gt;：选择一名调度中心内的干员，使其变为相同等阶的随机干员\u0026lt;@ba.acrem\u0026gt;（每回合限2次）\u0026lt;/\u0026gt;",
+                               "initiator":  "风丸",
+                               "name":  "纸片替身"
+                           },
+                           {
+                               "effect":  "【二重奏】 \u0026lt;@autochess.dgreen\u0026gt;被动效果\u0026lt;/\u0026gt;：每回合首次晋升精锐干员时，获得1次额外的晋升奖励",
+                               "initiator":  "复奏",
+                               "name":  "二重奏"
+                           }
+                       ],
+        "tabs":  [
+                     {
+                         "chars":  [
+                                       {
+                                           "isElite":  true,
+                                           "module":  "想要留住的声音",
+                                           "name":  "纯烬艾雅法拉",
+                                           "shopLevel":  5,
+                                           "skill":  "火山回响"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "朽坏传承",
+                                           "name":  "黑键",
+                                           "shopLevel":  4,
+                                           "skill":  "荒芜回响"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“明天的种子”",
+                                           "name":  "空弦",
+                                           "shopLevel":  3,
+                                           "skill":  "箭矢·暴风"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "迟来的纪念",
+                                           "name":  "遥",
+                                           "shopLevel":  6,
+                                           "skill":  "幽隙栖萤"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“图书馆”",
+                                           "name":  "霍尔海雅",
+                                           "shopLevel":  4,
+                                           "skill":  "但为求索"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "目不能及之处",
+                                           "name":  "薇薇安娜",
+                                           "shopLevel":  5,
+                                           "skill":  "“明灭”"
+                                       },
+                                       {
+                                           "isElite":  true,
+                                           "module":  "“错过的声音”",
+                                           "name":  "艾雅法拉",
+                                           "shopLevel":  4,
+                                           "skill":  "火山"
+                                       }
+                                   ],
+                         "idea":  "这套阵容以精准和奥术为核心，莱塔尼亚并不需要强行开六人口，六人口莱塔尼亚的收益也远没有精准和奥术的三阶强，开局前期也不用强行找莱塔尼亚的牌，而是更优先拿摆渡人折娅这种强力单卡，或者优先留对子，莱塔尼亚的低阶牌刚需的有且仅有车尼尔，因为他给的小鼓可以极大幅度提高我们的战力和叠层速度，拿到的对子也别急着马上d牌合成，更推荐留到二级三级商店合成来抓核心卡，二阶商店时可以合成一两个尝试找空弦，即便找不到也不用慌，后续上三级商店合成找黑键和霍尔海雅，千万不要为了空弦而拖慢我们的节奏，可以在三级商店合成找黑键和霍尔海雅时顺带d空弦。这套玩法的核心干员为空弦黑键霍尔海雅小羊，都是中阶卡所以不很急升级，如果在合成时同时来优先级为道中黑键＞霍尔海雅＞小羊，boss时小羊优先级最高，因为是主力输出，在黑键来之前可以抓承曦格雷伊配合空弦叠加精准，给的狙击镜也是很适配空弦的装备，站位注意道中叠层时保证黑键站在空弦前方，精准叠够后可将空弦放置在小羊后方用以叠奥术，奥术不建议抓外援因为夕等干员的叠层机制和我们并不适配，更推荐抓精准的外援比如鸿雪等，此外，道中抓到的车尼尔给的小鼓也很适配霍尔海雅和鸿雪的叠层机制，如果在奶羊来之前觉得缺少生存，阿米娅，华法林，m3都是不错，的生存位还能兼顾叠层需求，分配一般为优先给霍尔海雅和鸿雪小鼓，其次给空弦和小羊，如果抓到缪尔赛斯可以看情况给转职，如果还在道中可以继续叠层就可以给霍尔海雅，这样她就可以一次叠莱塔尼亚精准奥术三个盟约，如果已经在boss前夕就可以给空弦，莱塔尼亚转空弦的伤害也很高，配合我们的策略陈的弱点伤害也能吃到三奥术的减法抗加成，场均单人30+输出轻轻松松，这套阵容的核心只有这七位，剩下的可以根据boss来对策，不过更推荐再上一个夜莺或者阿米娅魔王这样的保人干员，此外这套阵容对锏的需求无限低，甚至对六阶干员基本上都没什么需求，所以升级压力很小，八号位即便补褐果凑三聚合也比上锏要好",
+                         "items":  [
+                                       "莱塔尼亚小鼓",
+                                       "精打细算玩偶",
+                                       "见钱眼开玩偶",
+                                       "简易通讯机",
+                                       "卫戍推荐信",
+                                       "精准狙击镜",
+                                       "拟态物质",
+                                       "博士投影",
+                                       "瓶装烈性反应",
+                                       "动能加速器",
+                                       "天马之耀",
+                                       "变形同构体"
+                                   ],
+                         "regularBonds":  [
+                                              "奥术",
+                                              "聚合",
+                                              "精准",
+                                              "绝技",
+                                              "远见"
+                                          ],
+                         "seasonBonds":  [
+                                             "莱塔尼亚"
+                                         ],
+                         "type":  "最终阵容"
+                     }
+                 ],
+        "title":  "最数值的盟约，轻轻松松9000+攻小羊，成型单个干员可达45+输出"
+    }
+]

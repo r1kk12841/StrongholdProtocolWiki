@@ -1,0 +1,1781 @@
+[
+    {
+        "type":  "core",
+        "cnName":  "炎",
+        "enName":  "Yan",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_yanship.webp",
+        "required":  3,
+        "status":  "reworked",
+        "s2Note":  "Season 2 summoned Yan\u0027s Protection; reworked in Regulation to random Elemental Damage \u0026 enemy Elemental recovery speed (Wang\u0027s Strategy restores Yan\u0027s Protection).",
+        "cnEffect":  "【炎】干员攻击力+(23+0.9×层数)%\n\u003c在场6名不同的【炎】干员\u003e战斗开始时，【炎】干员每次攻击时造成攻击力6%的随机元素损伤；全场敌人元素损伤恢复速度增加(40+0.3×层数)%",
+        "enEffect":  "[Yan] Operators gain +(23+0.9×stacks)% ATK\n\u003cWith 6 different [Yan] Operators on field\u003e When battle begins, [Yan] Operators deal 6% of ATK as random Elemental Damage on each attack; all enemies\u0027 Elemental Damage recovery speed increases by (40+0.3×stacks)%",
+        "operators":  [
+                          {
+                              "cn":  "拜松",
+                              "en":  "Bison",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_325_bison.webp"
+                          },
+                          {
+                              "cn":  "矩",
+                              "en":  "Ju",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4221_ju.webp"
+                          },
+                          {
+                              "cn":  "风絮",
+                              "en":  "Taraxacum",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4222_taraxa.webp"
+                          },
+                          {
+                              "cn":  "乌有",
+                              "en":  "Mr. Nothing",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_455_nothin.webp"
+                          },
+                          {
+                              "cn":  "余",
+                              "en":  "Yu",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_2026_yu.webp"
+                          },
+                          {
+                              "cn":  "仇白",
+                              "en":  "Qiubai",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4082_qiubai.webp"
+                          },
+                          {
+                              "cn":  "黍",
+                              "en":  "Shu",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_2025_shu.webp"
+                          },
+                          {
+                              "cn":  "老鲤",
+                              "en":  "Lee",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_322_lmlee.webp"
+                          },
+                          {
+                              "cn":  "烛煌",
+                              "en":  "Blaze the Igniting Spark",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1040_blaze2.webp"
+                          },
+                          {
+                              "cn":  "夕",
+                              "en":  "Dusk",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_2015_dusk.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "core",
+        "cnName":  "萨尔贡",
+        "enName":  "Sargon",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_sargonship.webp",
+        "required":  3,
+        "status":  "reworked",
+        "s2Note":  "Season 2 6-op bonus granted teamwide ATK on skill activation; reworked in Regulation to create Quicksand tiles (Narantuya\u0027s Strategy restores the ATK bonus).",
+        "cnEffect":  "【萨尔贡】干员开启技能时，所有【萨尔贡】干员攻击速度+12（至多+300），持续(5+0.22×层数)秒\n\u003c在场6名不同的【萨尔贡】干员\u003e【萨尔贡】干员每次开启技能时，在攻击范围内制造一个流沙地面。位于流沙地面上的敌人受到(20+0.025×层数)%的迟钝效果，每5秒造成一次(5000+25×层数)点法术伤害并束缚1秒；【萨尔贡】干员技能持续期间，攻击范围内的流沙地面使敌人的迟钝效果变为2倍，每秒受到(800+4×层数)点法术伤害",
+        "enEffect":  "When any [Sargon] Operator activates a skill, all [Sargon] Operators gain +12 ASPD (up to +300) for (5+0.22×stacks) seconds\n\u003cWith 6 different [Sargon] Operators on field\u003e Whenever a [Sargon] Operator activates a skill, creates a Quicksand tile within Attack Range. Enemies on Quicksand tiles suffer (20+0.025×stacks)% Slow, and every 5 seconds take (5000+25×stacks) Arts damage and are Bound for 1 second; while a [Sargon] Operator\u0027s skill is active, Quicksand tiles within their Attack Range double the Slow effect on enemies and deal (800+4×stacks) Arts damage per second",
+        "operators":  [
+                          {
+                              "cn":  "艾丝黛尔",
+                              "en":  "Estelle",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_127_estell.webp"
+                          },
+                          {
+                              "cn":  "泡泡",
+                              "en":  "Bubble",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_381_bubble.webp"
+                          },
+                          {
+                              "cn":  "莎草",
+                              "en":  "Papyrus",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4139_papyrs.webp"
+                          },
+                          {
+                              "cn":  "卡涅利安",
+                              "en":  "Carnelian",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_426_billro.webp"
+                          },
+                          {
+                              "cn":  "至简",
+                              "en":  "Minimalist",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4054_malist.webp"
+                          },
+                          {
+                              "cn":  "森蚺",
+                              "en":  "Eunectes",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_416_zumama.webp"
+                          },
+                          {
+                              "cn":  "异客",
+                              "en":  "Passenger",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_472_pasngr.webp"
+                          },
+                          {
+                              "cn":  "佩佩",
+                              "en":  "Pepe",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4058_pepe.webp"
+                          },
+                          {
+                              "cn":  "鸿雪",
+                              "en":  "Pozëmka",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4055_bgsnow.webp"
+                          },
+                          {
+                              "cn":  "真言",
+                              "en":  "Mantra",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4204_mantra.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "core",
+        "cnName":  "维多利亚",
+        "enName":  "Victoria",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_victoriaship.webp",
+        "required":  3,
+        "status":  "modified",
+        "s2Note":  "6-op bonus adjusted from +50% ATK per normal equipment in S2 to +40% ATK (+80% for upgraded equipment).",
+        "cnEffect":  "携带装备的【维多利亚】干员伤害提升至(125+0.8×层数)%\n\u003c每叠加25层\u003e获得一件带有随机特殊效果的维式重锤\n\u003c在场6名不同【维多利亚】干员\u003e【维多利亚】干员每携带1件装备攻击力+40%，携带进阶装备改为+80%",
+        "enEffect":  "[Victoria] Operators carrying equipment deal (125+0.8×stacks)% damage\n\u003cFor every 25 stacks\u003e Obtain 1 Victorian Hammer with a random special effect\n\u003cWith 6 different [Victoria] Operators on field\u003e [Victoria] Operators gain +40% ATK for each piece of equipment they carry, or +80% ATK if the equipment is upgraded",
+        "operators":  [
+                          {
+                              "cn":  "慕斯",
+                              "en":  "Mousse",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_185_frncat.webp"
+                          },
+                          {
+                              "cn":  "Miss.Christine",
+                              "en":  "Miss.Christine",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4198_christ.webp"
+                          },
+                          {
+                              "cn":  "哈洛德",
+                              "en":  "Harold",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4114_harold.webp"
+                          },
+                          {
+                              "cn":  "水灯心",
+                              "en":  "Brigid",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4177_brigid.webp"
+                          },
+                          {
+                              "cn":  "凯瑟琳",
+                              "en":  "Catherine",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4162_cathy.webp"
+                          },
+                          {
+                              "cn":  "涤火杰西卡",
+                              "en":  "Jessica the Liberated",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1034_jesca2.webp"
+                          },
+                          {
+                              "cn":  "白铁",
+                              "en":  "Stainless",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4072_ironmn.webp"
+                          },
+                          {
+                              "cn":  "维娜·维多利亚",
+                              "en":  "Vina Victoria",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1019_siege2.webp"
+                          },
+                          {
+                              "cn":  "烛煌",
+                              "en":  "Blaze the Igniting Spark",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1040_blaze2.webp"
+                          },
+                          {
+                              "cn":  "酒神",
+                              "en":  "Tragodia",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1042_phatm2.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "core",
+        "cnName":  "谢拉格",
+        "enName":  "Kjerag",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_kjeragship.webp",
+        "required":  3,
+        "status":  "reworked",
+        "s2Note":  "Added \u003cEvery 100 stacks\u003e Kjeragi Nevermeltice; 6-op bonus reworked from periodic chill gust to summoning a Snowmountain Colossus (Kjera\u0027s Strategy restores the chill gust).",
+        "cnEffect":  "【谢拉格】干员伤害提升至125%，对寒冷和冻结敌人额外提升至(135+1×层数)%\n\u003c每叠加100层\u003e获得一件谢拉格不融冰\n\u003c在场6名不同的【谢拉格】干员\u003e战斗开始时召唤可自主行动的雪山巨人，其攻击力和生命值随谢拉格层数提升而提升。雪山巨人将在巨人和雪山形态转换，雪山形态可以阻挡敌人并造成溅射伤害，雪山形态攻击被冻结的敌人时造成高额法术伤害并解除目标的冻结状态；巨人形态可以移动并对敌人造成远程溅射伤害",
+        "enEffect":  "[Kjerag] Operators deal 125% damage, and (135+1×stacks)% damage against Cold and Frozen enemies\n\u003cFor every 100 stacks\u003e Obtain 1 Kjeragi Nevermeltice\n\u003cWith 6 different [Kjerag] Operators on field\u003e At the start of battle, summons an autonomous Snowmountain Colossus whose ATK and HP scale with [Kjerag] stacks. The Snowmountain Colossus switches between Colossus and Snowmountain forms: Snowmountain Form can block enemies, deals splash damage, and deals high Arts damage to Frozen enemies while removing Frozen; Colossus Form is mobile and deals ranged splash damage to enemies",
+        "operators":  [
+                          {
+                              "cn":  "角峰",
+                              "en":  "Matterhorn",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_199_yak.webp"
+                          },
+                          {
+                              "cn":  "雪猎",
+                              "en":  "Snow Hunter",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4211_snhunt.webp"
+                          },
+                          {
+                              "cn":  "哈洛德",
+                              "en":  "Harold",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4114_harold.webp"
+                          },
+                          {
+                              "cn":  "极光",
+                              "en":  "Aurora",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_422_aurora.webp"
+                          },
+                          {
+                              "cn":  "耶拉",
+                              "en":  "Kjera",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4013_kjera.webp"
+                          },
+                          {
+                              "cn":  "初雪",
+                              "en":  "Pramanix",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_174_slbell.webp"
+                          },
+                          {
+                              "cn":  "灵知",
+                              "en":  "Gnosis",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_206_gnosis.webp"
+                          },
+                          {
+                              "cn":  "圣聆初雪",
+                              "en":  "Pramanix the Prerita",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1046_sbell2.webp"
+                          },
+                          {
+                              "cn":  "凛御银灰",
+                              "en":  "SilverAsh the Reignfrost",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1045_svash2.webp"
+                          },
+                          {
+                              "cn":  "锏",
+                              "en":  "Degenbrecher",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4116_blkkgt.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "core",
+        "cnName":  "阿戈尔",
+        "enName":  "Ægir",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_egirship.webp",
+        "required":  3,
+        "status":  "modified",
+        "s2Note":  "Revival threshold changed from \u003cWith 5 different [Ægir] Operators\u003e in S2 to \u003cWith 6 different [Ægir] Operators\u003e.",
+        "cnEffect":  "【阿戈尔】干员生命值+(35+1×层数)%\n战斗开始时【阿戈尔】干员依次吞噬身前一格干员造成5000点物理伤害并获得其基础攻击力和阻挡数，并叠加等于被吞噬者等阶的盟约层数（【阿戈尔】之间优先对更靠左和靠上的干员发起吞噬）\n\u003c在场6名不同【阿戈尔】干员\u003e前3名【阿戈尔】干员首次被击倒时立刻复活",
+        "enEffect":  "[Ægir] Operators gain +(35+1×stacks)% HP\nWhen battle begins, [Ægir] Operators sequentially devour the Operator 1 tile in front of them, dealing 5000 Physical damage to them and gaining their base ATK and Block, while adding [Ægir] stacks equal to the devoured Operator\u0027s Tier (among [Ægir] Operators, those positioned further left and up are prioritized to devour first)\n\u003cWith 6 different [Ægir] Operators on field\u003e The first 3 [Ægir] Operators defeated for the first time will immediately revive",
+        "operators":  [
+                          {
+                              "cn":  "幽灵鲨",
+                              "en":  "Specter",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_143_ghost.webp"
+                          },
+                          {
+                              "cn":  "安哲拉",
+                              "en":  "Andreana",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_218_cuttle.webp"
+                          },
+                          {
+                              "cn":  "深巡",
+                              "en":  "Underflow",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4137_udflow.webp"
+                          },
+                          {
+                              "cn":  "斯卡蒂",
+                              "en":  "Skadi",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_263_skadi.webp"
+                          },
+                          {
+                              "cn":  "归溟幽灵鲨",
+                              "en":  "Specter the Unchained",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1023_ghost2.webp"
+                          },
+                          {
+                              "cn":  "水月",
+                              "en":  "Mizuki",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_437_mizuki.webp"
+                          },
+                          {
+                              "cn":  "歌蕾蒂娅",
+                              "en":  "Gladiia",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_474_glady.webp"
+                          },
+                          {
+                              "cn":  "乌尔比安",
+                              "en":  "Ulpianus",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4145_ulpia.webp"
+                          },
+                          {
+                              "cn":  "浊心斯卡蒂",
+                              "en":  "Skadi the Corrupting Heart",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1012_skadi2.webp"
+                          },
+                          {
+                              "cn":  "克莱门莎",
+                              "en":  "Clementia",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4231_clemnt.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "core",
+        "cnName":  "叙拉古",
+        "enName":  "Siracusa",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_siracusaship.webp",
+        "required":  3,
+        "status":  "reworked",
+        "s2Note":  "Season 2 6-op bonus granted Invisibility + 3% chance for True damage \u0026 Fear; reworked in Regulation to random abnormal status on attack and AoE True damage.",
+        "cnEffect":  "【叙拉古】干员部署后攻击速度+(25+0.8×层数)，持续(32+0.4×层数)秒\n\u003c在场6名不同的【叙拉古】干员\u003e每次攻击时有30%概率为敌人随机附加一个异常状态，持续(1+0.0018×层数)秒；敌人存在2种或以上异常状态时，每秒对自身及周围一定范围内的敌人造成(800+10×层数)点真实伤害",
+        "enEffect":  "[Siracusa] Operators gain +(25+0.8×stacks) ASPD on deployment for (32+0.4×stacks) seconds\n\u003cWith 6 different [Siracusa] Operators on field\u003e Each attack has a 30% chance to inflict a random abnormal status on the enemy for (1+0.0018×stacks) seconds; when an enemy has 2 or more abnormal statuses, deals (800+10×stacks) True damage per second to itself and nearby enemies",
+        "operators":  [
+                          {
+                              "cn":  "拉普兰德",
+                              "en":  "Lappland",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_140_whitew.webp"
+                          },
+                          {
+                              "cn":  "复奏",
+                              "en":  "Ripresa",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4031_liesel.webp"
+                          },
+                          {
+                              "cn":  "奥斯塔",
+                              "en":  "Aosta",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_346_aosta.webp"
+                          },
+                          {
+                              "cn":  "忍冬",
+                              "en":  "Vulpisfoglia",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4026_vulpis.webp"
+                          },
+                          {
+                              "cn":  "伺夜",
+                              "en":  "Vigil",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_427_vigil.webp"
+                          },
+                          {
+                              "cn":  "斥罪",
+                              "en":  "Penance",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4065_judge.webp"
+                          },
+                          {
+                              "cn":  "安洁莉娜",
+                              "en":  "Angelina",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_291_aglina.webp"
+                          },
+                          {
+                              "cn":  "铃兰",
+                              "en":  "Suzuran",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_358_lisa.webp"
+                          },
+                          {
+                              "cn":  "贝洛内",
+                              "en":  "Bellone",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4037_demetr.webp"
+                          },
+                          {
+                              "cn":  "荒芜拉普兰德",
+                              "en":  "Lappland the Decadenza",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1038_whitw2.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "core",
+        "cnName":  "卡西米尔",
+        "enName":  "Kazimierz",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_kazimierzship.webp",
+        "required":  3,
+        "status":  "reworked",
+        "s2Note":  "Season 2 3-op boosted ATK on deployment without stack-scaling cap; 6-op reworked from True damage aura/unblocked bonus to Bench reinforcement + 65% ATK True damage for 30s.",
+        "cnEffect":  "每次有干员部署时【卡西米尔】干员攻击力+20%（至多+(50+1×层数)%），持续至战斗结束\n\u003c在场6名不同的【卡西米尔】干员\u003e【卡西米尔】地面干员被击倒时离场并召唤整备区最右侧【卡西米尔】干员加入战斗（不改变当前盟约的激活状态）；【卡西米尔】干员开启技能或部署后30秒内攻击时附带攻击力65%的真实伤害",
+        "enEffect":  "Whenever an Operator is deployed, [Kazimierz] Operators gain +20% ATK (up to +(50+1×stacks)%) until the end of battle\n\u003cWith 6 different [Kazimierz] Operators on field\u003e When a [Kazimierz] Ground Operator is defeated, they retreat and summon the rightmost [Kazimierz] Operator from the Bench into battle (does not change current active Alliance status); for 30 seconds after skill activation or deployment, [Kazimierz] Operators\u0027 attacks deal an additional 65% of ATK as True damage",
+        "operators":  [
+                          {
+                              "cn":  "野鬃",
+                              "en":  "Wild Mane",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_496_wildmn.webp"
+                          },
+                          {
+                              "cn":  "砾",
+                              "en":  "Gravel",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_237_gravel.webp"
+                          },
+                          {
+                              "cn":  "瑕光",
+                              "en":  "Blemishine",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_423_blemsh.webp"
+                          },
+                          {
+                              "cn":  "历阵锐枪芬",
+                              "en":  "Fang the Fire-Sharpened",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1036_fang2.webp"
+                          },
+                          {
+                              "cn":  "远牙",
+                              "en":  "Fartooth",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_430_fartth.webp"
+                          },
+                          {
+                              "cn":  "玛恩纳",
+                              "en":  "Młynar",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4064_mlynar.webp"
+                          },
+                          {
+                              "cn":  "薇薇安娜",
+                              "en":  "Viviana",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4098_vvana.webp"
+                          },
+                          {
+                              "cn":  "焰尾",
+                              "en":  "Flametail",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_420_flamtl.webp"
+                          },
+                          {
+                              "cn":  "耀骑士临光",
+                              "en":  "Nearl the Radiant Knight",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1014_nearl2.webp"
+                          },
+                          {
+                              "cn":  "锏",
+                              "en":  "Degenbrecher",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4116_blkkgt.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "core",
+        "cnName":  "乌萨斯",
+        "enName":  "Ursus",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_ursusship.webp",
+        "required":  3,
+        "status":  "new",
+        "s2Note":  "New Core Alliance in Regulation.",
+        "cnEffect":  "【乌萨斯】干员攻击力+(35+0.75×层数)%，生命值+(10+0.3×层数)%，【乌萨斯】干员击倒其他单位时为【乌萨斯】叠加2层临时层数\n\u003c在场6名不同的【乌萨斯】干员\u003e【乌萨斯】干员受到伤害的(15+0.05×层数)%转化为10秒的生命流失，当伤害来源被击倒时不再流失生命；阻挡敌人期间，敌人每秒受到相当于攻击力(50+0.25×层数)%的法术伤害；【乌萨斯】干员击倒其他单位时叠加的临时层数提升至4层",
+        "enEffect":  "[Ursus] Operators gain +(35+0.75×stacks)% ATK and +(10+0.3×stacks)% HP; when an [Ursus] Operator defeats another unit, adds 2 temporary stacks to [Ursus]\n\u003cWith 6 different [Ursus] Operators on field\u003e (15+0.05×stacks)% of damage taken by [Ursus] Operators is converted into HP loss over 10 seconds, which stops if the damage source is defeated; while blocking enemies, deals (50+0.25×stacks)% of ATK as Arts damage per second to blocked enemies; temporary stacks gained when an [Ursus] Operator defeats another unit increase to 4",
+        "operators":  [
+                          {
+                              "cn":  "折桠",
+                              "en":  "Vetochki",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4207_branch.webp"
+                          },
+                          {
+                              "cn":  "烈夏",
+                              "en":  "Leto",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_194_leto.webp"
+                          },
+                          {
+                              "cn":  "真理",
+                              "en":  "Istina",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_195_glassb.webp"
+                          },
+                          {
+                              "cn":  "乌啾",
+                              "en":  "Ukusik",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4224_turdus.webp"
+                          },
+                          {
+                              "cn":  "奥尔佳",
+                              "en":  "Ольга",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4245_alga.webp"
+                          },
+                          {
+                              "cn":  "赫拉格",
+                              "en":  "Hellagur",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_188_helage.webp"
+                          },
+                          {
+                              "cn":  "维伊",
+                              "en":  "Viy",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4226_veen.webp"
+                          },
+                          {
+                              "cn":  "怒潮凛冬",
+                              "en":  "Zima the Raging Tide",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1051_headb2.webp"
+                          },
+                          {
+                              "cn":  "冻河",
+                              "en":  "Тоска",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4244_tocka.webp"
+                          },
+                          {
+                              "cn":  "塔露拉",
+                              "en":  "Talulah",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4247_oxi.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "core",
+        "cnName":  "伊比利亚",
+        "enName":  "Iberia",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_iberiaship.webp",
+        "required":  3,
+        "status":  "new",
+        "s2Note":  "New Core Alliance in Regulation.",
+        "cnEffect":  "【伊比利亚】干员或炼金单元每次造成伤害时，使目标每秒受到(11+0.06×层数)%攻击力（至多叠加10次）的持续法术伤害，持续10秒\n\u003c在场6名不同的【伊比利亚】干员\u003e【伊比利亚】干员或炼金单元造成伤害时附带的持续法术伤害提升至2倍，并使目标移动速度-4%（至多-80%），持续10秒；【伊比利亚】干员或炼金单元每次造成伤害时有20%概率弹射到周围一定范围内的敌人造成300%攻击力的法术伤害",
+        "enEffect":  "Whenever an [Iberia] Operator or Alchemy Unit deals damage, inflicts Arts damage over time equal to (11+0.06×stacks)% of ATK per second (stacks up to 10 times) for 10 seconds\n\u003cWith 6 different [Iberia] Operators on field\u003e Arts damage over time inflicted by [Iberia] Operators or Alchemy Units is doubled and reduces target Movement Speed by -4% (up to -80%) for 10 seconds; whenever an [Iberia] Operator or Alchemy Unit deals damage, there is a 20% chance to bounce to a nearby enemy, dealing 300% of ATK as Arts damage",
+        "operators":  [
+                          {
+                              "cn":  "深靛",
+                              "en":  "Indigo",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_469_indigo.webp"
+                          },
+                          {
+                              "cn":  "蓝毒",
+                              "en":  "Blue Poison",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_129_bluep.webp"
+                          },
+                          {
+                              "cn":  "瑰盐",
+                              "en":  "Rose Salt",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4163_rosesa.webp"
+                          },
+                          {
+                              "cn":  "海沫",
+                              "en":  "Highmore",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4066_highmo.webp"
+                          },
+                          {
+                              "cn":  "旅骨",
+                              "en":  "Homebound",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4232_hbound.webp"
+                          },
+                          {
+                              "cn":  "温蒂",
+                              "en":  "Weedy",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_400_weedy.webp"
+                          },
+                          {
+                              "cn":  "流明",
+                              "en":  "Lumen",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4042_lumen.webp"
+                          },
+                          {
+                              "cn":  "艾丽妮",
+                              "en":  "Irene",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4009_irene.webp"
+                          },
+                          {
+                              "cn":  "棘刺",
+                              "en":  "Thorns",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_293_thorns.webp"
+                          },
+                          {
+                              "cn":  "引星棘刺",
+                              "en":  "Thorns the Lodestar",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1039_thorn2.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "core",
+        "cnName":  "莱塔尼亚",
+        "enName":  "Leithanien",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_lethaniaship.webp",
+        "required":  3,
+        "status":  "new",
+        "s2Note":  "New Core Alliance in Regulation.",
+        "cnEffect":  "【莱塔尼亚】干员和召唤物攻击力+(30+1×层数)%，场上敌人被击倒时在附近召唤“一个小节”（场上最多存在10个）\n\u003c在场6名不同的【莱塔尼亚】干员\u003e召唤“一个小节”时(30+0.1×层数)%概率改为召唤“一个乐部”，在场时使【莱塔尼亚】干员攻速+20；场上【莱塔尼亚】召唤物上限提升至20；场上我方干员被击倒时会额外召唤“一个小节”",
+        "enEffect":  "[Leithanien] Operators and summons gain +(30+1×stacks)% ATK; when an enemy on the field is defeated, summons \u0027A Measure\u0027 nearby (up to 10 on the field)\n\u003cWith 6 different [Leithanien] Operators on field\u003e When summoning \u0027A Measure\u0027, there is a (30+0.1×stacks)% chance to summon \u0027A Choir\u0027 instead, which grants +20 ASPD to [Leithanien] Operators while on the field; maximum number of [Leithanien] summons on the field increases to 20; when an allied Operator on the field is defeated, additionally summons \u0027A Measure\u0027",
+        "operators":  [
+                          {
+                              "cn":  "地灵",
+                              "en":  "Earthspirit",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_183_skgoat.webp"
+                          },
+                          {
+                              "cn":  "折光",
+                              "en":  "Diamante",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_499_kaitou.webp"
+                          },
+                          {
+                              "cn":  "复奏",
+                              "en":  "Ripresa",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4031_liesel.webp"
+                          },
+                          {
+                              "cn":  "车尔尼",
+                              "en":  "Czerny",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4047_pianst.webp"
+                          },
+                          {
+                              "cn":  "卡涅利安",
+                              "en":  "Carnelian",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_426_billro.webp"
+                          },
+                          {
+                              "cn":  "黑键",
+                              "en":  "Ebenholz",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4046_ebnhlz.webp"
+                          },
+                          {
+                              "cn":  "艾雅法拉",
+                              "en":  "Eyjafjalla",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_180_amgoat.webp"
+                          },
+                          {
+                              "cn":  "纯烬艾雅法拉",
+                              "en":  "Eyjafjalla the Hvít Aska",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1016_agoat2.webp"
+                          },
+                          {
+                              "cn":  "薇薇安娜",
+                              "en":  "Viviana",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4098_vvana.webp"
+                          },
+                          {
+                              "cn":  "锏",
+                              "en":  "Degenbrecher",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4116_blkkgt.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "addon",
+        "cnName":  "精准",
+        "enName":  "Precision",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_preciship.webp",
+        "required":  2,
+        "status":  "modified",
+        "s2Note":  "3-op threshold changed from \u003cAt 30 stacks\u003e (+1 Attack Range) in S2 to \u003cWith 3 different [Precision] Operators on field\u003e (applies to all Ranged Operators + ignore 30% DEF/RES).",
+        "cnEffect":  "【精准】干员攻击力+(10+1.2×层数)%\n\u003c在场3名不同【精准】干员\u003e生效范围变为【精准】干员和所有远程干员，且攻击无视30%防御力和法术抗性",
+        "enEffect":  "[Precision] Operators gain +(10+1.2×stacks)% ATK\n\u003cWith 3 different [Precision] Operators on field\u003e Effect expands to apply to [Precision] Operators and all Ranged Operators, and attacks ignore 30% DEF and RES",
+        "operators":  [
+                          {
+                              "cn":  "灰喉",
+                              "en":  "GreyThroat",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_367_swllow.webp"
+                          },
+                          {
+                              "cn":  "雪猎",
+                              "en":  "Snow Hunter",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4211_snhunt.webp"
+                          },
+                          {
+                              "cn":  "承曦格雷伊",
+                              "en":  "Greyy the Lightningbearer",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1027_greyy2.webp"
+                          },
+                          {
+                              "cn":  "旅骨",
+                              "en":  "Homebound",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4232_hbound.webp"
+                          },
+                          {
+                              "cn":  "伺夜",
+                              "en":  "Vigil",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_427_vigil.webp"
+                          },
+                          {
+                              "cn":  "空弦",
+                              "en":  "Archetto",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_332_archet.webp"
+                          },
+                          {
+                              "cn":  "黑键",
+                              "en":  "Ebenholz",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4046_ebnhlz.webp"
+                          },
+                          {
+                              "cn":  "远牙",
+                              "en":  "Fartooth",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_430_fartth.webp"
+                          },
+                          {
+                              "cn":  "霍尔海雅",
+                              "en":  "Ho\u0027olheyak",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4027_heyak.webp"
+                          },
+                          {
+                              "cn":  "迷迭香",
+                              "en":  "Rosmontis",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_391_rosmon.webp"
+                          },
+                          {
+                              "cn":  "鸿雪",
+                              "en":  "Pozëmka",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4055_bgsnow.webp"
+                          },
+                          {
+                              "cn":  "蕾缪安",
+                              "en":  "Lemuen",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4193_lemuen.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "addon",
+        "cnName":  "迅捷",
+        "enName":  "Swift",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_swiftship.webp",
+        "required":  2,
+        "status":  "unchanged",
+        "s2Note":  "Same mechanics as Season 2.",
+        "cnEffect":  "【迅捷】干员技能结束时有(20+0.35×层数)%概率立刻回复12点技力\n\u003c达到40层\u003e所有干员技能结束时有等概率额外回复15点技力",
+        "enEffect":  "When a [Swift] Operator\u0027s skill ends, there is a (20+0.35×stacks)% chance to immediately recover 12 SP\n\u003cAt 40 stacks\u003e When any Operator\u0027s skill ends, there is an equal chance to recover an additional 15 SP",
+        "operators":  [
+                          {
+                              "cn":  "陨星",
+                              "en":  "Meteorite",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_219_meteo.webp"
+                          },
+                          {
+                              "cn":  "波登可",
+                              "en":  "Podenco",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_258_podego.webp"
+                          },
+                          {
+                              "cn":  "卡涅利安",
+                              "en":  "Carnelian",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_426_billro.webp"
+                          },
+                          {
+                              "cn":  "忍冬",
+                              "en":  "Vulpisfoglia",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4026_vulpis.webp"
+                          },
+                          {
+                              "cn":  "青枳",
+                              "en":  "Poncirus",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_488_buildr.webp"
+                          },
+                          {
+                              "cn":  "灵知",
+                              "en":  "Gnosis",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_206_gnosis.webp"
+                          },
+                          {
+                              "cn":  "W",
+                              "en":  "W",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_113_cqbw.webp"
+                          },
+                          {
+                              "cn":  "焰尾",
+                              "en":  "Flametail",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_420_flamtl.webp"
+                          },
+                          {
+                              "cn":  "冻河",
+                              "en":  "Тоска",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4244_tocka.webp"
+                          },
+                          {
+                              "cn":  "引星棘刺",
+                              "en":  "Thorns the Lodestar",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1039_thorn2.webp"
+                          },
+                          {
+                              "cn":  "烛煌",
+                              "en":  "Blaze the Igniting Spark",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1040_blaze2.webp"
+                          },
+                          {
+                              "cn":  "妮芙",
+                              "en":  "Nymph",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4146_nymph.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "addon",
+        "cnName":  "灵巧",
+        "enName":  "Agile",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_skillfulship.webp",
+        "required":  2,
+        "status":  "unchanged",
+        "s2Note":  "Same mechanics as Season 2.",
+        "cnEffect":  "【灵巧】干员及周围4格的干员攻击速度+(10+1×层数)\n\u003c达到40层\u003e生效范围变为【灵巧】干员周围8格",
+        "enEffect":  "[Agile] Operators and Operators in the adjacent 4 tiles gain +(10+1×stacks) ASPD\n\u003cAt 40 stacks\u003e Effect range expands to the surrounding 8 tiles of [Agile] Operators",
+        "operators":  [
+                          {
+                              "cn":  "霜叶",
+                              "en":  "Frostleaf",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_193_frostl.webp"
+                          },
+                          {
+                              "cn":  "云迹",
+                              "en":  "Contrail",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4165_ctrail.webp"
+                          },
+                          {
+                              "cn":  "承曦格雷伊",
+                              "en":  "Greyy the Lightningbearer",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1027_greyy2.webp"
+                          },
+                          {
+                              "cn":  "水灯心",
+                              "en":  "Brigid",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4177_brigid.webp"
+                          },
+                          {
+                              "cn":  "奥尔佳",
+                              "en":  "Ольга",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4245_alga.webp"
+                          },
+                          {
+                              "cn":  "水月",
+                              "en":  "Mizuki",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_437_mizuki.webp"
+                          },
+                          {
+                              "cn":  "仇白",
+                              "en":  "Qiubai",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4082_qiubai.webp"
+                          },
+                          {
+                              "cn":  "华法琳",
+                              "en":  "Warfarin",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_171_bldsk.webp"
+                          },
+                          {
+                              "cn":  "佩佩",
+                              "en":  "Pepe",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4058_pepe.webp"
+                          },
+                          {
+                              "cn":  "凛御银灰",
+                              "en":  "SilverAsh the Reignfrost",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1045_svash2.webp"
+                          },
+                          {
+                              "cn":  "隐德来希",
+                              "en":  "Entelechia",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4010_etlchi.webp"
+                          },
+                          {
+                              "cn":  "帕拉斯",
+                              "en":  "Pallas",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_485_pallas.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "addon",
+        "cnName":  "坚守",
+        "enName":  "Durable",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_steadship.webp",
+        "required":  2,
+        "status":  "reworked",
+        "s2Note":  "Season 2 \u003cAt 50 stacks\u003e granted +1 Block to Ground Operators; reworked in Regulation to \u003cWith 3 different [Durable] Operators\u003e damage sharing + Arts retaliation \u0026 Fragile.",
+        "cnEffect":  "所有干员生命值+(25+1.2×层数)%\n\u003c在场3名不同【坚守】干员\u003e场上非【坚守】干员受到伤害时，所受伤害的40%由【坚守】干员平均承担；【坚守】干员受到伤害时，伤害来源受到(850+10×层数)点法术伤害（每0.2秒至多触发1次）和持续5秒的40%的脆弱效果",
+        "enEffect":  "All Operators gain +(25+1.2×stacks)% HP\n\u003cWith 3 different [Durable] Operators on field\u003e When non-[Durable] Operators on the field take damage, 40% of the damage taken is shared equally among [Durable] Operators; when a [Durable] Operator takes damage, the damage source takes (850+10×stacks) Arts damage (triggers at most once every 0.2 seconds) and suffers 40% Fragile for 5 seconds",
+        "operators":  [
+                          {
+                              "cn":  "角峰",
+                              "en":  "Matterhorn",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_199_yak.webp"
+                          },
+                          {
+                              "cn":  "摆渡人",
+                              "en":  "Varkáris",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4166_varkis.webp"
+                          },
+                          {
+                              "cn":  "泡泡",
+                              "en":  "Bubble",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_381_bubble.webp"
+                          },
+                          {
+                              "cn":  "蛇屠箱",
+                              "en":  "Cuora",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_150_snakek.webp"
+                          },
+                          {
+                              "cn":  "车尔尼",
+                              "en":  "Czerny",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4047_pianst.webp"
+                          },
+                          {
+                              "cn":  "深巡",
+                              "en":  "Underflow",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4137_udflow.webp"
+                          },
+                          {
+                              "cn":  "罗比菈塔",
+                              "en":  "Roberta",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_484_robrta.webp"
+                          },
+                          {
+                              "cn":  "青枳",
+                              "en":  "Poncirus",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_488_buildr.webp"
+                          },
+                          {
+                              "cn":  "温蒂",
+                              "en":  "Weedy",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_400_weedy.webp"
+                          },
+                          {
+                              "cn":  "余",
+                              "en":  "Yu",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_2026_yu.webp"
+                          },
+                          {
+                              "cn":  "涤火杰西卡",
+                              "en":  "Jessica the Liberated",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1034_jesca2.webp"
+                          },
+                          {
+                              "cn":  "塞雷娅",
+                              "en":  "Saria",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_202_demkni.webp"
+                          },
+                          {
+                              "cn":  "机械师",
+                              "en":  "Mechanist",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4230_mcnist.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "addon",
+        "cnName":  "助力",
+        "enName":  "Aid",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_deputship.webp",
+        "required":  2,
+        "status":  "modified",
+        "s2Note":  "Added \u003cWith 3 different [Aid] Operators on field\u003e upgrading end-of-Rest-Phase stacks from +2 to +4.",
+        "cnEffect":  "所有干员防御力+(15+1.2×层数)%，再部署时间-30%\n休整期结束时，使当前所有已激活的盟约层数+2\n\u003c在场3名不同【助力】干员\u003e改为层数+4",
+        "enEffect":  "All Operators gain +(15+1.2×stacks)% DEF and -30% Redeployment Time\nWhen the Rest Phase ends, all currently active Alliances gain +2 stacks\n\u003cWith 3 different [Aid] Operators on field\u003e Increases to +4 stacks instead",
+        "operators":  [
+                          {
+                              "cn":  "野鬃",
+                              "en":  "Wild Mane",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_496_wildmn.webp"
+                          },
+                          {
+                              "cn":  "夏栎",
+                              "en":  "Quercus",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_492_quercu.webp"
+                          },
+                          {
+                              "cn":  "星源",
+                              "en":  "Astgenne",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_135_halo.webp"
+                          },
+                          {
+                              "cn":  "安哲拉",
+                              "en":  "Andreana",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_218_cuttle.webp"
+                          },
+                          {
+                              "cn":  "罗比菈塔",
+                              "en":  "Roberta",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_484_robrta.webp"
+                          },
+                          {
+                              "cn":  "白铁",
+                              "en":  "Stainless",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4072_ironmn.webp"
+                          },
+                          {
+                              "cn":  "淬羽赫默",
+                              "en":  "Silence the Paradigmatic",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1031_slent2.webp"
+                          },
+                          {
+                              "cn":  "迷迭香",
+                              "en":  "Rosmontis",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_391_rosmon.webp"
+                          },
+                          {
+                              "cn":  "帕拉斯",
+                              "en":  "Pallas",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_485_pallas.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "addon",
+        "cnName":  "远见",
+        "enName":  "Foresight",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_visiship.webp",
+        "required":  2,
+        "status":  "modified",
+        "s2Note":  "Added \u003cUpon reaching 150 stacks for the first time\u003e for an extra -1 Funds purchase cost reduction.",
+        "cnEffect":  "\u003c每叠加10层\u003e获得一次2资金\n\u003c首次到达80层\u003e所有【远见】干员购买价格永久-1资金\n\u003c首次到达150层\u003e所有【远见】干员购买价格额外永久-1资金\n整备区的【远见】干员也可用于激活盟约",
+        "enEffect":  "\u003cFor every 10 stacks\u003e Gain 2 Funds once\n\u003cUpon reaching 80 stacks for the first time\u003e Purchase price of all [Foresight] Operators is permanently reduced by 1 Funds\n\u003cUpon reaching 150 stacks for the first time\u003e Purchase price of all [Foresight] Operators is permanently reduced by an additional 1 Funds\n[Foresight] Operators on the Bench also count toward activating this Alliance",
+        "operators":  [
+                          {
+                              "cn":  "渡桥",
+                              "en":  "Mitm",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4147_mitm.webp"
+                          },
+                          {
+                              "cn":  "空弦",
+                              "en":  "Archetto",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_332_archet.webp"
+                          },
+                          {
+                              "cn":  "历阵锐枪芬",
+                              "en":  "Fang the Fire-Sharpened",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1036_fang2.webp"
+                          },
+                          {
+                              "cn":  "凯瑟琳",
+                              "en":  "Catherine",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4162_cathy.webp"
+                          },
+                          {
+                              "cn":  "寒檀",
+                              "en":  "Santalla",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_341_sntlla.webp"
+                          },
+                          {
+                              "cn":  "纯烬艾雅法拉",
+                              "en":  "Eyjafjalla the Hvít Aska",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1016_agoat2.webp"
+                          },
+                          {
+                              "cn":  "黍",
+                              "en":  "Shu",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_2025_shu.webp"
+                          },
+                          {
+                              "cn":  "逻各斯",
+                              "en":  "Logos",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4133_logos.webp"
+                          },
+                          {
+                              "cn":  "妮芙",
+                              "en":  "Nymph",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4146_nymph.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "addon",
+        "cnName":  "奇迹",
+        "enName":  "Marvel",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_miraship.webp",
+        "required":  2,
+        "status":  "unchanged",
+        "s2Note":  "Same mechanics as Season 2.",
+        "cnEffect":  "刷新调度中心时，有(18+0.25×层数)%概率使下次刷新不消耗资金\n\u003c首次到达100层\u003e调度中心刷新时至少出现一名等同于当前调度中心等级的干员\n整备区的【奇迹】干员也可用于激活盟约",
+        "enEffect":  "When refreshing the Dispatch Center, there is an (18+0.25×stacks)% chance that the next refresh costs 0 Funds\n\u003cUpon reaching 100 stacks for the first time\u003e Every Dispatch Center refresh is guaranteed to offer at least 1 Operator of a Tier equal to the current Dispatch Center Level\n[Marvel] Operators on the Bench also count toward activating this Alliance",
+        "operators":  [
+                          {
+                              "cn":  "复奏",
+                              "en":  "Ripresa",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4031_liesel.webp"
+                          },
+                          {
+                              "cn":  "云迹",
+                              "en":  "Contrail",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4165_ctrail.webp"
+                          },
+                          {
+                              "cn":  "星极",
+                              "en":  "Astesia",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_274_astesi.webp"
+                          },
+                          {
+                              "cn":  "耶拉",
+                              "en":  "Kjera",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4013_kjera.webp"
+                          },
+                          {
+                              "cn":  "吉星",
+                              "en":  "Kichisei",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4203_kichi.webp"
+                          },
+                          {
+                              "cn":  "安洁莉娜",
+                              "en":  "Angelina",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_291_aglina.webp"
+                          },
+                          {
+                              "cn":  "怒潮凛冬",
+                              "en":  "Zima the Raging Tide",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1051_headb2.webp"
+                          },
+                          {
+                              "cn":  "维娜·维多利亚",
+                              "en":  "Vina Victoria",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1019_siege2.webp"
+                          },
+                          {
+                              "cn":  "阿米娅",
+                              "en":  "Amiya",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_002_amiya.webp"
+                          },
+                          {
+                              "cn":  "遥",
+                              "en":  "Haruka",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4202_haruka.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "addon",
+        "cnName":  "投资人",
+        "enName":  "Investor",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_investship.webp",
+        "required":  3,
+        "status":  "unchanged",
+        "s2Note":  "Same mechanics as Season 2.",
+        "cnEffect":  "干员的“获得时”类特质每次触发2次\n\u003c达到100层\u003e“获得时”类特质每次触发3次\n整备区的【投资人】干员也可用于激活盟约",
+        "enEffect":  "Operators\u0027 \u0027When obtained\u0027 abilities trigger 2 times each time\n\u003cAt 100 stacks\u003e \u0027When obtained\u0027 abilities trigger 3 times each time\n[Investor] Operators on the Bench also count toward activating this Alliance",
+        "operators":  [
+                          {
+                              "cn":  "锡人",
+                              "en":  "Tin Man",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4151_tinman.webp"
+                          },
+                          {
+                              "cn":  "山",
+                              "en":  "Mountain",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_264_f12yin.webp"
+                          },
+                          {
+                              "cn":  "凛御银灰",
+                              "en":  "SilverAsh the Reignfrost",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1045_svash2.webp"
+                          },
+                          {
+                              "cn":  "老鲤",
+                              "en":  "Lee",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_322_lmlee.webp"
+                          },
+                          {
+                              "cn":  "可露希尔",
+                              "en":  "Closure",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4228_closur.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "addon",
+        "cnName":  "突袭",
+        "enName":  "Raid",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_raidship.webp",
+        "required":  2,
+        "status":  "unchanged",
+        "s2Note":  "Same mechanics as Season 2.",
+        "cnEffect":  "【突袭】干员10秒内未进行攻击或技能就绪时，若范围内没有敌人，则保留技力立即再部署至一名地面敌人周围，期间攻击力和生命值+(25+1×层数)%\n\u003c达到50层\u003e所有干员攻击速度+50",
+        "enEffect":  "When a [Raid] Operator has not attacked for 10 seconds or when their skill is ready, if there are no enemies within range, they retain SP and immediately redeploy near a ground enemy, gaining +(25+1×stacks)% ATK and HP during this period\n\u003cAt 50 stacks\u003e All Operators gain +50 ASPD",
+        "operators":  [
+                          {
+                              "cn":  "杰克",
+                              "en":  "Jackie",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_347_jaksel.webp"
+                          },
+                          {
+                              "cn":  "铸铁",
+                              "en":  "Sideroca",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_333_sidero.webp"
+                          },
+                          {
+                              "cn":  "斯卡蒂",
+                              "en":  "Skadi",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_263_skadi.webp"
+                          },
+                          {
+                              "cn":  "瑕光",
+                              "en":  "Blemishine",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_423_blemsh.webp"
+                          },
+                          {
+                              "cn":  "伊桑",
+                              "en":  "Ethan",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_355_ethan.webp"
+                          },
+                          {
+                              "cn":  "赫拉格",
+                              "en":  "Hellagur",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_188_helage.webp"
+                          },
+                          {
+                              "cn":  "赫德雷",
+                              "en":  "Hoederer",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4088_hodrer.webp"
+                          },
+                          {
+                              "cn":  "贝洛内",
+                              "en":  "Bellone",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4037_demetr.webp"
+                          },
+                          {
+                              "cn":  "耀骑士临光",
+                              "en":  "Nearl the Radiant Knight",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1014_nearl2.webp"
+                          },
+                          {
+                              "cn":  "史尔特尔",
+                              "en":  "Surtr",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_350_surtr.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "addon",
+        "cnName":  "不屈",
+        "enName":  "Resilient",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_indomship.webp",
+        "required":  2,
+        "status":  "modified",
+        "s2Note":  "Secondary threshold changed from \u003cAt 30 stacks\u003e in S2 to \u003cWith 3 different [Resilient] Operators on field\u003e.",
+        "cnEffect":  "地面干员被击倒时，有(18+0.4×层数)%概率立刻重新部署\n\u003c在场3名不同【不屈】干员\u003e地面干员被击倒时使场上所有干员技力+5",
+        "enEffect":  "When a Ground Operator is defeated, there is an (18+0.4×stacks)% chance they can be immediately redeployed\n\u003cWith 3 different [Resilient] Operators on field\u003e Whenever a Ground Operator is defeated, all Operators on the field gain +5 SP",
+        "operators":  [
+                          {
+                              "cn":  "折桠",
+                              "en":  "Vetochki",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4207_branch.webp"
+                          },
+                          {
+                              "cn":  "摆渡人",
+                              "en":  "Varkáris",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4166_varkis.webp"
+                          },
+                          {
+                              "cn":  "砾",
+                              "en":  "Gravel",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_237_gravel.webp"
+                          },
+                          {
+                              "cn":  "宴",
+                              "en":  "Utage",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_337_utage.webp"
+                          },
+                          {
+                              "cn":  "海沫",
+                              "en":  "Highmore",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4066_highmo.webp"
+                          },
+                          {
+                              "cn":  "风丸",
+                              "en":  "Kazemaru",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4016_kazema.webp"
+                          },
+                          {
+                              "cn":  "森蚺",
+                              "en":  "Eunectes",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_416_zumama.webp"
+                          },
+                          {
+                              "cn":  "归溟幽灵鲨",
+                              "en":  "Specter the Unchained",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1023_ghost2.webp"
+                          },
+                          {
+                              "cn":  "斥罪",
+                              "en":  "Penance",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4065_judge.webp"
+                          },
+                          {
+                              "cn":  "隐德来希",
+                              "en":  "Entelechia",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4010_etlchi.webp"
+                          },
+                          {
+                              "cn":  "史尔特尔",
+                              "en":  "Surtr",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_350_surtr.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "addon",
+        "cnName":  "调和",
+        "enName":  "Harmony",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_maniship.webp",
+        "required":  1,
+        "status":  "unchanged",
+        "s2Note":  "Same mechanics as Season 2.",
+        "cnEffect":  "激活时可以使场上核心盟约的激活人数+1，【调和】干员享受已激活的核心盟约的效果",
+        "enEffect":  "When active, adds +1 to the Operator count of active Core Alliances on the field, and [Harmony] Operators benefit from the effects of all active Core Alliances",
+        "operators":  [
+                          {
+                              "cn":  "魔王",
+                              "en":  "Civilight Eterna",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4134_cetsyr.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "addon",
+        "cnName":  "协防干员",
+        "enName":  "Assist Operator",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_emptyship.webp",
+        "required":  2,
+        "status":  "modified",
+        "s2Note":  "Damage dealt bonus increased from 110%/120% in S2 to 120%/140%.",
+        "cnEffect":  "所有干员受到的物理和法术伤害-20%；【协防干员】伤害提升至120%，精锐【协防干员】造成伤害提升至140%",
+        "enEffect":  "All Operators take -20% Physical and Arts damage; [Assist Operators] deal 120% damage, and Elite [Assist Operators] deal 140% damage",
+        "operators":  [
+                          {
+                              "cn":  "初雪",
+                              "en":  "Pramanix",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_174_slbell.webp"
+                          },
+                          {
+                              "cn":  "夜莺",
+                              "en":  "Nightingale",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_179_cgbird.webp"
+                          },
+                          {
+                              "cn":  "塞雷娅",
+                              "en":  "Saria",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_202_demkni.webp"
+                          },
+                          {
+                              "cn":  "Mon3tr",
+                              "en":  "Mon3tr",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4179_monstr.webp"
+                          },
+                          {
+                              "cn":  "机械师",
+                              "en":  "Mechanist",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4230_mcnist.webp"
+                          },
+                          {
+                              "cn":  "塔露拉",
+                              "en":  "Talulah",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4247_oxi.webp"
+                          },
+                          {
+                              "cn":  "缪尔赛思",
+                              "en":  "Muelsyse",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_249_mlyss.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "addon",
+        "cnName":  "独行",
+        "enName":  "Solo",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_soloship.webp",
+        "required":  1,
+        "status":  "modified",
+        "s2Note":  "ATK and HP bonus increased from +50% in S2 to +60%.",
+        "cnEffect":  "\u003c在场1名【独行】干员\u003e【独行】干员攻击力和生命值+60%，初始技力+15（在场2名及以上【独行】干员时失效）",
+        "enEffect":  "\u003cWith exactly 1 [Solo] Operator on field\u003e The [Solo] Operator gains +60% ATK and HP and +15 Starting SP (deactivates if 2 or more [Solo] Operators are on the field)",
+        "operators":  [
+                          {
+                              "cn":  "艾丝黛尔",
+                              "en":  "Estelle",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_127_estell.webp"
+                          },
+                          {
+                              "cn":  "地灵",
+                              "en":  "Earthspirit",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_183_skgoat.webp"
+                          },
+                          {
+                              "cn":  "水灯心",
+                              "en":  "Brigid",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4177_brigid.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "addon",
+        "cnName":  "绝技",
+        "enName":  "Elite",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_suntship.webp",
+        "required":  2,
+        "status":  "unchanged",
+        "s2Note":  "Same mechanics as Season 2.",
+        "cnEffect":  "\u003c在场2名精锐状态的干员\u003e精锐状态的干员攻击力+30%\n\u003c在场5名精锐状态的干员\u003e精锐状态的干员技力消耗-30%\n（所有干员的精锐状态均可激活盟约）",
+        "enEffect":  "\u003cWith 2 Elite Operators on field\u003e Elite Operators gain +30% ATK\n\u003cWith 5 Elite Operators on field\u003e Elite Operators have -30% SP cost\n(Any Operator in Elite status counts toward activating this Alliance)",
+        "operators":  [
+
+                      ]
+    },
+    {
+        "type":  "addon",
+        "cnName":  "聚合",
+        "enName":  "Convergence",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_docship.webp",
+        "required":  2,
+        "status":  "new",
+        "s2Note":  "New Add-on Alliance in Regulation.",
+        "cnEffect":  "【聚合】干员攻击范围内的我方单位每秒回复攻击力(16+0.12×层数)%的生命值和攻击力(8+0.06×层数)%的元素损伤\n\u003c在场3名【聚合】干员\u003e【聚合】干员攻击范围内的所有干员获得(15+0.08×层数)%的庇护",
+        "enEffect":  "Allied units within the Attack Range of [Convergence] Operators recover HP equal to (16+0.12×stacks)% of ATK and Elemental Damage equal to (8+0.06×stacks)% of ATK per second\n\u003cWith 3 [Convergence] Operators on field\u003e All Operators within the Attack Range of [Convergence] Operators gain (15+0.08×stacks)% Sanctuary",
+        "operators":  [
+                          {
+                              "cn":  "褐果",
+                              "en":  "Chestnut",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4041_chnut.webp"
+                          },
+                          {
+                              "cn":  "莎草",
+                              "en":  "Papyrus",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4139_papyrs.webp"
+                          },
+                          {
+                              "cn":  "波登可",
+                              "en":  "Podenco",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_258_podego.webp"
+                          },
+                          {
+                              "cn":  "瑰盐",
+                              "en":  "Rose Salt",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4163_rosesa.webp"
+                          },
+                          {
+                              "cn":  "乌啾",
+                              "en":  "Ukusik",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4224_turdus.webp"
+                          },
+                          {
+                              "cn":  "风絮",
+                              "en":  "Taraxacum",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4222_taraxa.webp"
+                          },
+                          {
+                              "cn":  "流明",
+                              "en":  "Lumen",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4042_lumen.webp"
+                          },
+                          {
+                              "cn":  "夜莺",
+                              "en":  "Nightingale",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_179_cgbird.webp"
+                          },
+                          {
+                              "cn":  "华法琳",
+                              "en":  "Warfarin",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_171_bldsk.webp"
+                          },
+                          {
+                              "cn":  "纯烬艾雅法拉",
+                              "en":  "Eyjafjalla the Hvít Aska",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1016_agoat2.webp"
+                          },
+                          {
+                              "cn":  "浊心斯卡蒂",
+                              "en":  "Skadi the Corrupting Heart",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1012_skadi2.webp"
+                          },
+                          {
+                              "cn":  "遥",
+                              "en":  "Haruka",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4202_haruka.webp"
+                          }
+                      ]
+    },
+    {
+        "type":  "addon",
+        "cnName":  "奥术",
+        "enName":  "Arcane",
+        "icon":  "https://static.closure.wiki/v3/autochess/bondicon/icon_arcaneship.webp",
+        "required":  2,
+        "status":  "reworked",
+        "s2Note":  "Season 2 \u003cAt 30 stacks\u003e caused attacks to ignore 15 RES; reworked in Regulation to \u003cWith 3 different [Arcane] Operators\u003e reducing enemy RES on hit and disabling Invisibility.",
+        "cnEffect":  "【奥术】干员造成伤害时额外附加一次(20+0.4×层数)%攻击力的法术伤害\n\u003c在场3名不同【奥术】干员\u003e场上所有敌人每次受到伤害时法术抗性-1（至多(-30-0.05×层数)）；【奥术】干员攻击范围内的敌人隐匿效果失效",
+        "enEffect":  "Whenever an [Arcane] Operator deals damage, deals an additional instance of Arts damage equal to (20+0.4×stacks)% of ATK\n\u003cWith 3 different [Arcane] Operators on field\u003e Whenever any enemy on the field takes damage, their RES is reduced by -1 (up to (-30-0.05×stacks)); enemies within the Attack Range of [Arcane] Operators lose Invisibility",
+        "operators":  [
+                          {
+                              "cn":  "卡达",
+                              "en":  "Click",
+                              "tier":  1,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_328_cammou.webp"
+                          },
+                          {
+                              "cn":  "Miss.Christine",
+                              "en":  "Miss.Christine",
+                              "tier":  2,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4198_christ.webp"
+                          },
+                          {
+                              "cn":  "伊桑",
+                              "en":  "Ethan",
+                              "tier":  3,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_355_ethan.webp"
+                          },
+                          {
+                              "cn":  "艾雅法拉",
+                              "en":  "Eyjafjalla",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_180_amgoat.webp"
+                          },
+                          {
+                              "cn":  "维伊",
+                              "en":  "Viy",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4226_veen.webp"
+                          },
+                          {
+                              "cn":  "霍尔海雅",
+                              "en":  "Ho\u0027olheyak",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4027_heyak.webp"
+                          },
+                          {
+                              "cn":  "异客",
+                              "en":  "Passenger",
+                              "tier":  4,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_472_pasngr.webp"
+                          },
+                          {
+                              "cn":  "棘刺",
+                              "en":  "Thorns",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_293_thorns.webp"
+                          },
+                          {
+                              "cn":  "圣聆初雪",
+                              "en":  "Pramanix the Prerita",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1046_sbell2.webp"
+                          },
+                          {
+                              "cn":  "薇薇安娜",
+                              "en":  "Viviana",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4098_vvana.webp"
+                          },
+                          {
+                              "cn":  "溯光星源",
+                              "en":  "Astgenne the Lightchaser",
+                              "tier":  5,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_1047_halo2.webp"
+                          },
+                          {
+                              "cn":  "逻各斯",
+                              "en":  "Logos",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4133_logos.webp"
+                          },
+                          {
+                              "cn":  "塔露拉",
+                              "en":  "Talulah",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_4247_oxi.webp"
+                          },
+                          {
+                              "cn":  "夕",
+                              "en":  "Dusk",
+                              "tier":  6,
+                              "icon":  "https://static.closure.wiki/v3/charavatars/char_2015_dusk.webp"
+                          }
+                      ]
+    }
+]

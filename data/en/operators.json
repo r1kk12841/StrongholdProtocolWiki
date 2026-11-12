@@ -1,0 +1,2917 @@
+[
+    {
+        "tier":  1,
+        "cnName":  "折桠",
+        "enName":  "Vetochki",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4207_branch.webp",
+        "cnAlliances":  [
+                            "乌萨斯",
+                            "不屈"
+                        ],
+        "enAlliances":  [
+                            "Ursus",
+                            "Resilient"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c进入休整期时\u003e转化2层【乌萨斯】临时层数为固定层数",
+        "enAbility":  "\u003cWhen entering Rest Phase\u003e Convert 2 temporary [Ursus] stacks into permanent stacks",
+        "cnUpgraded":  "\u003c进入休整期时\u003e转化4层【乌萨斯】临时层数为固定层数",
+        "enUpgraded":  "\u003cWhen entering Rest Phase\u003e Convert 4 temporary [Ursus] stacks into permanent stacks"
+    },
+    {
+        "tier":  1,
+        "cnName":  "艾丝黛尔",
+        "enName":  "Estelle",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_127_estell.webp",
+        "cnAlliances":  [
+                            "萨尔贡",
+                            "独行"
+                        ],
+        "enAlliances":  [
+                            "Sargon",
+                            "Solo"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e每次开启技能时使已激活的【萨尔贡】层数+1（每回合至多叠加2层）",
+        "enAbility":  "\u003cIn battle\u003e On each skill activation, grants +1 stack(s) to active [Sargon] Alliance (up to 2 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e每次开启技能时使已激活的【萨尔贡】层数+2（每回合至多叠加4层）",
+        "enUpgraded":  "\u003cIn battle\u003e On each skill activation, grants +2 stack(s) to active [Sargon] Alliance (up to 4 stacks per round)"
+    },
+    {
+        "tier":  1,
+        "cnName":  "幽灵鲨",
+        "enName":  "Specter",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_143_ghost.webp",
+        "cnAlliances":  [
+                            "阿戈尔"
+                        ],
+        "enAlliances":  [
+                            "Ægir"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e部署时使已激活的【阿戈尔】层数+1（每回合至多叠加1层）",
+        "enAbility":  "\u003cIn battle\u003e On deployment, grants +1 stack(s) to active [Ægir] Alliance (up to 1 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e部署时使已激活的【阿戈尔】层数+2（每回合至多叠加2层）",
+        "enUpgraded":  "\u003cIn battle\u003e On deployment, grants +2 stack(s) to active [Ægir] Alliance (up to 2 stacks per round)"
+    },
+    {
+        "tier":  1,
+        "cnName":  "野鬃",
+        "enName":  "Wild Mane",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_496_wildmn.webp",
+        "cnAlliances":  [
+                            "卡西米尔",
+                            "助力"
+                        ],
+        "enAlliances":  [
+                            "Kazimierz",
+                            "Aid"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e部署时使已激活的【卡西米尔】层数+1（每回合至多叠加2层）",
+        "enAbility":  "\u003cIn battle\u003e On deployment, grants +1 stack(s) to active [Kazimierz] Alliance (up to 2 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e部署时使已激活的【卡西米尔】层数+2（每回合至多叠加4层）",
+        "enUpgraded":  "\u003cIn battle\u003e On deployment, grants +2 stack(s) to active [Kazimierz] Alliance (up to 4 stacks per round)"
+    },
+    {
+        "tier":  1,
+        "cnName":  "慕斯",
+        "enName":  "Mousse",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_185_frncat.webp",
+        "cnAlliances":  [
+                            "维多利亚"
+                        ],
+        "enAlliances":  [
+                            "Victoria"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e使已激活的【维多利亚】层数+1",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e +1 stacks to active [Victoria] Alliance",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使已激活的【维多利亚】层数+2",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e +2 stacks to active [Victoria] Alliance"
+    },
+    {
+        "tier":  1,
+        "cnName":  "角峰",
+        "enName":  "Matterhorn",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_199_yak.webp",
+        "cnAlliances":  [
+                            "谢拉格",
+                            "坚守"
+                        ],
+        "enAlliances":  [
+                            "Kjerag",
+                            "Durable"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e对每名敌人首次造成伤害时使目标陷入2秒寒冷",
+        "enAbility":  "\u003cIn battle\u003e Dealing damage to each enemy for the first time inflicts Cold for 2s",
+        "cnUpgraded":  "\u003c战斗中\u003e对每名敌人首次造成伤害时使目标陷入4秒寒冷",
+        "enUpgraded":  "\u003cIn battle\u003e Dealing damage to each enemy for the first time inflicts Cold for 4s"
+    },
+    {
+        "tier":  1,
+        "cnName":  "灰喉",
+        "enName":  "GreyThroat",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_367_swllow.webp",
+        "cnAlliances":  [
+                            "精准"
+                        ],
+        "enAlliances":  [
+                            "Precision"
+                        ],
+        "abilityTypeCn":  "单次叠加",
+        "abilityTypeEn":  "One-time",
+        "status":  "new",
+        "cnAbility":  "\u003c获得时\u003e【精准】层数+2",
+        "enAbility":  "\u003cWhen obtained\u003e +2 stacks to [Precision] Alliance",
+        "cnUpgraded":  "\u003c获得时\u003e【精准】层数+4",
+        "enUpgraded":  "\u003cWhen obtained\u003e +4 stacks to [Precision] Alliance"
+    },
+    {
+        "tier":  1,
+        "cnName":  "深靛",
+        "enName":  "Indigo",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_469_indigo.webp",
+        "cnAlliances":  [
+                            "伊比利亚"
+                        ],
+        "enAlliances":  [
+                            "Iberia"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c休整期结束时\u003e使已激活的【伊比利亚】层数+2",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e +2 stacks to active [Iberia] Alliance",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使已激活的【伊比利亚】层数+4",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e +4 stacks to active [Iberia] Alliance"
+    },
+    {
+        "tier":  1,
+        "cnName":  "卡达",
+        "enName":  "Click",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_328_cammou.webp",
+        "cnAlliances":  [
+                            "奥术"
+                        ],
+        "enAlliances":  [
+                            "Arcane"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e使已激活的【奥术】层数+1",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e +1 stacks to active [Arcane] Alliance",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使已激活的【奥术】层数+2",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e +2 stacks to active [Arcane] Alliance"
+    },
+    {
+        "tier":  1,
+        "cnName":  "摆渡人",
+        "enName":  "Varkáris",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4166_varkis.webp",
+        "cnAlliances":  [
+                            "坚守",
+                            "不屈"
+                        ],
+        "enAlliances":  [
+                            "Durable",
+                            "Resilient"
+                        ],
+        "abilityTypeCn":  "单次叠加",
+        "abilityTypeEn":  "One-time",
+        "status":  "new",
+        "cnAbility":  "\u003c获得时\u003e【坚守】【不屈】层数+1",
+        "enAbility":  "\u003cWhen obtained\u003e +1 stacks to [Durable] and [Resilient] Alliances",
+        "cnUpgraded":  "\u003c获得时\u003e【坚守】【不屈】层数+2",
+        "enUpgraded":  "\u003cWhen obtained\u003e +2 stacks to [Durable] and [Resilient] Alliances"
+    },
+    {
+        "tier":  1,
+        "cnName":  "夏栎",
+        "enName":  "Quercus",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_492_quercu.webp",
+        "cnAlliances":  [
+                            "助力"
+                        ],
+        "enAlliances":  [
+                            "Aid"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e使当前已激活且层数最多的盟约层数+1（此干员在整备区也生效）",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e +1 stack(s) to the most stacked active Alliance (also takes effect while on the Bench)",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使当前已激活且层数最多的盟约层数+2（此干员在整备区也生效）",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e +2 stack(s) to the most stacked active Alliance (also takes effect while on the Bench)"
+    },
+    {
+        "tier":  1,
+        "cnName":  "杰克",
+        "enName":  "Jackie",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_347_jaksel.webp",
+        "cnAlliances":  [
+                            "突袭"
+                        ],
+        "enAlliances":  [
+                            "Raid"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e造成的伤害变为弱点伤害（根据敌人的防御力与法术抗性变换伤害类型）",
+        "enAbility":  "\u003cIn battle\u003e Deals Weakness damage (changes damage type depending on the enemy\u0027s DEF and RES)",
+        "cnUpgraded":  "",
+        "enUpgraded":  "Same as base ability"
+    },
+    {
+        "tier":  1,
+        "cnName":  "霜叶",
+        "enName":  "Frostleaf",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_193_frostl.webp",
+        "cnAlliances":  [
+                            "灵巧"
+                        ],
+        "enAlliances":  [
+                            "Agile"
+                        ],
+        "abilityTypeCn":  "单次叠加",
+        "abilityTypeEn":  "One-time",
+        "status":  "new",
+        "cnAbility":  "\u003c获得时\u003e【灵巧】层数+2",
+        "enAbility":  "\u003cWhen obtained\u003e +2 stacks to [Agile] Alliance",
+        "cnUpgraded":  "\u003c获得时\u003e【灵巧】层数+4",
+        "enUpgraded":  "\u003cWhen obtained\u003e +4 stacks to [Agile] Alliance"
+    },
+    {
+        "tier":  1,
+        "cnName":  "拜松",
+        "enName":  "Bison",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_325_bison.webp",
+        "cnAlliances":  [
+                            "炎"
+                        ],
+        "enAlliances":  [
+                            "Yan"
+                        ],
+        "abilityTypeCn":  "单次叠加",
+        "abilityTypeEn":  "One-time",
+        "status":  "new",
+        "cnAbility":  "\u003c获得时\u003e【炎】层数+2",
+        "enAbility":  "\u003cWhen obtained\u003e +2 stacks to [Yan] Alliance",
+        "cnUpgraded":  "\u003c获得时\u003e【炎】层数+4",
+        "enUpgraded":  "\u003cWhen obtained\u003e +4 stacks to [Yan] Alliance"
+    },
+    {
+        "tier":  1,
+        "cnName":  "褐果",
+        "enName":  "Chestnut",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4041_chnut.webp",
+        "cnAlliances":  [
+                            "聚合"
+                        ],
+        "enAlliances":  [
+                            "Convergence"
+                        ],
+        "abilityTypeCn":  "单次叠加",
+        "abilityTypeEn":  "One-time",
+        "status":  "new",
+        "cnAbility":  "\u003c获得时\u003e【聚合】层数+2",
+        "enAbility":  "\u003cWhen obtained\u003e +2 stacks to [Convergence] Alliance",
+        "cnUpgraded":  "\u003c获得时\u003e【聚合】层数+4",
+        "enUpgraded":  "\u003cWhen obtained\u003e +4 stacks to [Convergence] Alliance"
+    },
+    {
+        "tier":  1,
+        "cnName":  "烈夏",
+        "enName":  "Leto",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_194_leto.webp",
+        "cnAlliances":  [
+                            "乌萨斯"
+                        ],
+        "enAlliances":  [
+                            "Ursus"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗开始时\u003e使已激活的【乌萨斯】临时层数+4",
+        "enAbility":  "\u003cWhen battle starts\u003e +4 temporary stacks to active [Ursus] Alliance",
+        "cnUpgraded":  "\u003c战斗开始时\u003e使已激活的【乌萨斯】临时层数+8",
+        "enUpgraded":  "\u003cWhen battle starts\u003e +8 temporary stacks to active [Ursus] Alliance"
+    },
+    {
+        "tier":  1,
+        "cnName":  "陨星",
+        "enName":  "Meteorite",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_219_meteo.webp",
+        "cnAlliances":  [
+                            "迅捷"
+                        ],
+        "enAlliances":  [
+                            "Swift"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e每次开启技能时使已激活的【迅捷】层数+1（每回合至多叠加2层）",
+        "enAbility":  "\u003cIn battle\u003e On each skill activation, grants +1 stack(s) to active [Swift] Alliance (up to 2 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e每次开启技能时使已激活的【迅捷】层数+2（每回合至多叠加4层）",
+        "enUpgraded":  "\u003cIn battle\u003e On each skill activation, grants +2 stack(s) to active [Swift] Alliance (up to 4 stacks per round)"
+    },
+    {
+        "tier":  1,
+        "cnName":  "拉普兰德",
+        "enName":  "Lappland",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_140_whitew.webp",
+        "cnAlliances":  [
+                            "叙拉古"
+                        ],
+        "enAlliances":  [
+                            "Siracusa"
+                        ],
+        "abilityTypeCn":  "单次叠加",
+        "abilityTypeEn":  "One-time",
+        "status":  "returning",
+        "cnAbility":  "\u003c获得时\u003e【叙拉古】层数+2",
+        "enAbility":  "\u003cWhen obtained\u003e +2 stacks to [Siracusa] Alliance",
+        "cnUpgraded":  "\u003c获得时\u003e【叙拉古】层数+4",
+        "enUpgraded":  "\u003cWhen obtained\u003e +4 stacks to [Siracusa] Alliance"
+    },
+    {
+        "tier":  1,
+        "cnName":  "地灵",
+        "enName":  "Earthspirit",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_183_skgoat.webp",
+        "cnAlliances":  [
+                            "莱塔尼亚",
+                            "独行"
+                        ],
+        "enAlliances":  [
+                            "Leithanien",
+                            "Solo"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e攻击范围内每有一名敌人被击倒使已激活的【莱塔尼亚】层数+1（每回合至多叠加1层）",
+        "enAbility":  "\u003cIn battle\u003e Whenever an enemy within Attack Range is defeated, grants +1 stack(s) to active [Leithanien] Alliance (up to 1 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e攻击范围内每有一名敌人被击倒使已激活的【莱塔尼亚】层数+2（每回合至多叠加2层）",
+        "enUpgraded":  "\u003cIn battle\u003e Whenever an enemy within Attack Range is defeated, grants +2 stack(s) to active [Leithanien] Alliance (up to 2 stacks per round)"
+    },
+    {
+        "tier":  2,
+        "cnName":  "折光",
+        "enName":  "Diamante",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_499_kaitou.webp",
+        "cnAlliances":  [
+                            "莱塔尼亚"
+                        ],
+        "enAlliances":  [
+                            "Leithanien"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e使已激活的【莱塔尼亚】层数+4",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e +4 stacks to active [Leithanien] Alliance",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使已激活的【莱塔尼亚】层数+8",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e +8 stacks to active [Leithanien] Alliance"
+    },
+    {
+        "tier":  2,
+        "cnName":  "蓝毒",
+        "enName":  "Blue Poison",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_129_bluep.webp",
+        "cnAlliances":  [
+                            "伊比利亚"
+                        ],
+        "enAlliances":  [
+                            "Iberia"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e【伊比利亚】每叠加2层，本干员攻击力+1%",
+        "enAbility":  "\u003cIn battle\u003e For every 2 stack(s) of [Iberia] Alliance, this Operator gains +1% ATK",
+        "cnUpgraded":  "\u003c战斗中\u003e【伊比利亚】每叠加1层，本干员攻击力+1%",
+        "enUpgraded":  "\u003cIn battle\u003e For every 1 stack(s) of [Iberia] Alliance, this Operator gains +1% ATK"
+    },
+    {
+        "tier":  2,
+        "cnName":  "泡泡",
+        "enName":  "Bubble",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_381_bubble.webp",
+        "cnAlliances":  [
+                            "萨尔贡",
+                            "坚守"
+                        ],
+        "enAlliances":  [
+                            "Sargon",
+                            "Durable"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e每次开启技能时使已激活的【萨尔贡】【坚守】层数+2（每回合至多叠加4层）",
+        "enAbility":  "\u003cIn battle\u003e On each skill activation, grants +2 stack(s) to active [Sargon] and [Durable] Alliances (up to 4 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e每次开启技能时使已激活的【萨尔贡】【坚守】层数+4（每回合至多叠加8层）",
+        "enUpgraded":  "\u003cIn battle\u003e On each skill activation, grants +4 stack(s) to active [Sargon] and [Durable] Alliances (up to 8 stacks per round)"
+    },
+    {
+        "tier":  2,
+        "cnName":  "莎草",
+        "enName":  "Papyrus",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4139_papyrs.webp",
+        "cnAlliances":  [
+                            "萨尔贡",
+                            "聚合"
+                        ],
+        "enAlliances":  [
+                            "Sargon",
+                            "Convergence"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e每次开启技能时使身前一格干员回复2点技力",
+        "enAbility":  "\u003cIn battle\u003e On each skill activation, the Operator 1 tile in front recovers 2 SP",
+        "cnUpgraded":  "\u003c战斗中\u003e每次开启技能时使身前一格干员回复4点技力",
+        "enUpgraded":  "\u003cIn battle\u003e On each skill activation, the Operator 1 tile in front recovers 4 SP"
+    },
+    {
+        "tier":  2,
+        "cnName":  "雪猎",
+        "enName":  "Snow Hunter",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4211_snhunt.webp",
+        "cnAlliances":  [
+                            "谢拉格",
+                            "精准"
+                        ],
+        "enAlliances":  [
+                            "Kjerag",
+                            "Precision"
+                        ],
+        "abilityTypeCn":  "单次叠加",
+        "abilityTypeEn":  "One-time",
+        "status":  "returning",
+        "cnAbility":  "\u003c获得时\u003e【谢拉格】【精准】层数+4",
+        "enAbility":  "\u003cWhen obtained\u003e +4 stacks to [Kjerag] and [Precision] Alliances",
+        "cnUpgraded":  "\u003c获得时\u003e【谢拉格】【精准】层数+8",
+        "enUpgraded":  "\u003cWhen obtained\u003e +8 stacks to [Kjerag] and [Precision] Alliances"
+    },
+    {
+        "tier":  2,
+        "cnName":  "砾",
+        "enName":  "Gravel",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_237_gravel.webp",
+        "cnAlliances":  [
+                            "卡西米尔",
+                            "不屈"
+                        ],
+        "enAlliances":  [
+                            "Kazimierz",
+                            "Resilient"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e部署时使已激活的【卡西米尔】【不屈】层数+2（每场战斗至多叠加12层）",
+        "enAbility":  "\u003cIn battle\u003e On deployment, grants +2 stack(s) to active [Kazimierz] and [Resilient] Alliances (up to 12 stacks per battle)",
+        "cnUpgraded":  "\u003c战斗中\u003e部署时使已激活的【卡西米尔】【不屈】层数+4（每场战斗至多叠加24层）",
+        "enUpgraded":  "\u003cIn battle\u003e On deployment, grants +4 stack(s) to active [Kazimierz] and [Resilient] Alliances (up to 24 stacks per battle)"
+    },
+    {
+        "tier":  2,
+        "cnName":  "复奏",
+        "enName":  "Ripresa",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4031_liesel.webp",
+        "cnAlliances":  [
+                            "莱塔尼亚",
+                            "叙拉古",
+                            "奇迹"
+                        ],
+        "enAlliances":  [
+                            "Leithanien",
+                            "Siracusa",
+                            "Marvel"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c刷新时\u003e若为本回合首次主动刷新，使已激活的【莱塔尼亚】【叙拉古】层数+2（此干员在整备区也生效）",
+        "enAbility":  "\u003cOn refresh\u003e On the first manual refresh each round, grants +2 stacks to active [Leithanien] and [Siracusa] Alliances (also takes effect while on the Bench)",
+        "cnUpgraded":  "\u003c刷新时\u003e若为本回合首次主动刷新，使已激活的【叙拉古】【莱塔尼亚】层数+4（此干员在整备区也生效）",
+        "enUpgraded":  "\u003cOn refresh\u003e On the first manual refresh each round, grants +4 stacks to active [Siracusa] and [Leithanien] Alliances (also takes effect while on the Bench)"
+    },
+    {
+        "tier":  2,
+        "cnName":  "奥斯塔",
+        "enName":  "Aosta",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_346_aosta.webp",
+        "cnAlliances":  [
+                            "叙拉古"
+                        ],
+        "enAlliances":  [
+                            "Siracusa"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "new",
+        "cnAbility":  "\u003c获得时\u003e获得一次免费刷新",
+        "enAbility":  "\u003cWhen obtained\u003e Gain 1 free Refresh",
+        "cnUpgraded":  "\u003c获得时\u003e获得两次免费刷新",
+        "enUpgraded":  "\u003cWhen obtained\u003e Gain 2 free Refreshes"
+    },
+    {
+        "tier":  2,
+        "cnName":  "Miss.Christine",
+        "enName":  "Miss.Christine",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4198_christ.webp",
+        "cnAlliances":  [
+                            "维多利亚",
+                            "奥术"
+                        ],
+        "enAlliances":  [
+                            "Victoria",
+                            "Arcane"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e使已激活的【维多利亚】【奥术】层数+3",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e +3 stacks to active [Victoria] and [Arcane] Alliances",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使已激活的【维多利亚】【奥术】层数+6",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e +6 stacks to active [Victoria] and [Arcane] Alliances"
+    },
+    {
+        "tier":  2,
+        "cnName":  "哈洛德",
+        "enName":  "Harold",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4114_harold.webp",
+        "cnAlliances":  [
+                            "维多利亚",
+                            "谢拉格"
+                        ],
+        "enAlliances":  [
+                            "Victoria",
+                            "Kjerag"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e【维多利亚】【谢拉格】每叠加5层，本干员攻击力+1%",
+        "enAbility":  "\u003cIn battle\u003e For every 5 stack(s) of [Victoria] or [Kjerag] Alliances, this Operator gains +1% ATK",
+        "cnUpgraded":  "\u003c战斗中\u003e【维多利亚】【谢拉格】每叠加5层，本干员攻击力+2%",
+        "enUpgraded":  "\u003cIn battle\u003e For every 5 stack(s) of [Victoria] or [Kjerag] Alliances, this Operator gains +2% ATK"
+    },
+    {
+        "tier":  2,
+        "cnName":  "云迹",
+        "enName":  "Contrail",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4165_ctrail.webp",
+        "cnAlliances":  [
+                            "灵巧",
+                            "奇迹"
+                        ],
+        "enAlliances":  [
+                            "Agile",
+                            "Marvel"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e每次开启技能时使自身已激活的盟约层数+3（每回合至多叠加6层）",
+        "enAbility":  "\u003cIn battle\u003e On each skill activation, grants +3 stacks to own active Alliance(s) (up to 6 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e每次开启技能时使自身已激活的盟约层数+6（每回合至多叠加12层）",
+        "enUpgraded":  "\u003cIn battle\u003e On each skill activation, grants +6 stacks to own active Alliance(s) (up to 12 stacks per round)"
+    },
+    {
+        "tier":  2,
+        "cnName":  "蛇屠箱",
+        "enName":  "Cuora",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_150_snakek.webp",
+        "cnAlliances":  [
+                            "坚守"
+                        ],
+        "enAlliances":  [
+                            "Durable"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c休整期结束时\u003e使已激活的【坚守】层数+4",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e +4 stacks to active [Durable] Alliance",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使已激活的【坚守】层数+8",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e +8 stacks to active [Durable] Alliance"
+    },
+    {
+        "tier":  2,
+        "cnName":  "波登可",
+        "enName":  "Podenco",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_258_podego.webp",
+        "cnAlliances":  [
+                            "聚合",
+                            "迅捷"
+                        ],
+        "enAlliances":  [
+                            "Convergence",
+                            "Swift"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "returning",
+        "cnAbility":  "\u003c售出时\u003e下回合额外获得1资金",
+        "enAbility":  "\u003cWhen sold\u003e Gain 1 extra Funds next round",
+        "cnUpgraded":  "\u003c售出时\u003e下回合额外获得2资金",
+        "enUpgraded":  "\u003cWhen sold\u003e Gain 2 extra Funds next round"
+    },
+    {
+        "tier":  2,
+        "cnName":  "承曦格雷伊",
+        "enName":  "Greyy the Lightningbearer",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1027_greyy2.webp",
+        "cnAlliances":  [
+                            "精准",
+                            "灵巧"
+                        ],
+        "enAlliances":  [
+                            "Precision",
+                            "Agile"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "new",
+        "cnAbility":  "\u003c获得时\u003e获得一件精准狙击镜",
+        "enAbility":  "\u003cWhen obtained\u003e Obtain 1 \"Precision Scope\"",
+        "cnUpgraded":  "\u003c获得时\u003e获得两件精准狙击镜",
+        "enUpgraded":  "\u003cWhen obtained\u003e Obtain 2 \"Precision Scope\""
+    },
+    {
+        "tier":  2,
+        "cnName":  "锡人",
+        "enName":  "Tin Man",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4151_tinman.webp",
+        "cnAlliances":  [
+                            "投资人"
+                        ],
+        "enAlliances":  [
+                            "Investor"
+                        ],
+        "abilityTypeCn":  "单次叠加",
+        "abilityTypeEn":  "One-time",
+        "status":  "returning",
+        "cnAbility":  "\u003c获得时\u003e【投资人】层数+4",
+        "enAbility":  "\u003cWhen obtained\u003e +4 stacks to [Investor] Alliance",
+        "cnUpgraded":  "\u003c获得时\u003e【投资人】层数+8",
+        "enUpgraded":  "\u003cWhen obtained\u003e +8 stacks to [Investor] Alliance"
+    },
+    {
+        "tier":  2,
+        "cnName":  "宴",
+        "enName":  "Utage",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_337_utage.webp",
+        "cnAlliances":  [
+                            "不屈"
+                        ],
+        "enAlliances":  [
+                            "Resilient"
+                        ],
+        "abilityTypeCn":  "单次叠加",
+        "abilityTypeEn":  "One-time",
+        "status":  "returning",
+        "cnAbility":  "\u003c获得时\u003e【不屈】层数+4",
+        "enAbility":  "\u003cWhen obtained\u003e +4 stacks to [Resilient] Alliance",
+        "cnUpgraded":  "\u003c获得时\u003e【不屈】层数+8",
+        "enUpgraded":  "\u003cWhen obtained\u003e +8 stacks to [Resilient] Alliance"
+    },
+    {
+        "tier":  2,
+        "cnName":  "渡桥",
+        "enName":  "Mitm",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4147_mitm.webp",
+        "cnAlliances":  [
+                            "远见"
+                        ],
+        "enAlliances":  [
+                            "Foresight"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e使自身及身前一格干员已激活的盟约层数+2",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e +2 stacks to active Alliance(s) of self and the Operator 1 tile in front",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使自身及身前一格干员已激活的盟约层数+4",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e +4 stacks to active Alliance(s) of self and the Operator 1 tile in front"
+    },
+    {
+        "tier":  2,
+        "cnName":  "矩",
+        "enName":  "Ju",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4221_ju.webp",
+        "cnAlliances":  [
+                            "炎"
+                        ],
+        "enAlliances":  [
+                            "Yan"
+                        ],
+        "abilityTypeCn":  "单次叠加",
+        "abilityTypeEn":  "One-time",
+        "status":  "new",
+        "cnAbility":  "\u003c获得时\u003e获得等同于当前调度中心等级的【炎】层数",
+        "enAbility":  "\u003cWhen obtained\u003e Gain [Yan] stacks equal to the current Dispatch Center Level",
+        "cnUpgraded":  "\u003c获得时\u003e获得等同于当前调度中心等级两倍的【炎】层数",
+        "enUpgraded":  "\u003cWhen obtained\u003e Gain [Yan] stacks equal to 2x the current Dispatch Center Level"
+    },
+    {
+        "tier":  2,
+        "cnName":  "星极",
+        "enName":  "Astesia",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_274_astesi.webp",
+        "cnAlliances":  [
+                            "奇迹"
+                        ],
+        "enAlliances":  [
+                            "Marvel"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "只需两名本干员即可合成精锐",
+        "enAbility":  "Only 2 copies of this Operator are needed for Elite promotion",
+        "cnUpgraded":  "",
+        "enUpgraded":  "Same as base ability"
+    },
+    {
+        "tier":  2,
+        "cnName":  "瑰盐",
+        "enName":  "Rose Salt",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4163_rosesa.webp",
+        "cnAlliances":  [
+                            "伊比利亚",
+                            "聚合"
+                        ],
+        "enAlliances":  [
+                            "Iberia",
+                            "Convergence"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e【伊比利亚】每叠加3层，本干员攻击力+1%",
+        "enAbility":  "\u003cIn battle\u003e For every 3 stack(s) of [Iberia] Alliance, this Operator gains +1% ATK",
+        "cnUpgraded":  "\u003c战斗中\u003e【伊比利亚】每叠加3层，本干员攻击力+2%",
+        "enUpgraded":  "\u003cIn battle\u003e For every 3 stack(s) of [Iberia] Alliance, this Operator gains +2% ATK"
+    },
+    {
+        "tier":  2,
+        "cnName":  "真理",
+        "enName":  "Istina",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_195_glassb.webp",
+        "cnAlliances":  [
+                            "乌萨斯"
+                        ],
+        "enAlliances":  [
+                            "Ursus"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "new",
+        "cnAbility":  "购买价格为1",
+        "enAbility":  "Purchase price is 1 Funds",
+        "cnUpgraded":  "",
+        "enUpgraded":  "Same as base ability"
+    },
+    {
+        "tier":  2,
+        "cnName":  "铸铁",
+        "enName":  "Sideroca",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_333_sidero.webp",
+        "cnAlliances":  [
+                            "突袭"
+                        ],
+        "enAlliances":  [
+                            "Raid"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e使已激活的【突袭】层数+3",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e +3 stacks to active [Raid] Alliance",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使已激活的【突袭】层数+6",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e +6 stacks to active [Raid] Alliance"
+    },
+    {
+        "tier":  2,
+        "cnName":  "星源",
+        "enName":  "Astgenne",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_135_halo.webp",
+        "cnAlliances":  [
+                            "助力"
+                        ],
+        "enAlliances":  [
+                            "Aid"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e使当前已激活且层数最多的盟约层数+2（此干员在整备区也生效）",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e +2 stack(s) to the most stacked active Alliance (also takes effect while on the Bench)",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使当前已激活且层数最多的盟约层数+4（此干员在整备区也生效）",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e +4 stack(s) to the most stacked active Alliance (also takes effect while on the Bench)"
+    },
+    {
+        "tier":  2,
+        "cnName":  "安哲拉",
+        "enName":  "Andreana",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_218_cuttle.webp",
+        "cnAlliances":  [
+                            "阿戈尔",
+                            "助力"
+                        ],
+        "enAlliances":  [
+                            "Ægir",
+                            "Aid"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e每击倒一名敌人或我方干员使已激活的【阿戈尔】【助力】层数+3（每回合至多叠加9层）",
+        "enAbility":  "\u003cIn battle\u003e Each enemy or allied Operator defeated grants +3 stacks to active [Ægir] and [Aid] Alliances (up to 9 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e每击倒一名敌人或我方干员使已激活的【阿戈尔】【助力】层数+6（每回合至多叠加18层）",
+        "enUpgraded":  "\u003cIn battle\u003e Each enemy or allied Operator defeated grants +6 stacks to active [Ægir] and [Aid] Alliances (up to 18 stacks per round)"
+    },
+    {
+        "tier":  3,
+        "cnName":  "车尔尼",
+        "enName":  "Czerny",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4047_pianst.webp",
+        "cnAlliances":  [
+                            "莱塔尼亚",
+                            "坚守"
+                        ],
+        "enAlliances":  [
+                            "Leithanien",
+                            "Durable"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "new",
+        "cnAbility":  "\u003c获得时\u003e获得一件“莱塔尼亚小鼓”",
+        "enAbility":  "\u003cWhen obtained\u003e Obtain 1 \"Leithanian Snare Drum\"",
+        "cnUpgraded":  "\u003c获得时\u003e获得两件“莱塔尼亚小鼓”",
+        "enUpgraded":  "\u003cWhen obtained\u003e Obtain 2 \"Leithanian Snare Drum\""
+    },
+    {
+        "tier":  3,
+        "cnName":  "卡涅利安",
+        "enName":  "Carnelian",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_426_billro.webp",
+        "cnAlliances":  [
+                            "莱塔尼亚",
+                            "萨尔贡",
+                            "迅捷"
+                        ],
+        "enAlliances":  [
+                            "Leithanien",
+                            "Sargon",
+                            "Swift"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "returning",
+        "cnAbility":  "\u003c获得时\u003e获得一件“迅捷作战粮”",
+        "enAbility":  "\u003cWhen obtained\u003e Obtain 1 \"Quick Combat Rations\"",
+        "cnUpgraded":  "\u003c获得时\u003e获得两件“迅捷作战粮”",
+        "enUpgraded":  "\u003cWhen obtained\u003e Obtain 2 \"Quick Combat Rations\""
+    },
+    {
+        "tier":  3,
+        "cnName":  "乌啾",
+        "enName":  "Ukusik",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4224_turdus.webp",
+        "cnAlliances":  [
+                            "乌萨斯",
+                            "聚合"
+                        ],
+        "enAlliances":  [
+                            "Ursus",
+                            "Convergence"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c进入休整期时\u003e场上每有一名【乌萨斯】干员，转化1层【乌萨斯】临时层数为固定层数",
+        "enAbility":  "\u003cWhen entering Rest Phase\u003e For every [Ursus] Operator on the field, convert 1 temporary [Ursus] stack(s) into permanent stacks",
+        "cnUpgraded":  "\u003c进入休整期时\u003e场上每有一名【乌萨斯】干员，转化2层【乌萨斯】临时层数为固定层数",
+        "enUpgraded":  "\u003cWhen entering Rest Phase\u003e For every [Ursus] Operator on the field, convert 2 temporary [Ursus] stack(s) into permanent stacks"
+    },
+    {
+        "tier":  3,
+        "cnName":  "海沫",
+        "enName":  "Highmore",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4066_highmo.webp",
+        "cnAlliances":  [
+                            "伊比利亚",
+                            "不屈"
+                        ],
+        "enAlliances":  [
+                            "Iberia",
+                            "Resilient"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e自身售出价格+1（自身售出价格至多为4）",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e Own sell price +1 (up to 4)",
+        "cnUpgraded":  "\u003c休整期结束时\u003e自身售出价格+2（自身售出价格至多为8）",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e Own sell price +2 (up to 8)"
+    },
+    {
+        "tier":  3,
+        "cnName":  "旅骨",
+        "enName":  "Homebound",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4232_hbound.webp",
+        "cnAlliances":  [
+                            "伊比利亚",
+                            "精准"
+                        ],
+        "enAlliances":  [
+                            "Iberia",
+                            "Precision"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e使自身及身前一格干员已激活的盟约叠加等同于其售出价格的层数",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e Grants stacks to active Alliance(s) of self and the Operator 1 tile in front equal to their sell price",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使自身及身前一格干员已激活的盟约叠加等同于其售出价格2倍的层数",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e Grants stacks to active Alliance(s) of self and the Operator 1 tile in front equal to 2x their sell price"
+    },
+    {
+        "tier":  3,
+        "cnName":  "风絮",
+        "enName":  "Taraxacum",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4222_taraxa.webp",
+        "cnAlliances":  [
+                            "炎",
+                            "聚合"
+                        ],
+        "enAlliances":  [
+                            "Yan",
+                            "Convergence"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e 本回合每获得过一名干员，使已激活的【炎】【聚合】层数+2（每回合至多叠加16层）",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e For every Operator obtained this round, grants +2 stacks to active [Yan] and [Convergence] Alliances (up to 16 stacks per round)",
+        "cnUpgraded":  "\u003c休整期结束时\u003e 本回合每获得过一名干员，使已激活的【炎】【聚合】层数+4（每回合至多叠加32层）",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e For every Operator obtained this round, grants +4 stacks to active [Yan] and [Convergence] Alliances (up to 32 stacks per round)"
+    },
+    {
+        "tier":  3,
+        "cnName":  "极光",
+        "enName":  "Aurora",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_422_aurora.webp",
+        "cnAlliances":  [
+                            "谢拉格"
+                        ],
+        "enAlliances":  [
+                            "Kjerag"
+                        ],
+        "abilityTypeCn":  "单次叠加",
+        "abilityTypeEn":  "One-time",
+        "status":  "new",
+        "cnAbility":  "\u003c获得时\u003e 【谢拉格】层数+1（每次触发后升级，至多叠加12层）",
+        "enAbility":  "\u003cWhen obtained\u003e +1 stack to [Kjerag] Alliance (upgrades after each trigger, up to +12 stacks)",
+        "cnUpgraded":  "",
+        "enUpgraded":  "Same as base ability"
+    },
+    {
+        "tier":  3,
+        "cnName":  "耶拉",
+        "enName":  "Kjera",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4013_kjera.webp",
+        "cnAlliances":  [
+                            "谢拉格",
+                            "奇迹"
+                        ],
+        "enAlliances":  [
+                            "Kjerag",
+                            "Marvel"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "returning",
+        "cnAbility":  "\u003c获得时\u003e获得一件“谢拉格不融冰”",
+        "enAbility":  "\u003cWhen obtained\u003e Obtain 1 \"Kjeragi Nevermeltice\"",
+        "cnUpgraded":  "\u003c获得时\u003e获得两件“谢拉格不融冰”",
+        "enUpgraded":  "\u003cWhen obtained\u003e Obtain 2 \"Kjeragi Nevermeltice\""
+    },
+    {
+        "tier":  3,
+        "cnName":  "初雪",
+        "enName":  "Pramanix",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_174_slbell.webp",
+        "cnAlliances":  [
+                            "谢拉格",
+                            "协防干员"
+                        ],
+        "enAlliances":  [
+                            "Kjerag",
+                            "Assist Operator"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e攻击范围内每有一名敌人进入冻结使已激活的【谢拉格】层数+1（每回合至多叠加16层）",
+        "enAbility":  "\u003cIn battle\u003e Whenever an enemy within Attack Range becomes Frozen, grants +1 stack(s) to active [Kjerag] Alliance (up to 16 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e攻击范围内每有一名敌人进入冻结使已激活的【谢拉格】层数+2（每回合至多叠加32层）",
+        "enUpgraded":  "\u003cIn battle\u003e Whenever an enemy within Attack Range becomes Frozen, grants +2 stack(s) to active [Kjerag] Alliance (up to 32 stacks per round)"
+    },
+    {
+        "tier":  3,
+        "cnName":  "深巡",
+        "enName":  "Underflow",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4137_udflow.webp",
+        "cnAlliances":  [
+                            "阿戈尔",
+                            "坚守"
+                        ],
+        "enAlliances":  [
+                            "Ægir",
+                            "Durable"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e部署时【阿戈尔】盟约每叠加20层，使自身及周围四格的干员攻击速度+1，持续30秒",
+        "enAbility":  "\u003cIn battle\u003e On deployment, for every 20 [Ægir] stacks, self and Operators in the adjacent 4 tiles gain +1 ASPD for 30s",
+        "cnUpgraded":  "\u003c战斗中\u003e部署时【阿戈尔】盟约每叠加10层，使自身及周围四格的干员攻击速度+1，持续30秒",
+        "enUpgraded":  "\u003cIn battle\u003e On deployment, for every 10 [Ægir] stacks, self and Operators in the adjacent 4 tiles gain +1 ASPD for 30s"
+    },
+    {
+        "tier":  3,
+        "cnName":  "斯卡蒂",
+        "enName":  "Skadi",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_263_skadi.webp",
+        "cnAlliances":  [
+                            "阿戈尔",
+                            "突袭"
+                        ],
+        "enAlliances":  [
+                            "Ægir",
+                            "Raid"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e部署时使已激活的【阿戈尔】层数+4（每场战斗至多叠加8层）",
+        "enAbility":  "\u003cIn battle\u003e On deployment, grants +4 stack(s) to active [Ægir] Alliance (up to 8 stacks per battle)",
+        "cnUpgraded":  "\u003c战斗中\u003e部署时使已激活的【阿戈尔】层数+8（每场战斗至多叠加16层）",
+        "enUpgraded":  "\u003cIn battle\u003e On deployment, grants +8 stack(s) to active [Ægir] Alliance (up to 16 stacks per battle)"
+    },
+    {
+        "tier":  3,
+        "cnName":  "瑕光",
+        "enName":  "Blemishine",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_423_blemsh.webp",
+        "cnAlliances":  [
+                            "卡西米尔",
+                            "突袭"
+                        ],
+        "enAlliances":  [
+                            "Kazimierz",
+                            "Raid"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e部署时使自身已激活的盟约层数+3（每场战斗至多叠加9层）",
+        "enAbility":  "\u003cIn battle\u003e On deployment, grants +3 stacks to own active Alliance(s) (up to 9 stacks per battle)",
+        "cnUpgraded":  "\u003c战斗中\u003e部署时使自身已激活的盟约层数+6（每场战斗至多叠加18层）",
+        "enUpgraded":  "\u003cIn battle\u003e On deployment, grants +6 stacks to own active Alliance(s) (up to 18 stacks per battle)"
+    },
+    {
+        "tier":  3,
+        "cnName":  "忍冬",
+        "enName":  "Vulpisfoglia",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4026_vulpis.webp",
+        "cnAlliances":  [
+                            "叙拉古",
+                            "迅捷"
+                        ],
+        "enAlliances":  [
+                            "Siracusa",
+                            "Swift"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "returning",
+        "cnAbility":  "\u003c获得时\u003e 获得1次免费刷新（触发2次后升级，至多获得3次免费刷新）",
+        "enAbility":  "\u003cWhen obtained\u003e Gain 1 free Refresh (upgrades after triggering 2 times, up to 3 free Refreshes)",
+        "cnUpgraded":  "",
+        "enUpgraded":  "Same as base ability"
+    },
+    {
+        "tier":  3,
+        "cnName":  "伺夜",
+        "enName":  "Vigil",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_427_vigil.webp",
+        "cnAlliances":  [
+                            "叙拉古",
+                            "精准"
+                        ],
+        "enAlliances":  [
+                            "Siracusa",
+                            "Precision"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e造成的伤害变为弱点伤害（根据敌人的防御力与法术抗性变换伤害类型）；\n每击倒一名敌人使已激活的【叙拉古】【精准】层数+2（每回合至多叠加8层）",
+        "enAbility":  "\u003cIn battle\u003e Deals Weakness damage (changes damage type depending on the enemy\u0027s DEF and RES); each enemy defeated grants +2 stacks to active [Siracusa] and [Precision] Alliances (up to 8 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e造成的伤害变为弱点伤害（根据敌人的防御力与法术抗性变换伤害类型）；\n每击倒一名敌人使已激活的【叙拉古】【精准】层数+4（每回合至多叠加16层）",
+        "enUpgraded":  "\u003cIn battle\u003e Deals Weakness damage (changes damage type depending on the enemy\u0027s DEF and RES); each enemy defeated grants +4 stacks to active [Siracusa] and [Precision] Alliances (up to 16 stacks per round)"
+    },
+    {
+        "tier":  3,
+        "cnName":  "水灯心",
+        "enName":  "Brigid",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4177_brigid.webp",
+        "cnAlliances":  [
+                            "维多利亚",
+                            "独行",
+                            "灵巧"
+                        ],
+        "enAlliances":  [
+                            "Victoria",
+                            "Solo",
+                            "Agile"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e造成的伤害变为弱点伤害（根据敌人的防御力与法术抗性变换伤害类型）",
+        "enAbility":  "\u003cIn battle\u003e Deals Weakness damage (changes damage type depending on the enemy\u0027s DEF and RES)",
+        "cnUpgraded":  "",
+        "enUpgraded":  "Same as base ability"
+    },
+    {
+        "tier":  3,
+        "cnName":  "空弦",
+        "enName":  "Archetto",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_332_archet.webp",
+        "cnAlliances":  [
+                            "精准",
+                            "远见"
+                        ],
+        "enAlliances":  [
+                            "Precision",
+                            "Foresight"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c进入休整期时\u003e使自身及身前一格干员已激活的盟约层数+3",
+        "enAbility":  "\u003cWhen entering Rest Phase\u003e +3 stacks to active Alliance(s) of self and the Operator 1 tile in front",
+        "cnUpgraded":  "\u003c进入休整期时\u003e使自身及身前一格干员已激活的盟约层数+6",
+        "enUpgraded":  "\u003cWhen entering Rest Phase\u003e +6 stacks to active Alliance(s) of self and the Operator 1 tile in front"
+    },
+    {
+        "tier":  3,
+        "cnName":  "吉星",
+        "enName":  "Kichisei",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4203_kichi.webp",
+        "cnAlliances":  [
+                            "奇迹"
+                        ],
+        "enAlliances":  [
+                            "Marvel"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "new",
+        "cnAbility":  "\u003c售出时\u003e进行一次I阶干员的免费特殊招募\n本干员合成为精锐状态后，上述特殊招募变为V阶干员",
+        "enAbility":  "\u003cWhen sold\u003e Perform 1 free special recruitment of a Tier I Operator (upgrades to a Tier V Operator after promoting to Elite)",
+        "cnUpgraded":  "\u003c售出时\u003e进行一次V阶干员的免费特殊招募",
+        "enUpgraded":  "\u003cWhen sold\u003e Perform 1 free special recruitment of a Tier V Operator"
+    },
+    {
+        "tier":  3,
+        "cnName":  "伊桑",
+        "enName":  "Ethan",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_355_ethan.webp",
+        "cnAlliances":  [
+                            "奥术",
+                            "突袭"
+                        ],
+        "enAlliances":  [
+                            "Arcane",
+                            "Raid"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "new",
+        "cnAbility":  "\u003c售出时\u003e随机获得一名当前人数最多盟约的干员（不高于当前调度中心等级；无法获得自身）",
+        "enAbility":  "\u003cWhen sold\u003e Randomly obtain 1 Operator from your Alliance with the highest Operator count (Tier cannot exceed current Dispatch Center Level; cannot obtain self)",
+        "cnUpgraded":  "",
+        "enUpgraded":  "Same as base ability"
+    },
+    {
+        "tier":  3,
+        "cnName":  "罗比菈塔",
+        "enName":  "Roberta",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_484_robrta.webp",
+        "cnAlliances":  [
+                            "坚守",
+                            "助力"
+                        ],
+        "enAlliances":  [
+                            "Durable",
+                            "Aid"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e同一行每有1名干员，使已激活的【坚守】【助力】层数+2",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e For every Operator in the same row, grants +2 stacks to active [Durable] and [Aid] Alliances",
+        "cnUpgraded":  "\u003c休整期结束时\u003e同一行每有1名干员，使已激活的【坚守】【助力】层数+4",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e For every Operator in the same row, grants +4 stacks to active [Durable] and [Aid] Alliances"
+    },
+    {
+        "tier":  3,
+        "cnName":  "乌有",
+        "enName":  "Mr. Nothing",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_455_nothin.webp",
+        "cnAlliances":  [
+                            "炎"
+                        ],
+        "enAlliances":  [
+                            "Yan"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "new",
+        "cnAbility":  "\u003c获得时\u003e获得一枚“盟约之币”",
+        "enAbility":  "\u003cWhen obtained\u003e Obtain 1 \"Alliance Coin\"",
+        "cnUpgraded":  "\u003c获得时\u003e获得两枚“盟约之币”",
+        "enUpgraded":  "\u003cWhen obtained\u003e Obtain 2 \"Alliance Coin\""
+    },
+    {
+        "tier":  3,
+        "cnName":  "历阵锐枪芬",
+        "enName":  "Fang the Fire-Sharpened",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1036_fang2.webp",
+        "cnAlliances":  [
+                            "卡西米尔",
+                            "远见"
+                        ],
+        "enAlliances":  [
+                            "Kazimierz",
+                            "Foresight"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e被击倒时召唤整备区的一名【卡西米尔】干员（优先选择最右侧）上场，并使整备区干员的当前再部署时间-30%",
+        "enAbility":  "\u003cIn battle\u003e When defeated, summons 1 [Kazimierz] Operator from the Bench (prioritizing the rightmost) onto the field, and reduces current Redeployment Time of Bench Operators by -30%",
+        "cnUpgraded":  "\u003c战斗中\u003e被击倒时召唤整备区的一名【卡西米尔】干员（优先选择最右侧）上场，并使整备区干员的当前再部署时间-60%",
+        "enUpgraded":  "\u003cIn battle\u003e When defeated, summons 1 [Kazimierz] Operator from the Bench (prioritizing the rightmost) onto the field, and reduces current Redeployment Time of Bench Operators by -60%"
+    },
+    {
+        "tier":  3,
+        "cnName":  "凯瑟琳",
+        "enName":  "Catherine",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4162_cathy.webp",
+        "cnAlliances":  [
+                            "维多利亚",
+                            "远见"
+                        ],
+        "enAlliances":  [
+                            "Victoria",
+                            "Foresight"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "returning",
+        "cnAbility":  "\u003c获得时\u003e获得一件维式重锤，小概率获得特殊维式重锤",
+        "enAbility":  "\u003cWhen obtained\u003e Obtain 1 Victorian Hammer, with a small chance to obtain a special Victorian Hammer",
+        "cnUpgraded":  "\u003c获得时\u003e获得一件特殊维式重锤，小概率获得终极维式重锤",
+        "enUpgraded":  "\u003cWhen obtained\u003e Obtain 1 special Victorian Hammer, with a small chance to obtain an Ultimate Victorian Hammer"
+    },
+    {
+        "tier":  3,
+        "cnName":  "盟约·辅助干员",
+        "enName":  "Alliance - Supporter Operator",
+        "icon":  null,
+        "cnAlliances":  [
+                            "调和"
+                        ],
+        "enAlliances":  [
+                            "Harmony"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e攻击力和生命上限+20%",
+        "enAbility":  "\u003cIn battle\u003e ATK and Max HP +20%",
+        "cnUpgraded":  "\u003c战斗中\u003e攻击力和生命上限+40%",
+        "enUpgraded":  "\u003cIn battle\u003e ATK and Max HP +40%"
+    },
+    {
+        "tier":  3,
+        "cnName":  "风丸",
+        "enName":  "Kazemaru",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4016_kazema.webp",
+        "cnAlliances":  [
+                            "不屈"
+                        ],
+        "enAlliances":  [
+                            "Resilient"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e自身被击倒或与傀儡发生替换时使已激活的【不屈】层数+2（每回合至多叠加10层）",
+        "enAbility":  "\u003cIn battle\u003e When defeated or swapped with her Doll, grants +2 stacks to active [Resilient] Alliance (up to 10 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e自身被击倒或与傀儡发生替换时使已激活的【不屈】层数+4（每回合至多叠加20层）",
+        "enUpgraded":  "\u003cIn battle\u003e When defeated or swapped with her Doll, grants +4 stacks to active [Resilient] Alliance (up to 20 stacks per round)"
+    },
+    {
+        "tier":  3,
+        "cnName":  "至简",
+        "enName":  "Minimalist",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4054_malist.webp",
+        "cnAlliances":  [
+                            "萨尔贡"
+                        ],
+        "enAlliances":  [
+                            "Sargon"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "returning",
+        "cnAbility":  "购买价格为1",
+        "enAbility":  "Purchase price is 1 Funds",
+        "cnUpgraded":  "",
+        "enUpgraded":  "Same as base ability"
+    },
+    {
+        "tier":  3,
+        "cnName":  "奥尔佳",
+        "enName":  "Ольга",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4245_alga.webp",
+        "cnAlliances":  [
+                            "乌萨斯",
+                            "灵巧"
+                        ],
+        "enAlliances":  [
+                            "Ursus",
+                            "Agile"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "new",
+        "cnAbility":  "\u003c获得时\u003e获得一件乌萨斯呼吸器",
+        "enAbility":  "\u003cWhen obtained\u003e Obtain 1 \"Ursus Respirator\"",
+        "cnUpgraded":  "\u003c获得时\u003e获得两件乌萨斯呼吸器",
+        "enUpgraded":  "\u003cWhen obtained\u003e Obtain 2 \"Ursus Respirator\""
+    },
+    {
+        "tier":  3,
+        "cnName":  "青枳",
+        "enName":  "Poncirus",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_488_buildr.webp",
+        "cnAlliances":  [
+                            "坚守",
+                            "迅捷"
+                        ],
+        "enAlliances":  [
+                            "Durable",
+                            "Swift"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c进入休整期时\u003e使自身及身后一格干员已激活的盟约层数+3",
+        "enAbility":  "\u003cWhen entering Rest Phase\u003e +3 stacks to active Alliance(s) of self and the Operator 1 tile behind",
+        "cnUpgraded":  "\u003c进入休整期时\u003e使自身及身后一格干员已激活的盟约层数+6",
+        "enUpgraded":  "\u003cWhen entering Rest Phase\u003e +6 stacks to active Alliance(s) of self and the Operator 1 tile behind"
+    },
+    {
+        "tier":  4,
+        "cnName":  "黑键",
+        "enName":  "Ebenholz",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4046_ebnhlz.webp",
+        "cnAlliances":  [
+                            "莱塔尼亚",
+                            "精准"
+                        ],
+        "enAlliances":  [
+                            "Leithanien",
+                            "Precision"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e攻击范围内每有一名敌人被击倒使已激活的【莱塔尼亚】【精准】层数+1（每回合至多叠加8层）",
+        "enAbility":  "\u003cIn battle\u003e Whenever an enemy within Attack Range is defeated, grants +1 stack(s) to active [Leithanien] and [Precision] Alliances (up to 8 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e攻击范围内每有一名敌人被击倒使已激活的【莱塔尼亚】【精准】层数+2（每回合至多叠加16层）",
+        "enUpgraded":  "\u003cIn battle\u003e Whenever an enemy within Attack Range is defeated, grants +2 stack(s) to active [Leithanien] and [Precision] Alliances (up to 16 stacks per round)"
+    },
+    {
+        "tier":  4,
+        "cnName":  "艾雅法拉",
+        "enName":  "Eyjafjalla",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_180_amgoat.webp",
+        "cnAlliances":  [
+                            "莱塔尼亚",
+                            "奥术"
+                        ],
+        "enAlliances":  [
+                            "Leithanien",
+                            "Arcane"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e【莱塔尼亚】【奥术】每叠加2层，本干员技力自然回复速度+0.02/秒，攻击力+1%",
+        "enAbility":  "\u003cIn battle\u003e For every 2 stack(s) of [Leithanien] or [Arcane] Alliances, this Operator gains +0.02/s SP recovery rate and +1% ATK",
+        "cnUpgraded":  "\u003c战斗中\u003e【莱塔尼亚】【奥术】每叠加1层，本干员技力自然回复速度+0.02/秒，攻击力+1%",
+        "enUpgraded":  "\u003cIn battle\u003e For every 1 stack(s) of [Leithanien] or [Arcane] Alliances, this Operator gains +0.02/s SP recovery rate and +1% ATK"
+    },
+    {
+        "tier":  4,
+        "cnName":  "赫拉格",
+        "enName":  "Hellagur",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_188_helage.webp",
+        "cnAlliances":  [
+                            "乌萨斯",
+                            "突袭"
+                        ],
+        "enAlliances":  [
+                            "Ursus",
+                            "Raid"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e部署时使已激活的【乌萨斯】【突袭】层数+4（每场战斗至多叠加12层）",
+        "enAbility":  "\u003cIn battle\u003e On deployment, grants +4 stack(s) to active [Ursus] and [Raid] Alliances (up to 12 stacks per battle)",
+        "cnUpgraded":  "\u003c战斗中\u003e部署时使已激活的【乌萨斯】【突袭】层数+8（每场战斗至多叠加24层）",
+        "enUpgraded":  "\u003cIn battle\u003e On deployment, grants +8 stack(s) to active [Ursus] and [Raid] Alliances (up to 24 stacks per battle)"
+    },
+    {
+        "tier":  4,
+        "cnName":  "维伊",
+        "enName":  "Viy",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4226_veen.webp",
+        "cnAlliances":  [
+                            "乌萨斯",
+                            "奥术"
+                        ],
+        "enAlliances":  [
+                            "Ursus",
+                            "Arcane"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e【乌萨斯】每叠加2层，本干员攻击速度+1",
+        "enAbility":  "\u003cIn battle\u003e For every 2 stack(s) of [Ursus] Alliance, this Operator gains +1 ASPD",
+        "cnUpgraded":  "\u003c战斗中\u003e【乌萨斯】每叠加1层，本干员攻击速度+1",
+        "enUpgraded":  "\u003cIn battle\u003e For every 1 stack(s) of [Ursus] Alliance, this Operator gains +1 ASPD"
+    },
+    {
+        "tier":  4,
+        "cnName":  "温蒂",
+        "enName":  "Weedy",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_400_weedy.webp",
+        "cnAlliances":  [
+                            "伊比利亚",
+                            "坚守"
+                        ],
+        "enAlliances":  [
+                            "Iberia",
+                            "Durable"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "new",
+        "cnAbility":  "售出价格为3",
+        "enAbility":  "Sell price is 3 Funds",
+        "cnUpgraded":  "售出价格为6",
+        "enUpgraded":  "Sell price is 6 Funds"
+    },
+    {
+        "tier":  4,
+        "cnName":  "流明",
+        "enName":  "Lumen",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4042_lumen.webp",
+        "cnAlliances":  [
+                            "伊比利亚",
+                            "聚合"
+                        ],
+        "enAlliances":  [
+                            "Iberia",
+                            "Convergence"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗结束时\u003e每有一名存活的我方干员，使已激活的【伊比利亚】【聚合】层数+1",
+        "enAbility":  "\u003cWhen battle ends\u003e For every surviving allied Operator, grants +1 stack(s) to active [Iberia] and [Convergence] Alliances",
+        "cnUpgraded":  "\u003c战斗结束时\u003e每有一名存活的我方干员，使已激活的【伊比利亚】【聚合】层数+2",
+        "enUpgraded":  "\u003cWhen battle ends\u003e For every surviving allied Operator, grants +2 stack(s) to active [Iberia] and [Convergence] Alliances"
+    },
+    {
+        "tier":  4,
+        "cnName":  "余",
+        "enName":  "Yu",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_2026_yu.webp",
+        "cnAlliances":  [
+                            "炎",
+                            "坚守"
+                        ],
+        "enAlliances":  [
+                            "Yan",
+                            "Durable"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e周围八格每有一名敌人触发元素损伤爆发使自身已激活的盟约层数+1（每回合至多叠加8层）",
+        "enAbility":  "\u003cIn battle\u003e Whenever an enemy in the surrounding 8 tiles suffers an Elemental Damage burst, grants +1 stack(s) to own active Alliance(s) (up to 8 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e周围八格每有一名敌人触发元素损伤爆发使自身已激活的盟约层数+2（每回合至多叠加16层）",
+        "enUpgraded":  "\u003cIn battle\u003e Whenever an enemy in the surrounding 8 tiles suffers an Elemental Damage burst, grants +2 stack(s) to own active Alliance(s) (up to 16 stacks per round)"
+    },
+    {
+        "tier":  4,
+        "cnName":  "森蚺",
+        "enName":  "Eunectes",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_416_zumama.webp",
+        "cnAlliances":  [
+                            "萨尔贡",
+                            "不屈"
+                        ],
+        "enAlliances":  [
+                            "Sargon",
+                            "Resilient"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e部署时使已激活的【萨尔贡】【不屈】盟约层数+4（每回合至多叠加12层）",
+        "enAbility":  "\u003cIn battle\u003e On deployment, grants +4 stack(s) to active [Sargon] and [Resilient] Alliances (up to 12 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e部署时使已激活的【萨尔贡】【不屈】盟约层数+8（每回合至多叠加24层）",
+        "enUpgraded":  "\u003cIn battle\u003e On deployment, grants +8 stack(s) to active [Sargon] and [Resilient] Alliances (up to 24 stacks per round)"
+    },
+    {
+        "tier":  4,
+        "cnName":  "灵知",
+        "enName":  "Gnosis",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_206_gnosis.webp",
+        "cnAlliances":  [
+                            "谢拉格",
+                            "迅捷"
+                        ],
+        "enAlliances":  [
+                            "Kjerag",
+                            "Swift"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "returning",
+        "cnAbility":  "\u003c获得时\u003e获得一次特殊刷新，下次刷新至少出现一名谢拉格干员",
+        "enAbility":  "\u003cWhen obtained\u003e Gain 1 special refresh; the next refresh guarantees at least 1 [Kjerag] Operator",
+        "cnUpgraded":  "\u003c获得时\u003e获得一次特殊刷新，下次刷新至少出现两名谢拉格干员",
+        "enUpgraded":  "\u003cWhen obtained\u003e Gain 1 special refresh; the next refresh guarantees at least 2 [Kjerag] Operators"
+    },
+    {
+        "tier":  4,
+        "cnName":  "归溟幽灵鲨",
+        "enName":  "Specter the Unchained",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1023_ghost2.webp",
+        "cnAlliances":  [
+                            "阿戈尔",
+                            "不屈"
+                        ],
+        "enAlliances":  [
+                            "Ægir",
+                            "Resilient"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e自身被击倒或与替身发生替换时使周围八格的【阿戈尔】干员回复5点技力",
+        "enAbility":  "\u003cIn battle\u003e When defeated or swapped with her Substitute, [Ægir] Operators in the surrounding 8 tiles recover 5 SP",
+        "cnUpgraded":  "\u003c战斗中\u003e自身被击倒或与替身发生替换时使周围八格的【阿戈尔】干员回复10点技力",
+        "enUpgraded":  "\u003cIn battle\u003e When defeated or swapped with her Substitute, [Ægir] Operators in the surrounding 8 tiles recover 10 SP"
+    },
+    {
+        "tier":  4,
+        "cnName":  "水月",
+        "enName":  "Mizuki",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_437_mizuki.webp",
+        "cnAlliances":  [
+                            "阿戈尔",
+                            "灵巧"
+                        ],
+        "enAlliances":  [
+                            "Ægir",
+                            "Agile"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e【阿戈尔】盟约每叠加20层，自身及周围四格干员每次造成伤害时使目标移动速度-1%，持续3秒",
+        "enAbility":  "\u003cIn battle\u003e For every 20 [Ægir] stacks, whenever self or Operators in the adjacent 4 tiles deal damage, reduces target Movement Speed by -1% for 3s",
+        "cnUpgraded":  "\u003c战斗中\u003e【阿戈尔】盟约每叠加10层，自身及周围四格干员每次造成伤害时使目标移动速度-1%，持续3秒",
+        "enUpgraded":  "\u003cIn battle\u003e For every 10 [Ægir] stacks, whenever self or Operators in the adjacent 4 tiles deal damage, reduces target Movement Speed by -1% for 3s"
+    },
+    {
+        "tier":  4,
+        "cnName":  "远牙",
+        "enName":  "Fartooth",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_430_fartth.webp",
+        "cnAlliances":  [
+                            "卡西米尔",
+                            "精准"
+                        ],
+        "enAlliances":  [
+                            "Kazimierz",
+                            "Precision"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e攻击范围内每有一名敌人被击倒使攻击范围内及整备区中的干员再部署时间-3秒",
+        "enAbility":  "\u003cIn battle\u003e Each enemy defeated within Attack Range reduces Redeployment Time of Operators within Attack Range and on the Bench by -3s",
+        "cnUpgraded":  "\u003c战斗中\u003e攻击范围内每有一名敌人被击倒使攻击范围内及整备区中的干员再部署时间-6秒",
+        "enUpgraded":  "\u003cIn battle\u003e Each enemy defeated within Attack Range reduces Redeployment Time of Operators within Attack Range and on the Bench by -6s"
+    },
+    {
+        "tier":  4,
+        "cnName":  "玛恩纳",
+        "enName":  "Młynar",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4064_mlynar.webp",
+        "cnAlliances":  [
+                            "卡西米尔"
+                        ],
+        "enAlliances":  [
+                            "Kazimierz"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e【卡西米尔】每叠加5层，本干员部署后100秒内基础攻击力+10、基础生命上限+50",
+        "enAbility":  "\u003cIn battle\u003e For every 5 [Kazimierz] stacks, this Operator gains +10 base ATK and +50 base Max HP for 100s after deployment",
+        "cnUpgraded":  "\u003c战斗中\u003e【卡西米尔】每叠加5层，本干员部署后100秒内基础攻击力+20、基础生命上限+100",
+        "enUpgraded":  "\u003cIn battle\u003e For every 5 [Kazimierz] stacks, this Operator gains +20 base ATK and +100 base Max HP for 100s after deployment"
+    },
+    {
+        "tier":  4,
+        "cnName":  "涤火杰西卡",
+        "enName":  "Jessica the Liberated",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1034_jesca2.webp",
+        "cnAlliances":  [
+                            "维多利亚",
+                            "坚守"
+                        ],
+        "enAlliances":  [
+                            "Victoria",
+                            "Durable"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e场上每有一名携带装备的干员，使已激活的【维多利亚】【坚守】层数+2",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e For every Operator on the field carrying Equipment, grants +2 stacks to active [Victoria] and [Durable] Alliances",
+        "cnUpgraded":  "\u003c休整期结束时\u003e场上每有一名携带装备的干员，使已激活的【维多利亚】【坚守】层数+4",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e For every Operator on the field carrying Equipment, grants +4 stacks to active [Victoria] and [Durable] Alliances"
+    },
+    {
+        "tier":  4,
+        "cnName":  "白铁",
+        "enName":  "Stainless",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4072_ironmn.webp",
+        "cnAlliances":  [
+                            "维多利亚",
+                            "助力"
+                        ],
+        "enAlliances":  [
+                            "Victoria",
+                            "Aid"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "new",
+        "cnAbility":  "\u003c进入休整期时\u003e使自身携带的装备变为精锐版本",
+        "enAbility":  "\u003cWhen entering Rest Phase\u003e Upgrades all Equipment carried by this Operator",
+        "cnUpgraded":  "",
+        "enUpgraded":  "Same as base ability"
+    },
+    {
+        "tier":  4,
+        "cnName":  "斥罪",
+        "enName":  "Penance",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4065_judge.webp",
+        "cnAlliances":  [
+                            "叙拉古",
+                            "不屈"
+                        ],
+        "enAlliances":  [
+                            "Siracusa",
+                            "Resilient"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e【叙拉古】【不屈】每叠加3层，本干员攻击力+1%",
+        "enAbility":  "\u003cIn battle\u003e For every 3 stack(s) of [Siracusa] or [Resilient] Alliances, this Operator gains +1% ATK",
+        "cnUpgraded":  "\u003c战斗中\u003e【叙拉古】【不屈】每叠加3层，本干员攻击力+2%",
+        "enUpgraded":  "\u003cIn battle\u003e For every 3 stack(s) of [Siracusa] or [Resilient] Alliances, this Operator gains +2% ATK"
+    },
+    {
+        "tier":  4,
+        "cnName":  "W",
+        "enName":  "W",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_113_cqbw.webp",
+        "cnAlliances":  [
+                            "迅捷"
+                        ],
+        "enAlliances":  [
+                            "Swift"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e【迅捷】每叠加3层，本干员攻击力+1%",
+        "enAbility":  "\u003cIn battle\u003e For every 3 stack(s) of [Swift] Alliance, this Operator gains +1% ATK",
+        "cnUpgraded":  "\u003c战斗中\u003e【迅捷】每叠加3层，本干员攻击力+2%",
+        "enUpgraded":  "\u003cIn battle\u003e For every 3 stack(s) of [Swift] Alliance, this Operator gains +2% ATK"
+    },
+    {
+        "tier":  4,
+        "cnName":  "霍尔海雅",
+        "enName":  "Ho\u0027olheyak",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4027_heyak.webp",
+        "cnAlliances":  [
+                            "奥术",
+                            "精准"
+                        ],
+        "enAlliances":  [
+                            "Arcane",
+                            "Precision"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e每次开启技能时使自身已激活的盟约层数+4（每场战斗至多叠加12层）",
+        "enAbility":  "\u003cIn battle\u003e On each skill activation, grants +4 stacks to own active Alliance(s) (up to 12 stacks per battle)",
+        "cnUpgraded":  "\u003c战斗中\u003e每次开启技能时使自身已激活的盟约层数+8（每场战斗至多叠加24层）",
+        "enUpgraded":  "\u003cIn battle\u003e On each skill activation, grants +8 stacks to own active Alliance(s) (up to 24 stacks per battle)"
+    },
+    {
+        "tier":  4,
+        "cnName":  "山",
+        "enName":  "Mountain",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_264_f12yin.webp",
+        "cnAlliances":  [
+                            "投资人"
+                        ],
+        "enAlliances":  [
+                            "Investor"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e造成的伤害变为弱点伤害（根据敌人的防御力与法术抗性变换伤害类型）",
+        "enAbility":  "\u003cIn battle\u003e Deals Weakness damage (changes damage type depending on the enemy\u0027s DEF and RES)",
+        "cnUpgraded":  "",
+        "enUpgraded":  "Same as base ability"
+    },
+    {
+        "tier":  4,
+        "cnName":  "淬羽赫默",
+        "enName":  "Silence the Paradigmatic",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1031_slent2.webp",
+        "cnAlliances":  [
+                            "助力"
+                        ],
+        "enAlliances":  [
+                            "Aid"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e使整备区每名干员已激活的盟约层数+1",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e +1 stack(s) to the active Alliance(s) of each Operator on the Bench",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使整备区每名干员已激活的盟约层数+2",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e +2 stack(s) to the active Alliance(s) of each Operator on the Bench"
+    },
+    {
+        "tier":  4,
+        "cnName":  "赫德雷",
+        "enName":  "Hoederer",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4088_hodrer.webp",
+        "cnAlliances":  [
+                            "突袭"
+                        ],
+        "enAlliances":  [
+                            "Raid"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e部署时使已激活的【突袭】层数+4（每回合至多叠加16层）",
+        "enAbility":  "\u003cIn battle\u003e On deployment, grants +4 stack(s) to active [Raid] Alliance (up to 16 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e部署时使已激活的【突袭】层数+8（每回合至多叠加32层）",
+        "enUpgraded":  "\u003cIn battle\u003e On deployment, grants +8 stack(s) to active [Raid] Alliance (up to 32 stacks per round)"
+    },
+    {
+        "tier":  4,
+        "cnName":  "夜莺",
+        "enName":  "Nightingale",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_179_cgbird.webp",
+        "cnAlliances":  [
+                            "聚合",
+                            "协防干员"
+                        ],
+        "enAlliances":  [
+                            "Convergence",
+                            "Assist Operator"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗结束时\u003e每有一名存活的我方干员，使自身已激活的盟约层数+1",
+        "enAbility":  "\u003cWhen battle ends\u003e For every surviving allied Operator, grants +1 stack(s) to own active Alliance(s)",
+        "cnUpgraded":  "\u003c战斗结束时\u003e每有一名存活的我方干员，使自身已激活的盟约层数+2",
+        "enUpgraded":  "\u003cWhen battle ends\u003e For every surviving allied Operator, grants +2 stack(s) to own active Alliance(s)"
+    },
+    {
+        "tier":  4,
+        "cnName":  "仇白",
+        "enName":  "Qiubai",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4082_qiubai.webp",
+        "cnAlliances":  [
+                            "炎",
+                            "灵巧"
+                        ],
+        "enAlliances":  [
+                            "Yan",
+                            "Agile"
+                        ],
+        "abilityTypeCn":  "单次叠加",
+        "abilityTypeEn":  "One-time",
+        "status":  "returning",
+        "cnAbility":  "\u003c获得时\u003e【炎】【灵巧】层数+6",
+        "enAbility":  "\u003cWhen obtained\u003e +6 stacks to [Yan] and [Agile] Alliances",
+        "cnUpgraded":  "\u003c获得时\u003e【炎】【灵巧】层数+12",
+        "enUpgraded":  "\u003cWhen obtained\u003e +12 stacks to [Yan] and [Agile] Alliances"
+    },
+    {
+        "tier":  4,
+        "cnName":  "异客",
+        "enName":  "Passenger",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_472_pasngr.webp",
+        "cnAlliances":  [
+                            "萨尔贡",
+                            "奥术"
+                        ],
+        "enAlliances":  [
+                            "Sargon",
+                            "Arcane"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "returning",
+        "cnAbility":  "\u003c进入休整期时\u003e获得1件“盟约之币”或“萨尔贡浓茶”，有小概率发现“拟态物质”",
+        "enAbility":  "\u003cWhen entering Rest Phase\u003e Obtain 1 \"Alliance Coin\" or \"Sargonian Teaspresso\", with a small chance to discover \"Mimic Matter\"",
+        "cnUpgraded":  "\u003c进入休整期时\u003e获得2件“盟约之币”或“萨尔贡浓茶”，有小概率发现“拟态物质”",
+        "enUpgraded":  "\u003cWhen entering Rest Phase\u003e Obtain 2 \"Alliance Coins\" or \"Sargonian Teaspressos\", with a small chance to discover \"Mimic Matter\""
+    },
+    {
+        "tier":  4,
+        "cnName":  "安洁莉娜",
+        "enName":  "Angelina",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_291_aglina.webp",
+        "cnAlliances":  [
+                            "叙拉古",
+                            "奇迹"
+                        ],
+        "enAlliances":  [
+                            "Siracusa",
+                            "Marvel"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c休整期结束时\u003e本回合每进行过1次刷新，使已激活的【叙拉古】层数+2（每回合至多叠加8层），【奇迹】层数+1（每回合至多叠加4层）",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e For each refresh performed this round, grants +2 stacks to active [Siracusa] Alliance (up to 8 stacks per round) and +1 stack to active [Marvel] Alliance (up to 4 stacks per round)",
+        "cnUpgraded":  "\u003c休整期结束时\u003e本回合每进行过1次刷新，使已激活的【叙拉古】层数+4（每回合至多叠加16层），【奇迹】层数+2（每回合至多叠加8层）",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e For each refresh performed this round, grants +4 stacks to active [Siracusa] Alliance (up to 16 stacks per round) and +2 stacks to active [Marvel] Alliance (up to 8 stacks per round)"
+    },
+    {
+        "tier":  4,
+        "cnName":  "华法琳",
+        "enName":  "Warfarin",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_171_bldsk.webp",
+        "cnAlliances":  [
+                            "灵巧",
+                            "聚合"
+                        ],
+        "enAlliances":  [
+                            "Agile",
+                            "Convergence"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗开始时\u003e使身前一格干员获得特质“\u003c开启技能时\u003e使自身已激活的盟约层数+1（每回合至多叠加7层）”",
+        "enAbility":  "\u003cWhen battle starts\u003e Grants the Operator 1 tile in front the ability: \"\u003cOn skill activation\u003e +1 stack to own active Alliance(s) (up to 7 stacks per round)\"",
+        "cnUpgraded":  "\u003c战斗开始时\u003e使身前一格干员获得特质“\u003c开启技能时\u003e使自身已激活的盟约层数+2（每回合至多叠加14层）”",
+        "enUpgraded":  "\u003cWhen battle starts\u003e Grants the Operator 1 tile in front the ability: \"\u003cOn skill activation\u003e +2 stacks to own active Alliance(s) (up to 14 stacks per round)\""
+    },
+    {
+        "tier":  4,
+        "cnName":  "寒檀",
+        "enName":  "Santalla",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_341_sntlla.webp",
+        "cnAlliances":  [
+                            "远见"
+                        ],
+        "enAlliances":  [
+                            "Foresight"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c休整期结束时\u003e\u003c休整期开始时\u003e使已激活的【远见】层数+3",
+        "enAbility":  "\u003cWhen Rest Phase starts \u0026 ends\u003e +3 stacks to active [Foresight] Alliance",
+        "cnUpgraded":  "\u003c休整期结束时\u003e\u003c休整期开始时\u003e使已激活的【远见】层数+6",
+        "enUpgraded":  "\u003cWhen Rest Phase starts \u0026 ends\u003e +6 stacks to active [Foresight] Alliance"
+    },
+    {
+        "tier":  5,
+        "cnName":  "纯烬艾雅法拉",
+        "enName":  "Eyjafjalla the Hvít Aska",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1016_agoat2.webp",
+        "cnAlliances":  [
+                            "聚合",
+                            "莱塔尼亚",
+                            "远见"
+                        ],
+        "enAlliances":  [
+                            "Convergence",
+                            "Leithanien",
+                            "Foresight"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e攻击范围内每有一名敌人被击倒使已激活的【莱塔尼亚】【聚合】层数+2（每场战斗至多叠加20层）",
+        "enAbility":  "\u003cIn battle\u003e Whenever an enemy within Attack Range is defeated, grants +2 stack(s) to active [Leithanien] and [Convergence] Alliances (up to 20 stacks per battle)",
+        "cnUpgraded":  "\u003c战斗中\u003e攻击范围内每有一名敌人被击倒使已激活的【莱塔尼亚】【聚合】层数+4（每场战斗至多叠加40层）",
+        "enUpgraded":  "\u003cIn battle\u003e Whenever an enemy within Attack Range is defeated, grants +4 stack(s) to active [Leithanien] and [Convergence] Alliances (up to 40 stacks per battle)"
+    },
+    {
+        "tier":  5,
+        "cnName":  "怒潮凛冬",
+        "enName":  "Zima the Raging Tide",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1051_headb2.webp",
+        "cnAlliances":  [
+                            "乌萨斯",
+                            "奇迹"
+                        ],
+        "enAlliances":  [
+                            "Ursus",
+                            "Marvel"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e【乌萨斯】【奇迹】每叠加10层，本干员技力自然回复速度+0.1/秒，攻击力+1%",
+        "enAbility":  "\u003cIn battle\u003e For every 10 stack(s) of [Ursus] or [Marvel] Alliances, this Operator gains +0.1/s SP recovery rate and +1% ATK",
+        "cnUpgraded":  "\u003c战斗中\u003e【乌萨斯】【奇迹】每叠加10层，本干员技力自然回复速度+0.2/秒，攻击力+2%",
+        "enUpgraded":  "\u003cIn battle\u003e For every 10 stack(s) of [Ursus] or [Marvel] Alliances, this Operator gains +0.2/s SP recovery rate and +2% ATK"
+    },
+    {
+        "tier":  5,
+        "cnName":  "艾丽妮",
+        "enName":  "Irene",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4009_irene.webp",
+        "cnAlliances":  [
+                            "伊比利亚"
+                        ],
+        "enAlliances":  [
+                            "Iberia"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e周围12格每有一名敌人被击倒自身回复3点技力",
+        "enAbility":  "\u003cIn battle\u003e Whenever an enemy in the surrounding 12 tiles is defeated, recovers 3 SP",
+        "cnUpgraded":  "\u003c战斗中\u003e周围12格每有一名敌人被击倒自身回复6点技力",
+        "enUpgraded":  "\u003cIn battle\u003e Whenever an enemy in the surrounding 12 tiles is defeated, recovers 6 SP"
+    },
+    {
+        "tier":  5,
+        "cnName":  "棘刺",
+        "enName":  "Thorns",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_293_thorns.webp",
+        "cnAlliances":  [
+                            "伊比利亚",
+                            "奥术"
+                        ],
+        "enAlliances":  [
+                            "Iberia",
+                            "Arcane"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e使已激活的【伊比利亚】叠加等同于场上所有干员售出价格的层数（每回合至多叠加12层）",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e Grants stacks to active [Iberia] Alliance equal to the total sell price of all Operators on the field (up to 12 stacks per round)",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使已激活的【伊比利亚】叠加等同于场上所有干员售出价格2倍的层数（每回合至多叠加24层）",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e Grants stacks to active [Iberia] Alliance equal to 2x the total sell price of all Operators on the field (up to 24 stacks per round)"
+    },
+    {
+        "tier":  5,
+        "cnName":  "黍",
+        "enName":  "Shu",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_2025_shu.webp",
+        "cnAlliances":  [
+                            "炎",
+                            "远见"
+                        ],
+        "enAlliances":  [
+                            "Yan",
+                            "Foresight"
+                        ],
+        "abilityTypeCn":  "单次叠加",
+        "abilityTypeEn":  "One-time",
+        "status":  "new",
+        "cnAbility":  "\u003c获得时\u003e【炎】层数+8，【远见】层数+4",
+        "enAbility":  "\u003cWhen obtained\u003e +8 stacks to [Yan] Alliance and +4 stacks to [Foresight] Alliance",
+        "cnUpgraded":  "\u003c获得时\u003e【炎】层数+16，【远见】层数+8",
+        "enUpgraded":  "\u003cWhen obtained\u003e +16 stacks to [Yan] Alliance and +8 stacks to [Foresight] Alliance"
+    },
+    {
+        "tier":  5,
+        "cnName":  "佩佩",
+        "enName":  "Pepe",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4058_pepe.webp",
+        "cnAlliances":  [
+                            "萨尔贡",
+                            "灵巧"
+                        ],
+        "enAlliances":  [
+                            "Sargon",
+                            "Agile"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e周围八格每有一名敌人或干员进入沉睡或眩晕时使自身及身后一格干员已激活的盟约层数+1（每回合至多叠加9层）",
+        "enAbility":  "\u003cIn battle\u003e Whenever an enemy or Operator in the surrounding 8 tiles becomes Asleep or Stunned, grants +1 stack to active Alliance(s) of self and the Operator 1 tile behind (up to 9 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e周围八格每有一名敌人或干员进入沉睡或眩晕时使自身及身后一格干员已激活的盟约层数+2（每回合至多叠加18层）",
+        "enUpgraded":  "\u003cIn battle\u003e Whenever an enemy or Operator in the surrounding 8 tiles becomes Asleep or Stunned, grants +2 stacks to active Alliance(s) of self and the Operator 1 tile behind (up to 18 stacks per round)"
+    },
+    {
+        "tier":  5,
+        "cnName":  "圣聆初雪",
+        "enName":  "Pramanix the Prerita",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1046_sbell2.webp",
+        "cnAlliances":  [
+                            "谢拉格",
+                            "奥术"
+                        ],
+        "enAlliances":  [
+                            "Kjerag",
+                            "Arcane"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e攻击范围内每有一名敌人陷入冻结自身回复1点技力，并使已激活的【谢拉格】层数+1（每回合至多叠加24层）",
+        "enAbility":  "\u003cIn battle\u003e Whenever an enemy within Attack Range becomes Frozen, recovers 1 SP and grants +1 stack to active [Kjerag] Alliance (up to 24 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e攻击范围内每有一名敌人冻结自身回复2点技力，并使已激活的【谢拉格】层数+2（每回合至多叠加48层）",
+        "enUpgraded":  "\u003cIn battle\u003e Whenever an enemy within Attack Range becomes Frozen, recovers 2 SP and grants +2 stacks to active [Kjerag] Alliance (up to 48 stacks per round)"
+    },
+    {
+        "tier":  5,
+        "cnName":  "凛御银灰",
+        "enName":  "SilverAsh the Reignfrost",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1045_svash2.webp",
+        "cnAlliances":  [
+                            "谢拉格",
+                            "灵巧",
+                            "投资人"
+                        ],
+        "enAlliances":  [
+                            "Kjerag",
+                            "Agile",
+                            "Investor"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e身前一格【谢拉格】【灵巧】干员每场战斗的叠层上限+75%",
+        "enAbility":  "\u003cIn battle\u003e Increases the per-battle stacking cap of the [Kjerag] or [Agile] Operator 1 tile in front by +75%",
+        "cnUpgraded":  "\u003c战斗中\u003e身前一格【谢拉格】【灵巧】干员每场战斗的叠层上限+150%",
+        "enUpgraded":  "\u003cIn battle\u003e Increases the per-battle stacking cap of the [Kjerag] or [Agile] Operator 1 tile in front by +150%"
+    },
+    {
+        "tier":  5,
+        "cnName":  "歌蕾蒂娅",
+        "enName":  "Gladiia",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_474_glady.webp",
+        "cnAlliances":  [
+                            "阿戈尔"
+                        ],
+        "enAlliances":  [
+                            "Ægir"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "returning",
+        "cnAbility":  "\u003c进入休整期时\u003e若同一行有3名干员，获得1个幽灵鲨、安哲拉、深巡或斯卡蒂",
+        "enAbility":  "\u003cWhen entering Rest Phase\u003e If there are 3 Operators in the same row, obtain 1 Specter, Andreana, Underflow, or Skadi",
+        "cnUpgraded":  "\u003c进入休整期时\u003e获得1个幽灵鲨、安哲拉、深巡或斯卡蒂",
+        "enUpgraded":  "\u003cWhen entering Rest Phase\u003e Obtain 1 Specter, Andreana, Underflow, or Skadi"
+    },
+    {
+        "tier":  5,
+        "cnName":  "乌尔比安",
+        "enName":  "Ulpianus",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4145_ulpia.webp",
+        "cnAlliances":  [
+                            "阿戈尔"
+                        ],
+        "enAlliances":  [
+                            "Ægir"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e部署时【阿戈尔】盟约每叠加20层，使自身及周围四格的干员攻击力+1%，持续30秒",
+        "enAbility":  "\u003cIn battle\u003e On deployment, for every 20 [Ægir] stacks, self and Operators in the adjacent 4 tiles gain +1% ATK for 30s",
+        "cnUpgraded":  "\u003c战斗中\u003e部署时【阿戈尔】盟约每叠加10层，使自身及周围四格的干员攻击力+1%，持续30秒",
+        "enUpgraded":  "\u003cIn battle\u003e On deployment, for every 10 [Ægir] stacks, self and Operators in the adjacent 4 tiles gain +1% ATK for 30s"
+    },
+    {
+        "tier":  5,
+        "cnName":  "薇薇安娜",
+        "enName":  "Viviana",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4098_vvana.webp",
+        "cnAlliances":  [
+                            "莱塔尼亚",
+                            "卡西米尔",
+                            "奥术"
+                        ],
+        "enAlliances":  [
+                            "Leithanien",
+                            "Kazimierz",
+                            "Arcane"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e场上其他与自身拥有相同盟约的干员在本回合战斗期的叠层上限+7",
+        "enAbility":  "\u003cIn battle\u003e Other Operators on the field sharing an Alliance with this Operator gain +7 stacking cap during this round\u0027s Combat Phase",
+        "cnUpgraded":  "\u003c战斗中\u003e场上其他与自身拥有相同盟约的干员在本回合战斗期的叠层上限+14",
+        "enUpgraded":  "\u003cIn battle\u003e Other Operators on the field sharing an Alliance with this Operator gain +14 stacking cap during this round\u0027s Combat Phase"
+    },
+    {
+        "tier":  5,
+        "cnName":  "铃兰",
+        "enName":  "Suzuran",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_358_lisa.webp",
+        "cnAlliances":  [
+                            "叙拉古"
+                        ],
+        "enAlliances":  [
+                            "Siracusa"
+                        ],
+        "abilityTypeCn":  "特异化",
+        "abilityTypeEn":  "Special",
+        "status":  "returning",
+        "cnAbility":  "\u003c进入休整期时\u003e触发身前一格的其他干员的“获得时”类效果",
+        "enAbility":  "\u003cWhen entering Rest Phase\u003e Triggers the \"When obtained\" ability of the other Operator 1 tile in front",
+        "cnUpgraded":  "\u003c进入休整期时\u003e触发身前两格的其他干员的“获得时”类效果",
+        "enUpgraded":  "\u003cWhen entering Rest Phase\u003e Triggers the \"When obtained\" abilities of other Operators up to 2 tiles in front"
+    },
+    {
+        "tier":  5,
+        "cnName":  "贝洛内",
+        "enName":  "Bellone",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4037_demetr.webp",
+        "cnAlliances":  [
+                            "叙拉古",
+                            "突袭"
+                        ],
+        "enAlliances":  [
+                            "Siracusa",
+                            "Raid"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e【叙拉古】【突袭】每叠加3层，本干员攻击力+1%",
+        "enAbility":  "\u003cIn battle\u003e For every 3 stack(s) of [Siracusa] or [Raid] Alliances, this Operator gains +1% ATK",
+        "cnUpgraded":  "\u003c战斗中\u003e【叙拉古】【突袭】每叠加3层，本干员攻击力+2%",
+        "enUpgraded":  "\u003cIn battle\u003e For every 3 stack(s) of [Siracusa] or [Raid] Alliances, this Operator gains +2% ATK"
+    },
+    {
+        "tier":  5,
+        "cnName":  "维娜·维多利亚",
+        "enName":  "Vina Victoria",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1019_siege2.webp",
+        "cnAlliances":  [
+                            "维多利亚",
+                            "奇迹"
+                        ],
+        "enAlliances":  [
+                            "Victoria",
+                            "Marvel"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c休整期结束时\u003e场上每有一名不同阶的【维多利亚】干员，使已激活的【维多利亚】【奇迹】层数+2",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e For every [Victoria] Operator of a different Tier on the field, grants +2 stacks to active [Victoria] and [Marvel] Alliances",
+        "cnUpgraded":  "\u003c休整期结束时\u003e场上每有一名不同阶的【维多利亚】干员，使已激活的【维多利亚】【奇迹】层数+4",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e For every [Victoria] Operator of a different Tier on the field, grants +4 stacks to active [Victoria] and [Marvel] Alliances"
+    },
+    {
+        "tier":  5,
+        "cnName":  "迷迭香",
+        "enName":  "Rosmontis",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_391_rosmon.webp",
+        "cnAlliances":  [
+                            "精准",
+                            "助力"
+                        ],
+        "enAlliances":  [
+                            "Precision",
+                            "Aid"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c休整期结束时\u003e使已激活的【精准】【助力】层数+10",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e +10 stacks to active [Precision] and [Aid] Alliances",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使已激活的【精准】【助力】层数+20",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e +20 stacks to active [Precision] and [Aid] Alliances"
+    },
+    {
+        "tier":  5,
+        "cnName":  "隐德来希",
+        "enName":  "Entelechia",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4010_etlchi.webp",
+        "cnAlliances":  [
+                            "灵巧",
+                            "不屈"
+                        ],
+        "enAlliances":  [
+                            "Agile",
+                            "Resilient"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e【灵巧】【不屈】每叠加3层，本干员攻击力+1%",
+        "enAbility":  "\u003cIn battle\u003e For every 3 stack(s) of [Agile] or [Resilient] Alliances, this Operator gains +1% ATK",
+        "cnUpgraded":  "\u003c战斗中\u003e【灵巧】【不屈】每叠加3层，本干员攻击力+2%",
+        "enUpgraded":  "\u003cIn battle\u003e For every 3 stack(s) of [Agile] or [Resilient] Alliances, this Operator gains +2% ATK"
+    },
+    {
+        "tier":  5,
+        "cnName":  "塞雷娅",
+        "enName":  "Saria",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_202_demkni.webp",
+        "cnAlliances":  [
+                            "坚守",
+                            "协防干员"
+                        ],
+        "enAlliances":  [
+                            "Durable",
+                            "Assist Operator"
+                        ],
+        "abilityTypeCn":  "特异化",
+        "abilityTypeEn":  "Special",
+        "status":  "returning",
+        "cnAbility":  "身前一格干员若为“休整期结束时”特质，本干员的特质与其相同",
+        "enAbility":  "If the Operator 1 tile in front has a \"When Rest Phase ends\" ability, this Operator copies that ability",
+        "cnUpgraded":  "",
+        "enUpgraded":  "Same as base ability"
+    },
+    {
+        "tier":  5,
+        "cnName":  "溯光星源",
+        "enName":  "Astgenne the Lightchaser",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1047_halo2.webp",
+        "cnAlliances":  [
+                            "奥术"
+                        ],
+        "enAlliances":  [
+                            "Arcane"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c休整期结束时\u003e 本回合每消耗3资金，使已激活的【奥术】层数+2（每回合至多叠加18层）",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e For every 3 Funds spent this round, grants +2 stacks to active [Arcane] Alliance (up to 18 stacks per round)",
+        "cnUpgraded":  "\u003c休整期结束时\u003e 本回合每消耗3资金，使已激活的【奥术】层数+4（每回合至多叠加36层）",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e For every 3 Funds spent this round, grants +4 stacks to active [Arcane] Alliance (up to 36 stacks per round)"
+    },
+    {
+        "tier":  5,
+        "cnName":  "老鲤",
+        "enName":  "Lee",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_322_lmlee.webp",
+        "cnAlliances":  [
+                            "投资人",
+                            "炎"
+                        ],
+        "enAlliances":  [
+                            "Investor",
+                            "Yan"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e【炎】【投资人】每叠加3层，本干员攻击力+1%",
+        "enAbility":  "\u003cIn battle\u003e For every 3 stack(s) of [Yan] or [Investor] Alliances, this Operator gains +1% ATK",
+        "cnUpgraded":  "\u003c战斗中\u003e【炎】【投资人】每叠加3层，本干员攻击力+2%",
+        "enUpgraded":  "\u003cIn battle\u003e For every 3 stack(s) of [Yan] or [Investor] Alliances, this Operator gains +2% ATK"
+    },
+    {
+        "tier":  5,
+        "cnName":  "Mon3tr",
+        "enName":  "Mon3tr",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4179_monstr.webp",
+        "cnAlliances":  [
+                            "协防干员"
+                        ],
+        "enAlliances":  [
+                            "Assist Operator"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e周围八格干员每场战斗的叠层上限+30%",
+        "enAbility":  "\u003cIn battle\u003e Increases the per-battle stacking cap of Operators in the surrounding 8 tiles by +30%",
+        "cnUpgraded":  "\u003c战斗中\u003e周围八格干员每场战斗的叠层上限+60%",
+        "enUpgraded":  "\u003cIn battle\u003e Increases the per-battle stacking cap of Operators in the surrounding 8 tiles by +60%"
+    },
+    {
+        "tier":  5,
+        "cnName":  "可露希尔",
+        "enName":  "Closure",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4228_closur.webp",
+        "cnAlliances":  [
+                            "投资人"
+                        ],
+        "enAlliances":  [
+                            "Investor"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e 本回合每获得过一名干员，使已激活的【投资人】层数+2（每回合至多叠加16层）",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e For every Operator obtained this round, grants +2 stacks to active [Investor] Alliance (up to 16 stacks per round)",
+        "cnUpgraded":  "\u003c休整期结束时\u003e 本回合每获得过一名干员，使已激活的【投资人】层数+4（每回合至多叠加32层）",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e For every Operator obtained this round, grants +4 stacks to active [Investor] Alliance (up to 32 stacks per round)"
+    },
+    {
+        "tier":  5,
+        "cnName":  "“暴躁铁皮”",
+        "enName":  "\"Rowdy Tin\"",
+        "icon":  null,
+        "cnAlliances":  [
+                            "协防干员"
+                        ],
+        "enAlliances":  [
+                            "Assist Operator"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e攻击力和生命上限+60%",
+        "enAbility":  "\u003cIn battle\u003e ATK and Max HP +60%",
+        "cnUpgraded":  "\u003c战斗中\u003e攻击力和生命上限+120%",
+        "enUpgraded":  "\u003cIn battle\u003e ATK and Max HP +120%"
+    },
+    {
+        "tier":  5,
+        "cnName":  "鸿雪",
+        "enName":  "Pozëmka",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4055_bgsnow.webp",
+        "cnAlliances":  [
+                            "萨尔贡",
+                            "精准"
+                        ],
+        "enAlliances":  [
+                            "Sargon",
+                            "Precision"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e每次开启技能时使已激活的【萨尔贡】【精准】层数+4（每回合至多叠加16层）",
+        "enAbility":  "\u003cIn battle\u003e On each skill activation, grants +4 stack(s) to active [Sargon] and [Precision] Alliances (up to 16 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e每次开启技能时使已激活的【萨尔贡】【精准】层数+8（每回合至多叠加32层）",
+        "enUpgraded":  "\u003cIn battle\u003e On each skill activation, grants +8 stack(s) to active [Sargon] and [Precision] Alliances (up to 32 stacks per round)"
+    },
+    {
+        "tier":  5,
+        "cnName":  "焰尾",
+        "enName":  "Flametail",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_420_flamtl.webp",
+        "cnAlliances":  [
+                            "卡西米尔",
+                            "迅捷"
+                        ],
+        "enAlliances":  [
+                            "Kazimierz",
+                            "Swift"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c休整期结束时\u003e整备区每有一名干员，使已激活的【卡西米尔】【迅捷】层数+1",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e For every Operator on the Bench, grants +1 stack(s) to active [Kazimierz] and [Swift] Alliances",
+        "cnUpgraded":  "\u003c休整期结束时\u003e整备区每有一名干员，使已激活的【卡西米尔】【迅捷】层数+2",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e For every Operator on the Bench, grants +2 stack(s) to active [Kazimierz] and [Swift] Alliances"
+    },
+    {
+        "tier":  5,
+        "cnName":  "冻河",
+        "enName":  "Тоска",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4244_tocka.webp",
+        "cnAlliances":  [
+                            "乌萨斯",
+                            "迅捷"
+                        ],
+        "enAlliances":  [
+                            "Ursus",
+                            "Swift"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e攻击范围内每有一名敌人被击倒使已激活的【乌萨斯】【迅捷】层数+1（每场战斗至多叠加16层）",
+        "enAbility":  "\u003cIn battle\u003e Whenever an enemy within Attack Range is defeated, grants +1 stack(s) to active [Ursus] and [Swift] Alliances (up to 16 stacks per battle)",
+        "cnUpgraded":  "\u003c战斗中\u003e攻击范围内每有一名敌人被击倒使已激活的【乌萨斯】【迅捷】层数+2（每场战斗至多叠加32层）",
+        "enUpgraded":  "\u003cIn battle\u003e Whenever an enemy within Attack Range is defeated, grants +2 stack(s) to active [Ursus] and [Swift] Alliances (up to 32 stacks per battle)"
+    },
+    {
+        "tier":  5,
+        "cnName":  "阿米娅",
+        "enName":  "Amiya",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_002_amiya.webp",
+        "cnAlliances":  [
+                            "奇迹"
+                        ],
+        "enAlliances":  [
+                            "Marvel"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e身前一格干员提升盟约层数时，每次提升的层数额外+1（不受叠层上限影响）",
+        "enAbility":  "\u003cIn battle\u003e Whenever the Operator 1 tile in front gains Alliance stacks, increases the stacks gained each time by +1 (unaffected by stacking caps)",
+        "cnUpgraded":  "\u003c战斗中\u003e身前一格干员提升盟约层数时，每次提升的层数额外+2（不受叠层上限影响）",
+        "enUpgraded":  "\u003cIn battle\u003e Whenever the Operator 1 tile in front gains Alliance stacks, increases the stacks gained each time by +2 (unaffected by stacking caps)"
+    },
+    {
+        "tier":  6,
+        "cnName":  "引星棘刺",
+        "enName":  "Thorns the Lodestar",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1039_thorn2.webp",
+        "cnAlliances":  [
+                            "伊比利亚",
+                            "迅捷"
+                        ],
+        "enAlliances":  [
+                            "Iberia",
+                            "Swift"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c休整期结束时\u003e使已激活的【伊比利亚】【迅捷】层数+12",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e +12 stacks to active [Iberia] and [Swift] Alliances",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使已激活的【伊比利亚】【迅捷】层数+24",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e +24 stacks to active [Iberia] and [Swift] Alliances"
+    },
+    {
+        "tier":  6,
+        "cnName":  "烛煌",
+        "enName":  "Blaze the Igniting Spark",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1040_blaze2.webp",
+        "cnAlliances":  [
+                            "炎",
+                            "维多利亚",
+                            "迅捷"
+                        ],
+        "enAlliances":  [
+                            "Yan",
+                            "Victoria",
+                            "Swift"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e攻击范围内每有一名敌人触发元素损伤爆发使已激活的【炎】【维多利亚】层数+1（每回合至多叠加12层）",
+        "enAbility":  "\u003cIn battle\u003e Whenever an enemy within Attack Range suffers an Elemental Damage burst, grants +1 stack(s) to active [Yan] and [Victoria] Alliances (up to 12 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e攻击范围内每有一名敌人触发元素损伤爆发使已激活的【炎】【维多利亚】层数+2（每回合至多叠加24层）",
+        "enUpgraded":  "\u003cIn battle\u003e Whenever an enemy within Attack Range suffers an Elemental Damage burst, grants +2 stack(s) to active [Yan] and [Victoria] Alliances (up to 24 stacks per round)"
+    },
+    {
+        "tier":  6,
+        "cnName":  "浊心斯卡蒂",
+        "enName":  "Skadi the Corrupting Heart",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1012_skadi2.webp",
+        "cnAlliances":  [
+                            "阿戈尔",
+                            "聚合"
+                        ],
+        "enAlliances":  [
+                            "Ægir",
+                            "Convergence"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e攻击范围内每有一名我方干员部署使已激活的【阿戈尔】层数+2（每场战斗至多叠加20层）",
+        "enAbility":  "\u003cIn battle\u003e Whenever an allied Operator is deployed within Attack Range, grants +2 stacks to active [Ægir] Alliance (up to 20 stacks per battle)",
+        "cnUpgraded":  "\u003c战斗中\u003e攻击范围内每有一名我方干员部署使已激活的【阿戈尔】层数+4（每场战斗至多叠加40层）",
+        "enUpgraded":  "\u003cIn battle\u003e Whenever an allied Operator is deployed within Attack Range, grants +4 stacks to active [Ægir] Alliance (up to 40 stacks per battle)"
+    },
+    {
+        "tier":  6,
+        "cnName":  "克莱门莎",
+        "enName":  "Clementia",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4231_clemnt.webp",
+        "cnAlliances":  [
+                            "阿戈尔"
+                        ],
+        "enAlliances":  [
+                            "Ægir"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗开始时\u003e【阿戈尔】盟约每叠加20层，使场上所有敌人侵蚀损伤冷却恢复速度+1%",
+        "enAbility":  "\u003cWhen battle starts\u003e For every 20 [Ægir] stacks, all enemies on the field have +1% Corrosion Damage cooldown recovery speed",
+        "cnUpgraded":  "\u003c战斗开始时\u003e【阿戈尔】盟约每叠加10层，使场上所有敌人侵蚀损伤冷却恢复速度+1%",
+        "enUpgraded":  "\u003cWhen battle starts\u003e For every 10 [Ægir] stacks, all enemies on the field have +1% Corrosion Damage cooldown recovery speed"
+    },
+    {
+        "tier":  6,
+        "cnName":  "耀骑士临光",
+        "enName":  "Nearl the Radiant Knight",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1014_nearl2.webp",
+        "cnAlliances":  [
+                            "卡西米尔",
+                            "突袭"
+                        ],
+        "enAlliances":  [
+                            "Kazimierz",
+                            "Raid"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e被击倒时召唤整备区最右侧的【卡西米尔】【突袭】干员上场，并使自身及被召唤干员已激活的盟约层数+6（每名干员每回合至多叠加12层）",
+        "enAbility":  "\u003cIn battle\u003e When defeated, summons the rightmost [Kazimierz] or [Raid] Operator from the Bench onto the field, and grants +6 stacks to active Alliance(s) of self and the summoned Operator (up to 12 stacks per Operator per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e被击倒时召唤整备区最右侧的【卡西米尔】【突袭】干员上场，并使自身及被召唤干员已激活的盟约层数+12（每名干员每回合至多叠加24层）",
+        "enUpgraded":  "\u003cIn battle\u003e When defeated, summons the rightmost [Kazimierz] or [Raid] Operator from the Bench onto the field, and grants +12 stacks to active Alliance(s) of self and the summoned Operator (up to 24 stacks per Operator per round)"
+    },
+    {
+        "tier":  6,
+        "cnName":  "荒芜拉普兰德",
+        "enName":  "Lappland the Decadenza",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1038_whitw2.webp",
+        "cnAlliances":  [
+                            "叙拉古"
+                        ],
+        "enAlliances":  [
+                            "Siracusa"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e每击倒一名敌人使已激活的【叙拉古】层数+2（每场战斗至多叠加20层）\n（晋升为精锐状态时，使所有【叙拉古】干员获得此效果）",
+        "enAbility":  "\u003cIn battle\u003e Each enemy defeated grants +2 stacks to active [Siracusa] Alliance (up to 20 stacks per battle; when promoted to Elite, grants this effect to all [Siracusa] Operators)",
+        "cnUpgraded":  "\u003c战斗中\u003e所有【叙拉古】干员每击倒一名敌人使已激活的【叙拉古】层数+4（每场战斗至多叠加40层）",
+        "enUpgraded":  "\u003cIn battle\u003e Whenever any [Siracusa] Operator defeats an enemy, grants +4 stacks to active [Siracusa] Alliance (up to 40 stacks per battle)"
+    },
+    {
+        "tier":  6,
+        "cnName":  "酒神",
+        "enName":  "Tragodia",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_1042_phatm2.webp",
+        "cnAlliances":  [
+                            "维多利亚"
+                        ],
+        "enAlliances":  [
+                            "Victoria"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "new",
+        "cnAbility":  "\u003c进入休整期时\u003e获得一件随机装备（不高于当前调度中心等级）",
+        "enAbility":  "\u003cWhen entering Rest Phase\u003e Obtain 1 random piece of Equipment (Tier cannot exceed current Dispatch Center Level)",
+        "cnUpgraded":  "\u003c进入休整期时\u003e获得两件随机装备（不高于当前调度中心等级）",
+        "enUpgraded":  "\u003cWhen entering Rest Phase\u003e Obtain 2 random pieces of Equipment (Tier cannot exceed current Dispatch Center Level)"
+    },
+    {
+        "tier":  6,
+        "cnName":  "逻各斯",
+        "enName":  "Logos",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4133_logos.webp",
+        "cnAlliances":  [
+                            "奥术",
+                            "远见"
+                        ],
+        "enAlliances":  [
+                            "Arcane",
+                            "Foresight"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c获得时\u003e【奥术】层数+10，【远见】层数+5\n\u003c战斗中\u003e【奥术】【远见】每叠加3层，本干员攻击速度+1",
+        "enAbility":  "\u003cWhen obtained\u003e +10 stacks to [Arcane] Alliance and +5 stacks to [Foresight] Alliance; \u003cIn battle\u003e For every 3 stacks of [Arcane] or [Foresight], this Operator gains +1 ASPD",
+        "cnUpgraded":  "\u003c获得时\u003e【奥术】层数+20，【远见】层数+10\n\u003c战斗中\u003e【奥术】【远见】每叠加3层，本干员攻击速度+2",
+        "enUpgraded":  "\u003cWhen obtained\u003e +20 stacks to [Arcane] Alliance and +10 stacks to [Foresight] Alliance; \u003cIn battle\u003e For every 3 stacks of [Arcane] or [Foresight], this Operator gains +2 ASPD"
+    },
+    {
+        "tier":  6,
+        "cnName":  "真言",
+        "enName":  "Mantra",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4204_mantra.webp",
+        "cnAlliances":  [
+                            "萨尔贡"
+                        ],
+        "enAlliances":  [
+                            "Sargon"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e【萨尔贡】每叠加5层，本干员攻击力+1%",
+        "enAbility":  "\u003cIn battle\u003e For every 5 stack(s) of [Sargon] Alliance, this Operator gains +1% ATK",
+        "cnUpgraded":  "\u003c战斗中\u003e【萨尔贡】每叠加5层，本干员攻击力+2%",
+        "enUpgraded":  "\u003cIn battle\u003e For every 5 stack(s) of [Sargon] Alliance, this Operator gains +2% ATK"
+    },
+    {
+        "tier":  6,
+        "cnName":  "妮芙",
+        "enName":  "Nymph",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4146_nymph.webp",
+        "cnAlliances":  [
+                            "迅捷",
+                            "远见"
+                        ],
+        "enAlliances":  [
+                            "Swift",
+                            "Foresight"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e攻击范围内每有一名敌人陷入恐惧使已激活的【迅捷】层数+4（每回合至多叠加20层）",
+        "enAbility":  "\u003cIn battle\u003e Whenever an enemy within Attack Range becomes Feared, grants +4 stacks to active [Swift] Alliance (up to 20 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e攻击范围内每有一名敌人陷入恐惧使已激活的【迅捷】层数+8（每回合至多叠加40层）",
+        "enUpgraded":  "\u003cIn battle\u003e Whenever an enemy within Attack Range becomes Feared, grants +8 stacks to active [Swift] Alliance (up to 40 stacks per round)"
+    },
+    {
+        "tier":  6,
+        "cnName":  "遥",
+        "enName":  "Haruka",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4202_haruka.webp",
+        "cnAlliances":  [
+                            "聚合",
+                            "奇迹"
+                        ],
+        "enAlliances":  [
+                            "Convergence",
+                            "Marvel"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e攻击范围内每有一名敌人被击倒使已激活的【聚合】【奇迹】层数+1（每回合至多叠加12层）",
+        "enAbility":  "\u003cIn battle\u003e Whenever an enemy within Attack Range is defeated, grants +1 stack(s) to active [Convergence] and [Marvel] Alliances (up to 12 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e攻击范围内每有一名敌人被击倒使已激活的【聚合】【奇迹】层数+2（每回合至多叠加24层）",
+        "enUpgraded":  "\u003cIn battle\u003e Whenever an enemy within Attack Range is defeated, grants +2 stack(s) to active [Convergence] and [Marvel] Alliances (up to 24 stacks per round)"
+    },
+    {
+        "tier":  6,
+        "cnName":  "魔王",
+        "enName":  "Civilight Eterna",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4134_cetsyr.webp",
+        "cnAlliances":  [
+                            "调和"
+                        ],
+        "enAlliances":  [
+                            "Harmony"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c休整期结束时\u003e使已激活的核心盟约层数+10",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e +10 stacks to all active Core Alliances",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使已激活的核心盟约层数+20",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e +20 stacks to all active Core Alliances"
+    },
+    {
+        "tier":  6,
+        "cnName":  "史尔特尔",
+        "enName":  "Surtr",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_350_surtr.webp",
+        "cnAlliances":  [
+                            "突袭",
+                            "不屈"
+                        ],
+        "enAlliances":  [
+                            "Raid",
+                            "Resilient"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e每击倒一名敌人使已激活的【突袭】【不屈】层数+4（每回合至多叠加16层）",
+        "enAbility":  "\u003cIn battle\u003e Each enemy defeated grants +4 stacks to active [Raid] and [Resilient] Alliances (up to 16 stacks per round)",
+        "cnUpgraded":  "\u003c战斗中\u003e每击倒一名敌人使已激活的【突袭】【不屈】层数+8（每回合至多叠加32层）",
+        "enUpgraded":  "\u003cIn battle\u003e Each enemy defeated grants +8 stacks to active [Raid] and [Resilient] Alliances (up to 32 stacks per round)"
+    },
+    {
+        "tier":  6,
+        "cnName":  "锏",
+        "enName":  "Degenbrecher",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4116_blkkgt.webp",
+        "cnAlliances":  [
+                            "卡西米尔",
+                            "谢拉格",
+                            "莱塔尼亚"
+                        ],
+        "enAlliances":  [
+                            "Kazimierz",
+                            "Kjerag",
+                            "Leithanien"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e【卡西米尔】【谢拉格】【莱塔尼亚】每叠加6层，本干员技力自然回复速度+0.01/秒，生命上限+1%",
+        "enAbility":  "\u003cIn battle\u003e For every 6 stacks of [Kazimierz], [Kjerag], or [Leithanien] Alliances, this Operator gains +0.01/s SP recovery rate and +1% Max HP",
+        "cnUpgraded":  "\u003c战斗中\u003e【卡西米尔】【谢拉格】【莱塔尼亚】每叠加3层，本干员技力自然回复速度+0.01/秒，生命上限+1%",
+        "enUpgraded":  "\u003cIn battle\u003e For every 3 stacks of [Kazimierz], [Kjerag], or [Leithanien] Alliances, this Operator gains +0.01/s SP recovery rate and +1% Max HP"
+    },
+    {
+        "tier":  6,
+        "cnName":  "机械师",
+        "enName":  "Mechanist",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4230_mcnist.webp",
+        "cnAlliances":  [
+                            "协防干员",
+                            "坚守"
+                        ],
+        "enAlliances":  [
+                            "Assist Operator",
+                            "Durable"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "new",
+        "cnAbility":  "\u003c进入休整期时\u003e若同一行至少有三名干员，获得一名当前人数最多盟约的干员",
+        "enAbility":  "\u003cWhen entering Rest Phase\u003e If there are at least 3 Operators in the same row, obtain 1 Operator from your Alliance with the highest Operator count",
+        "cnUpgraded":  "\u003c进入休整期时\u003e获得一名当前人数最多盟约的干员",
+        "enUpgraded":  "\u003cWhen entering Rest Phase\u003e Obtain 1 Operator from your Alliance with the highest Operator count"
+    },
+    {
+        "tier":  6,
+        "cnName":  "塔露拉",
+        "enName":  "Talulah",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4247_oxi.webp",
+        "cnAlliances":  [
+                            "乌萨斯",
+                            "奥术",
+                            "协防干员"
+                        ],
+        "enAlliances":  [
+                            "Ursus",
+                            "Arcane",
+                            "Assist Operator"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c战斗中\u003e【乌萨斯】盟约获得强化：击倒单位时叠加的临时层数提升至4层；在场6名不同【乌萨斯】干员时，提升至6层",
+        "enAbility":  "\u003cIn battle\u003e Enhances the [Ursus] Alliance: temporary stacks gained on defeating a unit increase to 4, or to 6 with 6 different [Ursus] Operators on the field",
+        "cnUpgraded":  "\u003c战斗中\u003e【乌萨斯】盟约获得强化：击倒单位时叠加的临时层数提升至6层；在场6名不同【乌萨斯】干员时，提升至8层",
+        "enUpgraded":  "\u003cIn battle\u003e Enhances the [Ursus] Alliance: temporary stacks gained on defeating a unit increase to 6, or to 8 with 6 different [Ursus] Operators on the field"
+    },
+    {
+        "tier":  6,
+        "cnName":  "夕",
+        "enName":  "Dusk",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_2015_dusk.webp",
+        "cnAlliances":  [
+                            "炎",
+                            "奥术"
+                        ],
+        "enAlliances":  [
+                            "Yan",
+                            "Arcane"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "returning",
+        "cnAbility":  "\u003c休整期结束时\u003e 本回合每获得过一名干员，使已激活的【炎】【奥术】层数+2（每回合至多叠加24层）",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e For every Operator obtained this round, grants +2 stacks to active [Yan] and [Arcane] Alliances (up to 24 stacks per round)",
+        "cnUpgraded":  "\u003c休整期结束时\u003e 本回合每获得过一名干员，使已激活的【炎】【奥术】层数+4（每回合至多叠加48层）",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e For every Operator obtained this round, grants +4 stacks to active [Yan] and [Arcane] Alliances (up to 48 stacks per round)"
+    },
+    {
+        "tier":  6,
+        "cnName":  "蕾缪安",
+        "enName":  "Lemuen",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_4193_lemuen.webp",
+        "cnAlliances":  [
+                            "精准"
+                        ],
+        "enAlliances":  [
+                            "Precision"
+                        ],
+        "abilityTypeCn":  "作战能力",
+        "abilityTypeEn":  "Combat",
+        "status":  "returning",
+        "cnAbility":  "\u003c战斗中\u003e【精准】每叠加4层，本干员技力自然回复速度+0.01/秒",
+        "enAbility":  "\u003cIn battle\u003e For every 4 stacks of [Precision] Alliance, this Operator gains +0.01/s SP recovery rate",
+        "cnUpgraded":  "\u003c战斗中\u003e【精准】每叠加2层，本干员技力自然回复速度+0.01/秒",
+        "enUpgraded":  "\u003cIn battle\u003e For every 2 stacks of [Precision] Alliance, this Operator gains +0.01/s SP recovery rate"
+    },
+    {
+        "tier":  6,
+        "cnName":  "缪尔赛思",
+        "enName":  "Muelsyse",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_249_mlyss.webp",
+        "cnAlliances":  [
+                            "协防干员"
+                        ],
+        "enAlliances":  [
+                            "Assist Operator"
+                        ],
+        "abilityTypeCn":  "整备能力",
+        "abilityTypeEn":  "Prep",
+        "status":  "returning",
+        "cnAbility":  "\u003c获得时\u003e获得一个“变形同构体”",
+        "enAbility":  "\u003cWhen obtained\u003e Obtain 1 \"Damazti Isomorph\"",
+        "cnUpgraded":  "\u003c获得时\u003e获得两个“变形同构体”",
+        "enUpgraded":  "\u003cWhen obtained\u003e Obtain 2 \"Damazti Isomorph\""
+    },
+    {
+        "tier":  6,
+        "cnName":  "帕拉斯",
+        "enName":  "Pallas",
+        "icon":  "https://static.closure.wiki/v3/charavatars/char_485_pallas.webp",
+        "cnAlliances":  [
+                            "灵巧",
+                            "助力"
+                        ],
+        "enAlliances":  [
+                            "Agile",
+                            "Aid"
+                        ],
+        "abilityTypeCn":  "持续叠加",
+        "abilityTypeEn":  "Can stack",
+        "status":  "new",
+        "cnAbility":  "\u003c休整期结束时\u003e使自身以及身前一格干员已激活的盟约层数+9",
+        "enAbility":  "\u003cWhen Rest Phase ends\u003e +9 stacks to active Alliance(s) of self and the Operator 1 tile in front",
+        "cnUpgraded":  "\u003c休整期结束时\u003e使自身以及身前一格干员已激活的盟约层数+18",
+        "enUpgraded":  "\u003cWhen Rest Phase ends\u003e +18 stacks to active Alliance(s) of self and the Operator 1 tile in front"
+    }
+]
