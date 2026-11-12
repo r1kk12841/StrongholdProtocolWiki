@@ -815,6 +815,297 @@
       color: var(--gold);
       padding: 0 2px;
     }
+    /* Floating Back-to-Top Button */
+    .back-to-top {
+      position: fixed;
+      right: 16px;
+      bottom: 18px;
+      z-index: 60;
+      background: var(--accent);
+      color: #041019;
+      border: none;
+      border-radius: 999px;
+      padding: 9px 14px;
+      font-size: 12px;
+      font-weight: 800;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      gap: 4px;
+    }
+    .back-to-top.visible { display: inline-flex; }
+    .pin-collapse-btn {
+      display: none;
+      background: var(--bg-2);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      padding: 2px 8px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    /* ==================== MOBILE OPTIMIZATION (<= 768px) ==================== */
+    @media (max-width: 768px) {
+      .topbar {
+        padding: 8px 12px;
+      }
+      .topbar-inner {
+        gap: 8px;
+      }
+      .brand {
+        gap: 8px;
+        width: 100%;
+        justify-content: space-between;
+      }
+      .brand-badge {
+        font-size: 10px;
+        padding: 3px 6px;
+        white-space: nowrap;
+        order: 2;
+      }
+      .brand h1 {
+        font-size: 15px;
+        line-height: 1.25;
+      }
+      .brand-sub {
+        display: none;
+      }
+      .search-wrap {
+        flex: 1 1 100%;
+        max-width: 100%;
+      }
+      .search-input, .select-filter {
+        font-size: 16px; /* Prevents iOS auto-zoom on focus */
+        padding: 8px 60px 8px 34px;
+      }
+      .select-filter {
+        padding: 6px 10px;
+        font-size: 13px;
+      }
+      .kbd {
+        display: none;
+      }
+      .controls-row {
+        margin-top: 8px;
+        gap: 6px;
+      }
+      .tabs {
+        width: 100%;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding-bottom: 2px;
+      }
+      .tabs::-webkit-scrollbar { display: none; }
+      .tab-btn {
+        flex: 0 0 auto;
+        padding: 6px 10px;
+        font-size: 12px;
+        white-space: nowrap;
+      }
+      .toggles {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 6px;
+      }
+      .toggle-btn {
+        flex: 1 1 auto;
+        text-align: center;
+        padding: 5px 8px;
+        font-size: 11px;
+      }
+      /* Compact & Collapsible Pinned Squad Bar on Mobile */
+      .pinned-bar {
+        margin-top: 6px;
+        padding: 8px 10px;
+        gap: 6px;
+      }
+      .pin-collapse-btn {
+        display: inline-flex;
+        align-items: center;
+      }
+      .pinned-list {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        max-width: 100%;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding-bottom: 2px;
+      }
+      .pinned-list::-webkit-scrollbar { display: none; }
+      .pinned-chip {
+        flex: 0 0 auto;
+      }
+      .pinned-bar.mobile-collapsed .pinned-actions,
+      .pinned-bar.mobile-collapsed .pinned-synergies {
+        display: none !important;
+      }
+      .pinned-actions {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+      .pinned-actions .pin-btn {
+        flex: 1 1 auto;
+        justify-content: center;
+        padding: 5px 6px;
+      }
+      .pinned-synergies {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding-bottom: 2px;
+      }
+      .pinned-synergies::-webkit-scrollbar { display: none; }
+      .synergy-meter {
+        flex: 0 0 auto;
+      }
+      /* Main Container & Filters */
+      .container {
+        padding: 12px 10px 64px;
+      }
+      .section-block {
+        margin-bottom: 26px;
+      }
+      .section-head {
+        gap: 8px;
+      }
+      .section-title {
+        font-size: 16px;
+      }
+      .sub-filters, #opTierFilters {
+        width: 100%;
+        flex-wrap: nowrap !important;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding-bottom: 4px;
+      }
+      .sub-filters::-webkit-scrollbar, #opTierFilters::-webkit-scrollbar { display: none; }
+      .chip {
+        flex: 0 0 auto;
+        white-space: nowrap;
+        padding: 5px 11px;
+      }
+      .op-select-row {
+        display: flex;
+        width: 100%;
+        gap: 6px;
+      }
+      .op-select-row .select-filter {
+        flex: 1 1 50%;
+        min-width: 0;
+      }
+      /* Planner & Community Cards on Mobile */
+      .planner-box {
+        padding: 12px;
+      }
+      .planner-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+      .guide-card {
+        padding: 12px;
+      }
+      .guide-header {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+      }
+      .guide-actions-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+      }
+      .phase-tabs {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+      .phase-tabs::-webkit-scrollbar { display: none; }
+      .phase-btn {
+        flex: 0 0 auto;
+        white-space: nowrap;
+      }
+      /* Convert Data Tables into Responsive Mobile Cards */
+      .table-card {
+        background: transparent;
+        border: none;
+        border-radius: 0;
+        overflow: visible;
+      }
+      .table-scroll {
+        overflow-x: visible;
+      }
+      table, tbody {
+        display: block;
+        width: 100%;
+      }
+      thead {
+        display: none;
+      }
+      tbody tr {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background: var(--bg-1);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 12px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.22);
+      }
+      tbody tr.row-pinned {
+        border-color: var(--gold);
+        background: rgba(245, 179, 1, 0.08);
+      }
+      tbody td {
+        border-top: none;
+        padding: 0;
+      }
+      tbody td.icon-cell {
+        width: 52px !important;
+        min-width: 52px !important;
+        margin-right: 10px;
+        text-align: left;
+      }
+      tbody td.title-cell {
+        flex: 1 1 calc(100% - 64px);
+        min-width: 0 !important;
+      }
+      tbody td.body-cell {
+        width: 100% !important;
+        min-width: 100% !important;
+        margin-top: 10px;
+        padding-top: 8px;
+        border-top: 1px dashed rgba(255, 255, 255, 0.09);
+      }
+      tbody td.body-cell[data-label]::before {
+        content: attr(data-label);
+        display: block;
+        font-size: 10px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--muted);
+        margin-bottom: 4px;
+      }
+      .op-grid {
+        max-width: 100%;
+      }
+      .recipe-bar {
+        display: flex;
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body class="show-s2">
@@ -853,8 +1144,11 @@
     <!-- Sticky Pinned Squad Bar (appears whenever >=1 Operator is pinned) -->
     <div id="pinnedBar" class="pinned-bar">
       <div class="pinned-top">
-        <div class="pinned-list" id="pinnedList"></div>
-        <div style="display:flex;gap:8px;align-items:center;">
+        <div style="display:flex;align-items:center;justify-content:space-between;width:100%;gap:8px;">
+          <div class="pinned-list" id="pinnedList" style="flex:1;min-width:0;"></div>
+          <button id="btnTogglePinDrawer" class="pin-collapse-btn" type="button">Hide &#9650;</button>
+        </div>
+        <div class="pinned-actions" style="display:flex;gap:8px;align-items:center;">
           <button id="btnViewRecommendations" class="pin-btn pinned" type="button">View Recommended Builds</button>
           <button id="btnFilterPinnedOps" class="pin-btn" type="button">Only Pinned in Operators</button>
           <button id="btnClearPins" class="pin-btn" type="button">Clear All Pins</button>
@@ -946,7 +1240,7 @@
     <section class="section-block" id="sec-operators">
       <div class="section-head">
         <h2 class="section-title">Operators (Alliances &amp; Stronghold Abilities)</h2>
-        <div class="sub-filters">
+        <div class="sub-filters" style="flex-wrap:wrap !important;overflow-x:visible;">
           <div id="opTierFilters" style="display:flex;flex-wrap:wrap;gap:6px;">
             <button class="chip active" data-tier="all" type="button">All Tiers</button>
             <button class="chip" data-tier="1" type="button">Tier I</button>
@@ -957,17 +1251,19 @@
             <button class="chip" data-tier="6" type="button">Tier VI</button>
             <button class="chip" data-tier="pinned" type="button">Pinned Only</button>
           </div>
-          <select id="opAllianceSelect" class="select-filter">
-            <option value="all">All Alliances</option>
-          </select>
-          <select id="opTypeSelect" class="select-filter">
-            <option value="all">All Ability Types</option>
-            <option value="Can stack">Can stack</option>
-            <option value="Combat">Combat</option>
-            <option value="One-time">One-time</option>
-            <option value="Prep">Prep</option>
-            <option value="Special">Special</option>
-          </select>
+          <div class="op-select-row" style="display:flex;gap:6px;">
+            <select id="opAllianceSelect" class="select-filter">
+              <option value="all">All Alliances</option>
+            </select>
+            <select id="opTypeSelect" class="select-filter">
+              <option value="all">All Ability Types</option>
+              <option value="Can stack">Can stack</option>
+              <option value="Combat">Combat</option>
+              <option value="One-time">One-time</option>
+              <option value="Prep">Prep</option>
+              <option value="Special">Special</option>
+            </select>
+          </div>
         </div>
       </div>
       <div id="operatorsContainer"></div>
@@ -991,6 +1287,8 @@
       <div id="equipmentContainer"></div>
     </section>
   </main>
+
+  <button id="backToTopBtn" class="back-to-top" type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8593; Top</button>
 
   <script>
     const DATA = {
@@ -12896,7 +13194,7 @@
                 (g.enScope ? '<span>· ' + esc(g.enScope) + '</span>' : '') +
               '</div>' +
             '</div>' +
-            '<div style="display:flex;align-items:center;gap:8px;">' +
+            '<div class="guide-actions-bar" style="display:flex;align-items:center;gap:8px;">' +
               '<button type="button" class="pin-btn" onclick="pinEntireBuild(\'' + g.id + '\')" title="Load this lineup into your Pinned Squad">&#128204; Pin Lineup</button>' +
               '<div class="guide-stats">' +
                 '<span title="Favorites">&#9733; ' + g.collects + '</span>' +
@@ -12956,16 +13254,16 @@
         }).join('');
         return '<tr>' +
           '<td class="icon-cell">' + (a.icon ? '<img class="icon-bond" src="' + esc(a.icon) + '" alt="" loading="lazy">' : '') + '</td>' +
-          '<td style="min-width:165px">' +
+          '<td class="title-cell" style="min-width:165px">' +
             '<div class="entity-name">' + esc(a.enName) + ' ' + statusBadge(a.status) + '</div>' +
             '<div class="cn-sub">' + esc(a.cnName) + '</div>' +
             '<div class="meta-line">' + (a.type === 'core' ? 'Core Alliance' : 'Add-on Alliance') + ' · Req. <span class="hl-cond">' + a.required + '</span></div>' +
           '</td>' +
-          '<td style="min-width:340px">' +
+          '<td class="body-cell" data-label="Effect (Exact Scaling)" style="min-width:340px">' +
             formatEffect(a.enEffect) +
             (a.s2Note ? '<div class="s2-note"><strong>vs. Season 2:</strong> ' + esc(a.s2Note) + '</div>' : '') +
           '</td>' +
-          '<td style="width:350px"><div class="op-grid">' + opsHtml + '</div></td>' +
+          '<td class="body-cell" data-label="Operators (Tap to Pin)" style="width:350px"><div class="op-grid">' + opsHtml + '</div></td>' +
         '</tr>';
       }).join('');
       el.innerHTML = '<div class="table-card"><div class="table-scroll"><table>' +
@@ -12989,17 +13287,17 @@
       const rows = list.map(s => (
         '<tr>' +
           '<td class="icon-cell">' + (s.icon ? '<img class="icon-avatar" src="' + esc(s.icon) + '" alt="" loading="lazy">' : '') + '</td>' +
-          '<td style="min-width:170px">' +
+          '<td class="title-cell" style="min-width:170px">' +
             '<div class="entity-name">' + esc(s.enLeader) + ' ' + statusBadge(s.status) + '</div>' +
             '<div class="cn-sub">' + esc(s.cnLeader) + ' · ' + esc(s.cnName) + '</div>' +
             '<div class="meta-line">Life Points <span class="hl-cond">' + s.hp + '</span></div>' +
           '</td>' +
-          '<td style="min-width:360px">' +
+          '<td class="body-cell" data-label="Strategy &amp; Effect" style="min-width:360px">' +
             '<div style="font-weight:700;color:#fbbf24;margin-bottom:2px">[' + esc(s.enName) + ']</div>' +
             formatEffect(s.enEffect) +
             (s.s2Note ? '<div class="s2-note"><strong>vs. Season 2:</strong> ' + esc(s.s2Note) + '</div>' : '') +
           '</td>' +
-          '<td style="min-width:200px;color:var(--muted);font-size:13px">' + esc(s.enUnlock) + '</td>' +
+          '<td class="body-cell" data-label="Unlock Condition" style="min-width:200px;color:var(--muted);font-size:13px">' + esc(s.enUnlock) + '</td>' +
         '</tr>'
       )).join('');
       el.innerHTML = '<div class="table-card"><div class="table-scroll"><table>' +
@@ -13031,7 +13329,7 @@
         )).join('');
         return '<tr class="' + (isP ? 'row-pinned' : '') + '">' +
           '<td class="icon-cell">' + (o.icon ? '<img class="icon-avatar" src="' + esc(o.icon) + '" alt="" loading="lazy" style="cursor:pointer" onclick="togglePinOperator(\'' + esc(o.enName).replace(/'/g, "\\'") + '\')">' : '') + '</td>' +
-          '<td style="min-width:185px">' +
+          '<td class="title-cell" style="min-width:185px">' +
             '<div class="entity-name">' + esc(o.enName) + ' ' + statusBadge(o.status) + '</div>' +
             '<div class="cn-sub">' + esc(o.cnName) + '</div>' +
             '<div class="meta-line" style="display:flex;gap:6px;align-items:center;">' +
@@ -13041,9 +13339,9 @@
               '</button>' +
             '</div>' +
           '</td>' +
-          '<td style="min-width:150px">' + alBadges + '</td>' +
-          '<td style="min-width:290px"><span class="badge-type">' + esc(o.abilityTypeEn) + '</span>' + formatEffect(o.enAbility) + '</td>' +
-          '<td style="min-width:290px"><span class="badge-type">' + esc(o.abilityTypeEn) + '</span>' + formatEffect(o.enUpgraded) + '</td>' +
+          '<td class="body-cell" data-label="Alliances" style="min-width:150px">' + alBadges + '</td>' +
+          '<td class="body-cell" data-label="Stronghold Ability (Base)" style="min-width:290px"><span class="badge-type">' + esc(o.abilityTypeEn) + '</span>' + formatEffect(o.enAbility) + '</td>' +
+          '<td class="body-cell" data-label="Upgraded Ability (Elite)" style="min-width:290px"><span class="badge-type">' + esc(o.abilityTypeEn) + '</span>' + formatEffect(o.enUpgraded) + '</td>' +
         '</tr>';
       }).join('');
       el.innerHTML = '<div class="table-card"><div class="table-scroll"><table>' +
@@ -13088,7 +13386,7 @@
         }
         return '<tr>' +
           '<td class="icon-cell">' + (e.icon ? '<img class="icon-equip" src="' + esc(e.icon) + '" alt="" loading="lazy">' : '') + '</td>' +
-          '<td style="min-width:190px">' +
+          '<td class="title-cell" style="min-width:190px">' +
             '<div class="entity-name">' + esc(e.enName) + ' ' + statusBadge(e.status) + '</div>' +
             '<div class="cn-sub">' + esc(e.cnName) + '</div>' +
             '<div class="meta-line">' +
@@ -13097,13 +13395,13 @@
               (e.isomorphEn ? ' · <span style="color:var(--teal);font-weight:600">(' + esc(e.isomorphEn) + ')</span>' : '') +
             '</div>' +
           '</td>' +
-          '<td style="min-width:320px">' +
+          '<td class="body-cell" data-label="Base Effect &amp; Recipe" style="min-width:320px">' +
             recipeHtml +
             formatEffect(e.enEffect) +
             combinesIntoHtml +
             (e.s2Note ? '<div class="s2-note"><strong>vs. Season 2:</strong> ' + esc(e.s2Note) + '</div>' : '') +
           '</td>' +
-          '<td style="min-width:260px">' + formatEffect(e.enUpgraded) + '</td>' +
+          '<td class="body-cell" data-label="Upgraded Effect" style="min-width:260px">' + formatEffect(e.enUpgraded) + '</td>' +
         '</tr>';
       }).join('');
       el.innerHTML = '<div class="table-card"><div class="table-scroll"><table>' +
@@ -13290,6 +13588,24 @@
       this.classList.toggle('active');
       document.body.classList.toggle('show-cn');
     });
+
+    const btnTogglePin = document.getElementById('btnTogglePinDrawer');
+    if (btnTogglePin) {
+      btnTogglePin.addEventListener('click', function() {
+        const bar = document.getElementById('pinnedBar');
+        const collapsed = bar.classList.toggle('mobile-collapsed');
+        this.innerHTML = collapsed ? 'Show &#9660;' : 'Hide &#9650;';
+      });
+    }
+
+    const backToTopBtn = document.getElementById('backToTopBtn');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 400) {
+        backToTopBtn.classList.add('visible');
+      } else {
+        backToTopBtn.classList.remove('visible');
+      }
+    }, { passive: true });
 
     renderAll();
   </script>
