@@ -393,16 +393,85 @@
       letter-spacing: 0.04em;
       color: var(--muted);
     }
+    .quickpin-tabs {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 4px;
+      margin-bottom: 8px;
+    }
+    .quickpin-tab {
+      background: var(--bg-1);
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 5px 4px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.12s;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+    }
+    .quickpin-tab:hover {
+      border-color: var(--accent);
+      color: var(--text);
+    }
+    .quickpin-tab.active {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: #67cdff;
+    }
+    .quickpin-pin-badge {
+      background: var(--gold-soft);
+      color: #fde047;
+      border: 1px solid rgba(245, 179, 1, 0.5);
+      border-radius: 99px;
+      padding: 0 5px;
+      font-size: 10px;
+      font-weight: 800;
+    }
     .QuickPin-picker {
       display: flex;
       flex-wrap: wrap;
       gap: 6px;
-      max-height: 155px;
+      max-height: 190px;
       overflow-y: auto;
-      padding: 4px;
+      padding: 6px;
       background: var(--bg-1);
       border: 1px solid var(--border);
       border-radius: 6px;
+    }
+    .quickpin-op-btn {
+      background: var(--bg-2);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 3px 8px 3px 4px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.12s;
+    }
+    .quickpin-op-btn:hover {
+      border-color: var(--accent);
+    }
+    .quickpin-op-btn.pinned {
+      background: var(--gold-soft);
+      color: #fde047;
+      border-color: var(--gold);
+    }
+    .quickpin-op-btn img {
+      width: 22px;
+      height: 22px;
+      border-radius: 4px;
+      background: var(--bg-1);
+      object-fit: contain;
     }
     /* Community Guide Cards */
     .guides-grid {
@@ -1194,7 +1263,8 @@
         </div>
         <div class="planner-grid">
           <div class="planner-card">
-            <h4>Quick-Pin Operator Pool (Click to Pin / Unpin)</h4>
+            <h4>Quick-Pin Operator Pool (Select Tier &amp; Click to Pin)</h4>
+            <div class="quickpin-tabs" id="quickPinTierTabs"></div>
             <div class="QuickPin-picker" id="quickPinPicker"></div>
           </div>
           <div class="planner-card" id="plannerRecommendations">
@@ -12912,7 +12982,13 @@
       opType: 'all',
       equipTier: 'all',
       pinSearch: '',
+      quickPinTier: 1,
       pinnedOps: new Set(savedPins.filter(n => OP_BY_NAME[n]))
+    };
+
+    window.setQuickPinTier = function(tier) {
+      state.quickPinTier = Number(tier);
+      renderPinnedBarAndPlanner();
     };
 
     function savePins() {
@@ -13108,20 +13184,44 @@
           }).join('');
       }
 
-      // Render Quick-Pin Picker
+      // Render Quick-Pin 6 Tier Tabs & Operator Pool
+      const tierTabsEl = document.getElementById('quickPinTierTabs');
       const pickerEl = document.getElementById('quickPinPicker');
       const qPin = state.pinSearch;
-      const pool = DATA.operators.filter(o => {
-        if (!qPin) return true;
-        return (o.enName + ' ' + o.cnName + ' ' + o.enAlliances.join(' ')).toLowerCase().includes(qPin);
+
+      const pinnedByTier = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0 };
+      pinnedArr.forEach(o => {
+        pinnedByTier[o.tier] = (pinnedByTier[o.tier] || 0) + 1;
       });
-      pickerEl.innerHTML = pool.map(o => {
-        const isP = state.pinnedOps.has(o.enName);
-        return '<button type="button" class="pin-btn ' + (isP ? 'pinned' : '') + '" onclick="togglePinOperator(\'' + esc(o.enName).replace(/'/g, "\\'") + '\')">' +
-          '<span class="tier-' + o.tier + '">T' + ROMAN[o.tier] + '</span> ' +
-          esc(o.enName) +
+
+      tierTabsEl.innerHTML = [1, 2, 3, 4, 5, 6].map(t => {
+        const isAct = !qPin && state.quickPinTier === t;
+        const pCnt = pinnedByTier[t] || 0;
+        return '<button type="button" class="quickpin-tab ' + (isAct ? 'active' : '') + '" onclick="setQuickPinTier(' + t + ')">' +
+          '<span class="tier-' + t + '">Tier ' + ROMAN[t] + '</span>' +
+          (pCnt > 0 ? '<span class="quickpin-pin-badge">' + pCnt + '</span>' : '') +
         '</button>';
       }).join('');
+
+      const pool = DATA.operators.filter(o => {
+        if (qPin) {
+          return (o.enName + ' ' + o.cnName + ' ' + o.enAlliances.join(' ')).toLowerCase().includes(qPin);
+        }
+        return o.tier === state.quickPinTier;
+      });
+
+      if (pool.length === 0) {
+        pickerEl.innerHTML = '<div style="color:var(--muted);font-size:12px;padding:8px;">No Operators match your search.</div>';
+      } else {
+        pickerEl.innerHTML = pool.map(o => {
+          const isP = state.pinnedOps.has(o.enName);
+          return '<button type="button" class="quickpin-op-btn ' + (isP ? 'pinned' : '') + '" onclick="togglePinOperator(\'' + esc(o.enName).replace(/'/g, "\\'") + '\')" title="' + esc(o.enAlliances.join(', ')) + '">' +
+            (o.icon ? '<img src="' + esc(o.icon) + '" alt="" loading="lazy">' : '') +
+            (qPin ? '<span class="tier-' + o.tier + '" style="font-size:10px;font-weight:800">T' + ROMAN[o.tier] + '</span>' : '') +
+            '<span>' + esc(o.enName) + '</span>' +
+          '</button>';
+        }).join('');
+      }
 
       // Render Recommended Builds & Companion Operators in Planner
       const recEl = document.getElementById('plannerRecommendations');
