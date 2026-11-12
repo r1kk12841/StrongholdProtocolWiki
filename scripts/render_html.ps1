@@ -1435,6 +1435,52 @@ $html = @"
     }
 
     // ==================== PINNED SQUAD & RUN RECOMMENDER ENGINE ====================
+    function scoreGuideAgainstPins(g) {
+      if (state.pinnedOps.size === 0) {
+        return { matchedOps: [], matchedCount: 0, bestTabIdx: 0, rating: (g.collects || 0) + (g.likes || 0) };
+      }
+      const allGuideOps = new Set();
+      let bestTabIdx = 0;
+      let bestTabMatches = -1;
+      g.tabs.forEach((tb, idx) => {
+        let tabMatchCount = 0;
+        tb.chars.forEach(c => {
+          allGuideOps.add(c.enName);
+          if (state.pinnedOps.has(c.enName)) tabMatchCount++;
+        });
+        if (tabMatchCount > bestTabMatches) {
+          bestTabMatches = tabMatchCount;
+          bestTabIdx = idx;
+        }
+      });
+      const matchedOps = Array.from(state.pinnedOps).filter(n => allGuideOps.has(n));
+      return {
+        matchedOps,
+        matchedCount: matchedOps.length,
+        bestTabIdx,
+        rating: (g.collects || 0) + (g.likes || 0)
+      };
+    }
+
+    function getSortedMatchingGuides() {
+      if (state.pinnedOps.size === 0) return [];
+      return DATA.community
+        .map(g => ({ g, matchInfo: scoreGuideAgainstPins(g) }))
+        .filter(x => x.matchInfo.matchedCount > 0)
+        .sort((a, b) => {
+          if (b.matchInfo.matchedCount !== a.matchInfo.matchedCount) {
+            return b.matchInfo.matchedCount - a.matchInfo.matchedCount;
+          }
+          if (b.g.collects !== a.g.collects) {
+            return b.g.collects - a.g.collects;
+          }
+          if (b.g.likes !== a.g.likes) {
+            return b.g.likes - a.g.likes;
+          }
+          return b.g.views - a.g.views;
+        });
+    }
+
     function computePinAnalysis() {
       const pinnedArr = Array.from(state.pinnedOps).map(n => OP_BY_NAME[n]).filter(Boolean);
       const allianceCounts = {};
@@ -1444,40 +1490,64 @@ $html = @"
         });
       });
 
-      // Score unpinned operators by how well they complete or expand pinned alliances
-      const candidateScores = [];
-      if (pinnedArr.length > 0) {
-        DATA.operators.forEach(o => {
-          if (state.pinnedOps.has(o.enName)) return;
-          let score = 0;
-          const matchedAlliances = [];
-          o.enAlliances.forEach(a => {
-            const cnt = allianceCounts[a] || 0;
-            if (cnt > 0) {
-              const alObj = ALLIANCE_BY_NAME[a];
-              const req = alObj ? alObj.required : 2;
-              if (cnt === req - 1) {
-                score += 5;
-              } else if (alObj && alObj.type === 'core' && cnt >= req && cnt < 6) {
-                score += 3;
-              } else {
-                score += 2;
+      const matchingGuides = getSortedMatchingGuides();
+
+      // Score unpinned operators primarily by how many top-matching & high-rated builds use them
+      const opBuildStats = {};
+      matchingGuides.forEach(({ g, matchInfo }) => {
+        const seenInGuide = new Set();
+        g.tabs.forEach(tb => {
+          tb.chars.forEach(c => {
+            if (!state.pinnedOps.has(c.enName) && OP_BY_NAME[c.enName] && !seenInGuide.has(c.enName)) {
+              seenInGuide.add(c.enName);
+              if (!opBuildStats[c.enName]) {
+                opBuildStats[c.enName] = { maxMatchedOps: 0, buildCount: 0, bestRating: 0 };
               }
-              matchedAlliances.push(a);
+              const st = opBuildStats[c.enName];
+              st.buildCount += 1;
+              if (matchInfo.matchedCount > st.maxMatchedOps) {
+                st.maxMatchedOps = matchInfo.matchedCount;
+              }
+              if (g.collects > st.bestRating) {
+                st.bestRating = g.collects;
+              }
             }
           });
-          if (score > 0) {
-            candidateScores.push({ op: o, score, matchedAlliances });
-          }
         });
-        candidateScores.sort((a, b) => b.score - a.score || a.op.tier - b.op.tier);
-      }
+      });
 
-      return { pinnedArr, allianceCounts, candidateScores: candidateScores.slice(0, 8) };
+      const candidateScores = Object.keys(opBuildStats).map(opName => {
+        const o = OP_BY_NAME[opName];
+        const st = opBuildStats[opName];
+        const matchedAlliances = o.enAlliances.filter(a => (allianceCounts[a] || 0) > 0);
+        return {
+          op: o,
+          maxMatchedOps: st.maxMatchedOps,
+          buildCount: st.buildCount,
+          bestRating: st.bestRating,
+          matchedAlliances
+        };
+      });
+
+      candidateScores.sort((a, b) =>
+        b.maxMatchedOps - a.maxMatchedOps ||
+        b.buildCount - a.buildCount ||
+        b.bestRating - a.bestRating ||
+        a.op.tier - b.op.tier
+      );
+
+      return { pinnedArr, allianceCounts, matchingGuides, candidateScores: candidateScores.slice(0, 8) };
     }
 
+    window.scrollToGuideCard = function(guideId) {
+      const card = document.getElementById('guide-card-' + guideId);
+      if (card) {
+        card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    };
+
     function renderPinnedBarAndPlanner() {
-      const { pinnedArr, allianceCounts, candidateScores } = computePinAnalysis();
+      const { pinnedArr, allianceCounts, matchingGuides, candidateScores } = computePinAnalysis();
       const bar = document.getElementById('pinnedBar');
       const listEl = document.getElementById('pinnedList');
       const synEl = document.getElementById('pinnedSynergies');
@@ -1529,22 +1599,39 @@ $html = @"
         '</button>';
       }).join('');
 
-      // Render Best-Fit Next Operators in Planner
+      // Render Recommended Builds & Companion Operators in Planner
       const recEl = document.getElementById('plannerRecommendations');
       if (pinnedArr.length === 0) {
-        recEl.innerHTML = '<h4>Best-Fit Next Operators &amp; Alliance Progress</h4>' +
-          '<div style="color:var(--muted);font-size:12px;">Pin 1 or more Operators (by clicking any Operator avatar or using the pool on the left) to get real-time recommendations on which Operators activate multiple Alliances and which Skland Community Builds match your run!</div>';
+        recEl.innerHTML = '<h4>Recommended Builds &amp; Next Operators</h4>' +
+          '<div style="color:var(--muted);font-size:12px;">Pin 1 or more Operators (by clicking any Operator avatar or using the pool on the left) to automatically filter &amp; rank Community Builds by <strong>Matched Operators (most &rarr; least)</strong> and <strong>Rating (high &rarr; low)</strong>!</div>';
       } else {
+        const topBuildsHtml = matchingGuides.slice(0, 5).map(({ g, matchInfo }) => (
+          '<div onclick="scrollToGuideCard(\'' + g.id + '\')" style="display:flex;justify-content:space-between;align-items:center;gap:8px;padding:6px 8px;background:var(--bg-1);border:1px solid var(--border);border-radius:6px;cursor:pointer;margin-bottom:5px;">' +
+            '<div style="min-width:0;flex:1;">' +
+              '<div style="font-weight:700;font-size:12px;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + esc(g.enTitle) + '</div>' +
+              '<div style="font-size:11px;color:var(--muted);">Matches: <strong style="color:#5eead4">' + esc(matchInfo.matchedOps.join(', ')) + '</strong></div>' +
+            '</div>' +
+            '<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">' +
+              '<span class="badge badge-match">' + matchInfo.matchedCount + '/' + pinnedArr.length + ' Ops</span>' +
+              '<span style="font-size:11px;color:var(--gold);font-weight:700;">&#9733; ' + g.collects + '</span>' +
+            '</div>' +
+          '</div>'
+        )).join('');
+
         const recsHtml = candidateScores.map(c => (
-          '<span class="recipe-pill" onclick="togglePinOperator(\'' + esc(c.op.enName).replace(/'/g, "\\'") + '\')" title="Click to Pin · Completes: ' + esc(c.matchedAlliances.join(', ')) + '">' +
+          '<span class="recipe-pill" onclick="togglePinOperator(\'' + esc(c.op.enName).replace(/'/g, "\\'") + '\')" title="Click to Pin · Used in ' + c.buildCount + ' matching build(s)">' +
             (c.op.icon ? '<img src="' + esc(c.op.icon) + '" alt="">' : '') +
             '<span class="recipe-pill-name">' + esc(c.op.enName) + '</span>' +
             '<span class="tier-pill tier-' + c.op.tier + '" style="font-size:10px;padding:0 4px">T' + ROMAN[c.op.tier] + '</span>' +
-            '<span style="font-size:11px;color:var(--teal);">(' + esc(c.matchedAlliances.join(', ')) + ')</span>' +
+            '<span style="font-size:11px;color:var(--teal);">(' + c.buildCount + ' build' + (c.buildCount > 1 ? 's' : '') + ')</span>' +
           '</span>'
         )).join('');
-        recEl.innerHTML = '<h4>Recommended Next Operators to Complete Your Synergies (Click to Pin)</h4>' +
-          '<div style="display:flex;flex-wrap:wrap;gap:6px;">' + (recsHtml || '<span style="color:var(--muted)">No multi-synergy suggestions found.</span>') + '</div>';
+
+        recEl.innerHTML =
+          '<h4>Top Matching Builds (' + matchingGuides.length + ' found · Sorted by Matched Ops &darr; then Rating &#9733; &darr;)</h4>' +
+          (topBuildsHtml || '<div style="color:var(--muted);font-size:12px;margin-bottom:8px;">No builds contain any of your pinned Operators yet.</div>') +
+          '<h4 style="margin-top:10px;">Core Teammates in Top Matching Builds (Click to Pin)</h4>' +
+          '<div style="display:flex;flex-wrap:wrap;gap:6px;">' + (recsHtml || '<span style="color:var(--muted)">No teammate suggestions found.</span>') + '</div>';
       }
     }
 
@@ -1557,7 +1644,8 @@ $html = @"
     window.pinEntireBuild = function(guideId) {
       const g = DATA.community.find(x => x.id === guideId);
       if (!g) return;
-      const tabIdx = state.guideTabIdx[guideId] || 0;
+      const matchInfo = scoreGuideAgainstPins(g);
+      const tabIdx = (state.guideTabIdx[guideId] !== undefined) ? state.guideTabIdx[guideId] : matchInfo.bestTabIdx;
       const tb = g.tabs[tabIdx] || g.tabs[0];
       state.pinnedOps.clear();
       tb.chars.forEach(c => {
@@ -1567,28 +1655,17 @@ $html = @"
       renderAll();
     };
 
-    function scoreGuideAgainstPins(g) {
-      if (state.pinnedOps.size === 0) return { matchedOps: [], matchedAlliances: [], score: 0 };
-      const allGuideOps = new Set();
-      const allGuideAlliances = new Set();
-      g.tabs.forEach(tb => {
-        tb.chars.forEach(c => allGuideOps.add(c.enName));
-        (tb.allAlliances || []).forEach(a => allGuideAlliances.add(a));
-      });
-      const matchedOps = Array.from(state.pinnedOps).filter(n => allGuideOps.has(n));
-      const { allianceCounts } = computePinAnalysis();
-      const matchedAlliances = Object.keys(allianceCounts).filter(a => allGuideAlliances.has(a));
-      const score = matchedOps.length * 10 + matchedAlliances.length * 2;
-      return { matchedOps, matchedAlliances, score };
-    }
-
     function renderCommunity() {
       const enriched = DATA.community.map(g => {
         const matchInfo = scoreGuideAgainstPins(g);
         return { g, matchInfo };
       }).filter(({ g, matchInfo }) => {
+        // When operators are pinned, automatically filter to builds that match >=1 pinned operator
+        if (state.pinnedOps.size > 0 && matchInfo.matchedCount === 0) {
+          return false;
+        }
         if (state.communityAlliance === 'matched') {
-          if (matchInfo.matchedOps.length === 0) return false;
+          if (matchInfo.matchedCount === 0) return false;
         } else if (state.communityAlliance !== 'all') {
           const hasAl = g.tabs.some(tb => (tb.allAlliances || []).includes(state.communityAlliance));
           if (!hasAl) return false;
@@ -1601,11 +1678,20 @@ $html = @"
         return matchQuery([g.enTitle, g.cnTitle, g.archetype, g.author, g.enScope, opNames, eqNames, stNames, alNames, notes]);
       });
 
+      // Strict sorting:
+      // 1. Number of matched pinned operators (most -> least)
+      // 2. Build rating: Favorites/Collects (high -> low), then Likes (high -> low), then Views (high -> low)
       enriched.sort((a, b) => {
-        if (state.pinnedOps.size > 0 && b.matchInfo.score !== a.matchInfo.score) {
-          return b.matchInfo.score - a.matchInfo.score;
+        if (state.pinnedOps.size > 0 && b.matchInfo.matchedCount !== a.matchInfo.matchedCount) {
+          return b.matchInfo.matchedCount - a.matchInfo.matchedCount;
         }
-        return b.g.collects - a.g.collects;
+        if (b.g.collects !== a.g.collects) {
+          return b.g.collects - a.g.collects;
+        }
+        if (b.g.likes !== a.g.likes) {
+          return b.g.likes - a.g.likes;
+        }
+        return b.g.views - a.g.views;
       });
 
       document.getElementById('cntCommunity').textContent = enriched.length;
@@ -1616,9 +1702,11 @@ $html = @"
       }
 
       el.innerHTML = enriched.map(({ g, matchInfo }) => {
-        const tabIdx = state.guideTabIdx[g.id] || 0;
+        const tabIdx = (state.guideTabIdx[g.id] !== undefined)
+          ? state.guideTabIdx[g.id]
+          : (state.pinnedOps.size > 0 ? matchInfo.bestTabIdx : 0);
         const tb = g.tabs[tabIdx] || g.tabs[0];
-        const isMatched = matchInfo.matchedOps.length > 0;
+        const isMatched = matchInfo.matchedCount > 0;
 
         const phaseTabsHtml = g.tabs.length > 1 ? (
           '<div class="phase-tabs">' +
@@ -1656,12 +1744,12 @@ $html = @"
           ? tb.items.map(it => renderEquipPill(it.enName)).join(' ')
           : '<span style="color:var(--muted);font-size:12px">Flexible / Situational</span>';
 
-        return '<article class="guide-card ' + (isMatched ? 'matched-build' : '') + '">' +
+        return '<article id="guide-card-' + g.id + '" class="guide-card ' + (isMatched ? 'matched-build' : '') + '">' +
           '<div class="guide-header">' +
             '<div>' +
               '<h3 class="guide-title">' +
                 esc(g.enTitle) + ' ' +
-                (isMatched ? '<span class="badge badge-match">&#128204; Matches ' + matchInfo.matchedOps.length + ' Pinned Op(s): ' + esc(matchInfo.matchedOps.join(', ')) + '</span>' : '') +
+                (isMatched ? '<span class="badge badge-match">&#128204; Matches ' + matchInfo.matchedCount + '/' + state.pinnedOps.size + ' Pinned Op(s): ' + esc(matchInfo.matchedOps.join(', ')) + '</span>' : '') +
               '</h3>' +
               '<div class="cn-sub">' + esc(g.cnTitle) + '</div>' +
               '<div class="guide-meta">' +
