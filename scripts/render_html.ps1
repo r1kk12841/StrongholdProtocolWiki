@@ -931,6 +931,78 @@ $html = @"
       font-weight: 700;
       cursor: pointer;
     }
+    /* Strategy Filter Bar for Community Builds */
+    .strategy-filter-bar {
+      background: var(--bg-1);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px;
+      margin-bottom: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .strategy-filter-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .strategy-filter-label {
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #fbbf24;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .strat-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bg-2);
+      color: var(--muted);
+      border: 1px solid var(--border);
+      padding: 4px 10px 4px 6px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.14s ease;
+    }
+    .strat-chip:hover {
+      color: var(--text);
+      border-color: #fbbf24;
+    }
+    .strat-chip.active {
+      background: rgba(245, 179, 1, 0.16);
+      color: #fde047;
+      border-color: rgba(245, 179, 1, 0.6);
+      box-shadow: 0 0 0 1px rgba(245, 179, 1, 0.25);
+    }
+    .strat-chip img {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      object-fit: cover;
+      background: var(--bg-3);
+      border: 1px solid var(--border);
+    }
+    .strat-chip-cnt {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text);
+      font-size: 10px;
+      font-weight: 800;
+      padding: 1px 6px;
+      border-radius: 999px;
+    }
+    .strat-chip.active .strat-chip-cnt {
+      background: var(--gold);
+      color: #09131c;
+    }
 
     /* ==================== MOBILE OPTIMIZATION (<= 768px) ==================== */
     @media (max-width: 768px) {
@@ -1073,10 +1145,13 @@ $html = @"
         padding-bottom: 4px;
       }
       .sub-filters::-webkit-scrollbar, #opTierFilters::-webkit-scrollbar { display: none; }
-      .chip {
+      .chip, .strat-chip {
         flex: 0 0 auto;
         white-space: nowrap;
         padding: 5px 11px;
+      }
+      .strategy-filter-head .select-filter {
+        flex: 1 1 100%;
       }
       .op-select-row {
         display: flex;
@@ -1215,7 +1290,7 @@ $html = @"
     <div class="controls-row">
       <div class="tabs" id="mainTabs">
         <button class="tab-btn active" data-tab="all" type="button">All Sections</button>
-        <button class="tab-btn" data-tab="community" type="button">&#127942; Community Builds &amp; Planner <span class="tab-count" id="cntCommunity">20</span></button>
+        <button class="tab-btn" data-tab="community" type="button">&#127942; Community Builds &amp; Planner <span class="tab-count" id="cntCommunity">52</span></button>
         <button class="tab-btn" data-tab="alliances" type="button">Alliances <span class="tab-count" id="cntAlliances">26</span></button>
         <button class="tab-btn" data-tab="strategies" type="button">Strategies <span class="tab-count" id="cntStrategies">61</span></button>
         <button class="tab-btn" data-tab="operators" type="button">Operators <span class="tab-count" id="cntOperators">143</span></button>
@@ -1249,7 +1324,7 @@ $html = @"
       <div class="section-head">
         <h2 class="section-title">&#127942; Skland Community Strategies &amp; Run Build Recommender</h2>
         <div class="sub-filters" id="communityAllianceFilters">
-          <button class="chip active" data-alliance="all" type="button">All Builds (20)</button>
+          <button class="chip active" data-alliance="all" type="button">All Builds (52)</button>
           <button class="chip" data-alliance="Yan" type="button">Yan</button>
           <button class="chip" data-alliance="Sargon" type="button">Sargon</button>
           <button class="chip" data-alliance="Victoria" type="button">Victoria</button>
@@ -1262,6 +1337,17 @@ $html = @"
           <button class="chip" data-alliance="Leithanien" type="button">Leithanien</button>
           <button class="chip" data-alliance="matched" type="button" id="chipMatchedOnly">Matching Pinned Ops</button>
         </div>
+      </div>
+
+      <!-- Filter by Strategy (Strategist) Bar -->
+      <div class="strategy-filter-bar">
+        <div class="strategy-filter-head">
+          <span class="strategy-filter-label">&#9876; Filter by Strategy (Strategist):</span>
+          <select id="communityStrategySelect" class="select-filter" style="min-width:250px;">
+            <option value="all">All Strategies (52 Builds)</option>
+          </select>
+        </div>
+        <div class="sub-filters" id="communityStrategyFilters"></div>
       </div>
 
       <!-- Interactive Run Planner / Operator Pinning Box -->
@@ -1450,6 +1536,7 @@ $html = @"
       q: '',
       tab: 'all',
       communityAlliance: 'all',
+      communityStrategy: 'all',
       guideTabIdx: {},
       allianceFilter: 'all',
       strategyFilter: 'all',
@@ -1461,6 +1548,86 @@ $html = @"
       quickPinTier: 1,
       pinnedOps: new Set(savedPins.filter(n => OP_BY_NAME[n]))
     };
+
+    // Build Strategy usage index across Community Builds
+    const STRAT_USAGE_MAP = {};
+    const STRAT_BUILD_COUNTS = {};
+    DATA.community.forEach(g => {
+      const seenInGuide = new Set();
+      (g.strategies || []).forEach(s => {
+        if (!s || !s.enName || seenInGuide.has(s.enName)) return;
+        seenInGuide.add(s.enName);
+        if (!STRAT_USAGE_MAP[s.enName]) {
+          STRAT_USAGE_MAP[s.enName] = {
+            enName: s.enName,
+            enLeader: s.enLeader,
+            cnName: s.cnName,
+            cnLeader: s.cnLeader,
+            icon: s.icon,
+            enEffect: s.enEffect,
+            count: 0
+          };
+        }
+        STRAT_USAGE_MAP[s.enName].count += 1;
+        STRAT_BUILD_COUNTS[s.enName] = STRAT_USAGE_MAP[s.enName].count;
+      });
+    });
+    const STRAT_USAGE_LIST = Object.values(STRAT_USAGE_MAP).sort((a, b) =>
+      b.count - a.count || a.enLeader.localeCompare(b.enLeader)
+    );
+
+    const communityStrategySelect = document.getElementById('communityStrategySelect');
+    STRAT_USAGE_LIST.forEach(st => {
+      const opt = document.createElement('option');
+      opt.value = st.enName;
+      opt.textContent = st.enLeader + ' · [' + st.enName + '] (' + st.count + ' build' + (st.count > 1 ? 's' : '') + ')';
+      communityStrategySelect.appendChild(opt);
+    });
+
+    function renderStrategyFilterBar() {
+      const container = document.getElementById('communityStrategyFilters');
+      if (!container) return;
+      const allBtn = '<button type="button" class="strat-chip ' + (state.communityStrategy === 'all' ? 'active' : '') + '" onclick="filterCommunityByStrategy(\'all\')">' +
+        '<span>All Strategies</span>' +
+        '<span class="strat-chip-cnt">' + DATA.community.length + '</span>' +
+      '</button>';
+      const stratBtns = STRAT_USAGE_LIST.map(st => {
+        const isAct = state.communityStrategy === st.enName;
+        return '<button type="button" class="strat-chip ' + (isAct ? 'active' : '') + '" onclick="filterCommunityByStrategy(\'' + esc(st.enName).replace(/'/g, "\\'") + '\')" title="' + esc(st.enLeader + ' · [' + st.enName + ']: ' + st.enEffect) + '">' +
+          (st.icon ? '<img src="' + esc(st.icon) + '" alt="" loading="lazy">' : '') +
+          '<span>' + esc(st.enLeader) + ' · [' + esc(st.enName) + ']</span>' +
+          '<span class="strat-chip-cnt">' + st.count + '</span>' +
+        '</button>';
+      }).join('');
+      container.innerHTML = allBtn + stratBtns;
+      if (communityStrategySelect) {
+        communityStrategySelect.value = state.communityStrategy;
+      }
+    }
+
+    window.filterCommunityByStrategy = function(stratName, scrollToSec) {
+      state.communityStrategy = (state.communityStrategy === stratName && stratName !== 'all' && !scrollToSec) ? 'all' : stratName;
+      if (state.tab !== 'all' && state.tab !== 'community') {
+        state.tab = 'community';
+        document.querySelectorAll('#mainTabs .tab-btn').forEach(b => {
+          b.classList.toggle('active', b.dataset.tab === 'community');
+        });
+        updateVisibility();
+      }
+      renderStrategyFilterBar();
+      renderCommunity();
+      if (scrollToSec) {
+        document.getElementById('sec-community').scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
+    if (communityStrategySelect) {
+      communityStrategySelect.addEventListener('change', e => {
+        state.communityStrategy = e.target.value;
+        renderStrategyFilterBar();
+        renderCommunity();
+      });
+    }
 
     window.setQuickPinTier = function(tier) {
       state.quickPinTier = Number(tier);
@@ -1764,6 +1931,10 @@ $html = @"
         if (state.pinnedOps.size > 0 && matchInfo.matchedCount === 0) {
           return false;
         }
+        if (state.communityStrategy !== 'all') {
+          const hasSt = (g.strategies || []).some(s => s.enName === state.communityStrategy);
+          if (!hasSt) return false;
+        }
         if (state.communityAlliance === 'matched') {
           if (matchInfo.matchedCount === 0) return false;
         } else if (state.communityAlliance !== 'all') {
@@ -1818,12 +1989,13 @@ $html = @"
           '</div>'
         ) : '';
 
-        const stratsHtml = g.strategies.map(s => (
-          '<span class="recipe-pill" title="' + esc(s.enEffect) + '">' +
+        const stratsHtml = g.strategies.map(s => {
+          const isStActive = state.communityStrategy === s.enName;
+          return '<span class="recipe-pill" onclick="filterCommunityByStrategy(\'' + esc(s.enName).replace(/'/g, "\\'") + '\')" style="' + (isStActive ? 'border-color:var(--gold);background:rgba(245,179,1,0.16);' : '') + '" title="Click to filter Community Builds by ' + esc(s.enLeader + ' · [' + s.enName + ']') + ' — ' + esc(s.enEffect) + '">' +
             (s.icon ? '<img src="' + esc(s.icon) + '" alt="" style="border-radius:4px">' : '') +
-            '<span class="recipe-pill-name">' + esc(s.enLeader) + ' · [' + esc(s.enName) + ']</span>' +
-          '</span>'
-        )).join(' ');
+            '<span class="recipe-pill-name" style="' + (isStActive ? 'color:#fde047;' : '') + '">' + esc(s.enLeader) + ' · [' + esc(s.enName) + ']</span>' +
+          '</span>';
+        }).join(' ');
 
         const bondsHtml = [
           ...(tb.seasonBonds || []).map(a => '<span class="badge-alliance core-bond" onclick="filterByAlliance(\'' + esc(a).replace(/'/g, "\\'") + '\')">&#9733; ' + esc(a) + '</span>'),
@@ -1948,13 +2120,18 @@ $html = @"
         el.innerHTML = '<div class="empty-msg">No Strategies match your current search/filter.</div>';
         return;
       }
-      const rows = list.map(s => (
-        '<tr>' +
+      const rows = list.map(s => {
+        const bCnt = STRAT_BUILD_COUNTS[s.enName] || 0;
+        const buildBadge = bCnt > 0
+          ? '<button type="button" class="pin-btn pinned" style="margin-top:4px;" onclick="filterCommunityByStrategy(\'' + esc(s.enName).replace(/'/g, "\\'") + '\', true)" title="View Community Builds using ' + esc(s.enLeader + ' · [' + s.enName + ']') + '">&#127942; ' + bCnt + ' Build' + (bCnt > 1 ? 's' : '') + '</button>'
+          : '';
+        return '<tr>' +
           '<td class="icon-cell">' + (s.icon ? '<img class="icon-avatar" src="' + esc(s.icon) + '" alt="" loading="lazy">' : '') + '</td>' +
           '<td class="title-cell" style="min-width:170px">' +
             '<div class="entity-name">' + esc(s.enLeader) + ' ' + statusBadge(s.status) + '</div>' +
             '<div class="cn-sub">' + esc(s.cnLeader) + ' · ' + esc(s.cnName) + '</div>' +
             '<div class="meta-line">Life Points <span class="hl-cond">' + s.hp + '</span></div>' +
+            buildBadge +
           '</td>' +
           '<td class="body-cell" data-label="Strategy &amp; Effect" style="min-width:360px">' +
             '<div style="font-weight:700;color:#fbbf24;margin-bottom:2px">[' + esc(s.enName) + ']</div>' +
@@ -1962,8 +2139,8 @@ $html = @"
             (s.s2Note ? '<div class="s2-note"><strong>vs. Season 2:</strong> ' + esc(s.s2Note) + '</div>' : '') +
           '</td>' +
           '<td class="body-cell" data-label="Unlock Condition" style="min-width:200px;color:var(--muted);font-size:13px">' + esc(s.enUnlock) + '</td>' +
-        '</tr>'
-      )).join('');
+        '</tr>';
+      }).join('');
       el.innerHTML = '<div class="table-card"><div class="table-scroll"><table>' +
         '<thead><tr><th></th><th>Strategist</th><th>Strategy &amp; Effect</th><th>Unlock Condition</th></tr></thead>' +
         '<tbody>' + rows + '</tbody></table></div></div>';
@@ -2088,6 +2265,7 @@ $html = @"
 
     function renderAll() {
       renderPinnedBarAndPlanner();
+      renderStrategyFilterBar();
       renderCommunity();
       renderAlliances();
       renderStrategies();
@@ -2193,6 +2371,10 @@ $html = @"
         document.querySelectorAll('#communityAllianceFilters .chip').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         state.communityAlliance = btn.dataset.alliance;
+        if (btn.dataset.alliance === 'all') {
+          state.communityStrategy = 'all';
+          renderStrategyFilterBar();
+        }
         renderCommunity();
       });
     });
