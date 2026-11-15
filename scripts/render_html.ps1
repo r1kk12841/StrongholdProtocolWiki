@@ -47,6 +47,10 @@ $html = @"
       --tier-6: #fb923c;
     }
     * { box-sizing: border-box; }
+    html, body {
+      overflow-x: hidden;
+      max-width: 100vw;
+    }
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, "Noto Sans", sans-serif;
@@ -737,26 +741,69 @@ $html = @"
     .badge-alliance {
       display: inline-flex;
       align-items: center;
-      gap: 4px;
+      gap: 5px;
       background: var(--bg-2);
       color: #c8d9eb;
       border: 1px solid var(--border);
-      padding: 2px 8px;
+      padding: 2px 9px 2px 5px;
       border-radius: 99px;
       font-size: 12px;
       font-weight: 600;
       margin: 2px 4px 2px 0;
       cursor: pointer;
-      transition: border-color 0.12s, color 0.12s;
+      transition: border-color 0.12s, color 0.12s, background 0.12s;
+    }
+    .badge-alliance img.badge-alliance-icon {
+      width: 17px;
+      height: 17px;
+      object-fit: contain;
+      flex-shrink: 0;
+      filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
     }
     .badge-alliance:hover {
       border-color: var(--accent);
       color: #67cdff;
+      background: var(--bg-3);
     }
     .badge-alliance.core-bond {
       background: var(--accent-soft);
       border-color: rgba(0, 152, 220, 0.5);
       color: #7dd3fc;
+    }
+    .badge-alliance.active-filter {
+      background: rgba(245, 179, 1, 0.2);
+      border-color: var(--gold);
+      color: #fde047;
+    }
+    .inline-bond-icon {
+      width: 15px;
+      height: 15px;
+      object-fit: contain;
+      vertical-align: -3px;
+      margin-right: 2px;
+    }
+    .op-bond-icons {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+      margin-top: 2px;
+      flex-wrap: wrap;
+    }
+    .op-bond-icons img {
+      width: 14px !important;
+      height: 14px !important;
+      border-radius: 3px !important;
+      background: rgba(11, 15, 20, 0.85) !important;
+      border: 1px solid rgba(255, 255, 255, 0.14) !important;
+      object-fit: contain !important;
+      padding: 1px;
+    }
+    .synergy-meter img {
+      width: 16px;
+      height: 16px;
+      object-fit: contain;
+      flex-shrink: 0;
     }
     .badge-type {
       display: inline-block;
@@ -931,16 +978,16 @@ $html = @"
       font-weight: 700;
       cursor: pointer;
     }
-    /* Strategy Filter Bar for Community Builds */
+    /* Unified Alliance & Strategy Filter Bars for Community Builds */
     .strategy-filter-bar {
       background: var(--bg-1);
       border: 1px solid var(--border);
       border-radius: 10px;
       padding: 10px 12px;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 7px;
     }
     .strategy-filter-head {
       display: flex;
@@ -959,7 +1006,10 @@ $html = @"
       align-items: center;
       gap: 6px;
     }
-    .strat-chip {
+    .alliance-filter-label {
+      color: #58c7ff;
+    }
+    .strat-chip, .alliance-chip {
       display: inline-flex;
       align-items: center;
       gap: 6px;
@@ -977,11 +1027,21 @@ $html = @"
       color: var(--text);
       border-color: #fbbf24;
     }
+    .alliance-chip:hover {
+      color: var(--text);
+      border-color: var(--accent);
+    }
     .strat-chip.active {
       background: rgba(245, 179, 1, 0.16);
       color: #fde047;
       border-color: rgba(245, 179, 1, 0.6);
       box-shadow: 0 0 0 1px rgba(245, 179, 1, 0.25);
+    }
+    .alliance-chip.active {
+      background: var(--accent-soft);
+      color: #67cdff;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 1px rgba(0, 152, 220, 0.28);
     }
     .strat-chip img {
       width: 22px;
@@ -990,6 +1050,12 @@ $html = @"
       object-fit: cover;
       background: var(--bg-3);
       border: 1px solid var(--border);
+    }
+    .alliance-chip img {
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+      filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.55));
     }
     .strat-chip-cnt {
       background: rgba(255, 255, 255, 0.1);
@@ -1003,29 +1069,45 @@ $html = @"
       background: var(--gold);
       color: #09131c;
     }
+    .alliance-chip.active .strat-chip-cnt {
+      background: var(--accent);
+      color: #041019;
+    }
+    .guide-note-toggle {
+      display: none;
+      margin-top: 6px;
+      background: var(--bg-3);
+      color: #67cdff;
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      padding: 4px 10px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+    }
 
     /* ==================== MOBILE OPTIMIZATION (<= 768px) ==================== */
     @media (max-width: 768px) {
       .topbar {
-        padding: 8px 12px;
+        padding: 6px 10px;
       }
       .topbar-inner {
-        gap: 8px;
+        gap: 6px;
       }
       .brand {
-        gap: 8px;
+        gap: 6px;
         width: 100%;
         justify-content: space-between;
       }
       .brand-badge {
-        font-size: 10px;
-        padding: 3px 6px;
+        font-size: 9px;
+        padding: 2px 6px;
         white-space: nowrap;
         order: 2;
       }
       .brand h1 {
-        font-size: 15px;
-        line-height: 1.25;
+        font-size: 14px;
+        line-height: 1.2;
       }
       .brand-sub {
         display: none;
@@ -1034,20 +1116,21 @@ $html = @"
         flex: 1 1 100%;
         max-width: 100%;
       }
-      .search-input, .select-filter {
+      .search-input {
         font-size: 16px; /* Prevents iOS auto-zoom on focus */
-        padding: 8px 60px 8px 34px;
+        padding: 6px 56px 6px 32px;
+        height: 36px;
       }
       .select-filter {
+        font-size: 14px;
         padding: 6px 10px;
-        font-size: 13px;
       }
       .kbd {
         display: none;
       }
       .controls-row {
-        margin-top: 8px;
-        gap: 6px;
+        margin-top: 6px;
+        gap: 5px;
       }
       .tabs {
         width: 100%;
@@ -1060,30 +1143,46 @@ $html = @"
       .tabs::-webkit-scrollbar { display: none; }
       .tab-btn {
         flex: 0 0 auto;
-        padding: 6px 10px;
+        padding: 5px 10px;
         font-size: 12px;
         white-space: nowrap;
       }
       .toggles {
         width: 100%;
-        justify-content: flex-start;
+        justify-content: space-between;
         gap: 6px;
       }
       .toggle-btn {
-        flex: 1 1 auto;
+        flex: 1 1 48%;
         text-align: center;
-        padding: 5px 8px;
+        padding: 4px 6px;
         font-size: 11px;
       }
-      /* Compact & Collapsible Pinned Squad Bar on Mobile */
+      /* Bottom Floating Dock for Pinned Squad Bar on Mobile (never blocks top header!) */
       .pinned-bar {
-        margin-top: 6px;
+        position: fixed;
+        left: 8px;
+        right: 8px;
+        bottom: 8px;
+        z-index: 80;
+        margin: 0;
         padding: 8px 10px;
         gap: 6px;
+        background: rgba(17, 24, 33, 0.96);
+        backdrop-filter: blur(14px);
+        border: 1px solid var(--gold);
+        border-radius: 12px;
+        box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.65);
+        max-height: 52vh;
+        overflow-y: auto;
       }
       .pin-collapse-btn {
         display: inline-flex;
         align-items: center;
+        flex-shrink: 0;
+        background: var(--gold-soft);
+        color: #fde047;
+        border-color: var(--gold);
       }
       .pinned-list {
         flex-wrap: nowrap;
@@ -1123,18 +1222,30 @@ $html = @"
       .synergy-meter {
         flex: 0 0 auto;
       }
+      .back-to-top {
+        bottom: 68px;
+        right: 12px;
+        padding: 8px 12px;
+      }
       /* Main Container & Filters */
       .container {
-        padding: 12px 10px 64px;
+        padding: 10px 8px 96px;
       }
       .section-block {
-        margin-bottom: 26px;
+        margin-bottom: 24px;
       }
       .section-head {
-        gap: 8px;
+        gap: 6px;
+        margin-bottom: 8px;
       }
       .section-title {
-        font-size: 16px;
+        font-size: 15px;
+        line-height: 1.3;
+      }
+      .strategy-filter-bar {
+        padding: 8px 10px;
+        margin-bottom: 8px;
+        gap: 6px;
       }
       .sub-filters, #opTierFilters {
         width: 100%;
@@ -1142,16 +1253,18 @@ $html = @"
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
-        padding-bottom: 4px;
+        padding-bottom: 3px;
       }
       .sub-filters::-webkit-scrollbar, #opTierFilters::-webkit-scrollbar { display: none; }
-      .chip, .strat-chip {
+      .chip, .strat-chip, .alliance-chip {
         flex: 0 0 auto;
         white-space: nowrap;
-        padding: 5px 11px;
+        padding: 5px 10px;
       }
       .strategy-filter-head .select-filter {
         flex: 1 1 100%;
+        width: 100%;
+        min-width: 0 !important;
       }
       .op-select-row {
         display: flex;
@@ -1164,19 +1277,51 @@ $html = @"
       }
       /* Planner & Community Cards on Mobile */
       .planner-box {
-        padding: 12px;
+        padding: 10px;
+        margin-bottom: 12px;
+      }
+      .planner-desc-desktop {
+        display: none;
+      }
+      .planner-search-box {
+        width: 100%;
+      }
+      .planner-search-box .select-filter {
+        width: 100%;
+        min-width: 0 !important;
       }
       .planner-grid {
         grid-template-columns: 1fr;
         gap: 10px;
+        margin-top: 8px;
+      }
+      .planner-card {
+        padding: 10px;
+      }
+      /* 2 Rows of 3 Tiers on Mobile so Tier labels & Pin badges never overflow */
+      .quickpin-tabs {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+      }
+      .quickpin-tab {
+        padding: 6px 6px;
+        font-size: 12px;
+      }
+      .QuickPin-picker {
+        max-height: 175px;
+        gap: 5px;
       }
       .guide-card {
-        padding: 12px;
+        padding: 11px;
       }
       .guide-header {
         flex-direction: column;
         align-items: stretch;
         gap: 8px;
+      }
+      .guide-title {
+        font-size: 14px;
+        line-height: 1.35;
       }
       .guide-actions-bar {
         display: flex;
@@ -1194,6 +1339,24 @@ $html = @"
       .phase-btn {
         flex: 0 0 auto;
         white-space: nowrap;
+      }
+      .op-card-mini {
+        width: 54px;
+        padding: 3px;
+      }
+      .op-card-mini img {
+        width: 40px;
+        height: 40px;
+      }
+      /* Collapsible long guide notes on mobile */
+      .guide-notes.is-long:not(.expanded) .guide-note-body {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .guide-notes.is-long .guide-note-toggle {
+        display: inline-block;
       }
       /* Convert Data Tables into Responsive Mobile Cards */
       .table-card {
@@ -1222,6 +1385,7 @@ $html = @"
         padding: 12px;
         margin-bottom: 10px;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.22);
+        max-width: 100%;
       }
       tbody tr.row-pinned {
         border-color: var(--gold);
@@ -1230,21 +1394,25 @@ $html = @"
       tbody td {
         border-top: none;
         padding: 0;
+        min-width: 0 !important;
+        max-width: 100% !important;
+        word-break: break-word;
       }
       tbody td.icon-cell {
-        width: 52px !important;
-        min-width: 52px !important;
+        width: 48px !important;
+        min-width: 48px !important;
         margin-right: 10px;
         text-align: left;
       }
       tbody td.title-cell {
-        flex: 1 1 calc(100% - 64px);
+        flex: 1 1 calc(100% - 60px);
+        width: auto !important;
         min-width: 0 !important;
       }
       tbody td.body-cell {
         width: 100% !important;
         min-width: 100% !important;
-        margin-top: 10px;
+        margin-top: 9px;
         padding-top: 8px;
         border-top: 1px dashed rgba(255, 255, 255, 0.09);
       }
@@ -1260,6 +1428,7 @@ $html = @"
       }
       .op-grid {
         max-width: 100%;
+        width: 100%;
       }
       .recipe-bar {
         display: flex;
@@ -1301,12 +1470,12 @@ $html = @"
         <button id="toggleCN" class="toggle-btn" type="button">Show CN Text</button>
       </div>
     </div>
-    <!-- Sticky Pinned Squad Bar (appears whenever >=1 Operator is pinned) -->
+    <!-- Sticky Pinned Squad Bar (Floating Bottom Dock on Mobile) -->
     <div id="pinnedBar" class="pinned-bar">
       <div class="pinned-top">
         <div style="display:flex;align-items:center;justify-content:space-between;width:100%;gap:8px;">
           <div class="pinned-list" id="pinnedList" style="flex:1;min-width:0;"></div>
-          <button id="btnTogglePinDrawer" class="pin-collapse-btn" type="button">Hide &#9650;</button>
+          <button id="btnTogglePinDrawer" class="pin-collapse-btn" type="button">Hide &#9660;</button>
         </div>
         <div class="pinned-actions" style="display:flex;gap:8px;align-items:center;">
           <button id="btnViewRecommendations" class="pin-btn pinned" type="button">View Recommended Builds</button>
@@ -1323,20 +1492,18 @@ $html = @"
     <section class="section-block" id="sec-community">
       <div class="section-head">
         <h2 class="section-title">&#127942; Skland Community Strategies &amp; Run Build Recommender</h2>
-        <div class="sub-filters" id="communityAllianceFilters">
-          <button class="chip active" data-alliance="all" type="button">All Builds (52)</button>
-          <button class="chip" data-alliance="Yan" type="button">Yan</button>
-          <button class="chip" data-alliance="Sargon" type="button">Sargon</button>
-          <button class="chip" data-alliance="Victoria" type="button">Victoria</button>
-          <button class="chip" data-alliance="Kjerag" type="button">Kjerag</button>
-          <button class="chip" data-alliance="Ægir" type="button">Ægir</button>
-          <button class="chip" data-alliance="Siracusa" type="button">Siracusa</button>
-          <button class="chip" data-alliance="Kazimierz" type="button">Kazimierz</button>
-          <button class="chip" data-alliance="Ursus" type="button">Ursus</button>
-          <button class="chip" data-alliance="Iberia" type="button">Iberia</button>
-          <button class="chip" data-alliance="Leithanien" type="button">Leithanien</button>
-          <button class="chip" data-alliance="matched" type="button" id="chipMatchedOnly">Matching Pinned Ops</button>
+      </div>
+
+      <!-- Filter by Alliance (with Icons) Bar -->
+      <div class="strategy-filter-bar">
+        <div class="strategy-filter-head">
+          <span class="strategy-filter-label alliance-filter-label">&#128737; Filter by Alliance (Core &amp; Add-on):</span>
+          <select id="communityAllianceSelect" class="select-filter" style="min-width:250px;">
+            <option value="all">All Alliances (52 Builds)</option>
+            <option value="matched">&#128204; Matching Pinned Operators</option>
+          </select>
         </div>
+        <div class="sub-filters" id="communityAllianceFilters"></div>
       </div>
 
       <!-- Filter by Strategy (Strategist) Bar -->
@@ -1352,14 +1519,14 @@ $html = @"
 
       <!-- Interactive Run Planner / Operator Pinning Box -->
       <div class="planner-box">
-        <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px;">
+        <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;">
           <div>
-            <strong style="font-size:15px;color:#58c7ff;">&#128204; Run Build Recommender (Pin Operators to Filter &amp; Rank Builds)</strong>
-            <div style="font-size:12px;color:var(--muted);margin-top:2px;">
-              Click any Operator avatar in Community Builds, Alliances, or the Operators table (or use the quick-picker below) to <strong>Pin</strong> them. Community builds are automatically ranked by how many of your Pinned Operators &amp; Alliances they share, and missing Operators to complete your synergies are suggested!
+            <strong style="font-size:14px;color:#58c7ff;">&#128204; Run Build Recommender (Tap Operators to Pin &amp; Filter Builds)</strong>
+            <div class="planner-desc-desktop" style="font-size:12px;color:var(--muted);margin-top:2px;">
+              Click any Operator avatar in Community Builds, Alliances, or the Operators table (or use the 6-Tier pool below) to <strong>Pin</strong> them. Community builds automatically filter &amp; sort by <strong>Matched Operators (most &rarr; least)</strong> then <strong>Rating (high &rarr; low)</strong>!
             </div>
           </div>
-          <div style="display:flex;gap:8px;align-items:center;">
+          <div class="planner-search-box" style="display:flex;gap:8px;align-items:center;">
             <input id="pinPickerSearch" class="select-filter" type="search" placeholder="Quick-find Operator to pin..." style="min-width:210px;" />
           </div>
         </div>
@@ -1510,9 +1677,44 @@ $html = @"
       });
       h = h.replace(/(^|[\s/:;,(])([+-]?\d+(?:[.\u2013-]\d+)?(?:\s*%|s\b|\/s\b|x\b)?)/g, '`$1<span class="hl-num">`$2</span>');
       h = h.replace(/@@FORM_(\d+)@@/g, (_, i) => '<span class="hl-num">' + forms[Number(i)] + '</span>');
-      h = h.replace(/@@TAG_(\d+)@@/g, (_, i) => '<span class="hl-tag">[' + tags[Number(i)] + ']</span>');
+      h = h.replace(/@@TAG_(\d+)@@/g, (_, i) => {
+        const tName = tags[Number(i)];
+        const alObj = ALLIANCE_BY_NAME[tName];
+        const iconHtml = (alObj && alObj.icon) ? '<img class="inline-bond-icon" src="' + esc(alObj.icon) + '" alt="" loading="lazy">' : '';
+        return '<span class="hl-tag">' + iconHtml + '[' + tName + ']</span>';
+      });
       h = h.replace(/@@COND_(\d+)@@/g, (_, i) => '<span class="hl-cond">&lt;' + conds[Number(i)] + '&gt;</span>');
       return h.replace(/\n/g, '<br>');
+    }
+
+    function renderAllianceBadge(alName, isCoreOverride, mode) {
+      const alObj = ALLIANCE_BY_NAME[alName];
+      const isCore = (isCoreOverride !== undefined) ? isCoreOverride : (alObj && alObj.type === 'core');
+      const isActFilter = (mode === 'community' && state.communityAlliance === alName) || (mode === 'operators' && state.opAlliance === alName);
+      const clickFn = (mode === 'community')
+        ? 'filterCommunityByAlliance(\'' + esc(alName).replace(/'/g, "\\'") + '\')'
+        : 'filterByAlliance(\'' + esc(alName).replace(/'/g, "\\'") + '\')';
+      const titleTxt = alObj
+        ? (alObj.enName + ' (' + (alObj.type === 'core' ? 'Core' : 'Add-on') + ', Req. ' + alObj.required + ') — Click to filter')
+        : alName;
+      return '<span class="badge-alliance ' + (isCore ? 'core-bond ' : '') + (isActFilter ? 'active-filter' : '') + '" onclick="' + clickFn + '" title="' + esc(titleTxt) + '">' +
+        (alObj && alObj.icon ? '<img class="badge-alliance-icon" src="' + esc(alObj.icon) + '" alt="" loading="lazy">' : '') +
+        '<span>' + esc(alName) + '</span>' +
+      '</span>';
+    }
+
+    function renderOpBondIcons(opNameOrArr) {
+      const alliances = Array.isArray(opNameOrArr)
+        ? opNameOrArr
+        : (OP_BY_NAME[opNameOrArr] ? OP_BY_NAME[opNameOrArr].enAlliances : []);
+      if (!alliances || !alliances.length) return '';
+      return '<span class="op-bond-icons">' +
+        alliances.map(a => {
+          const alObj = ALLIANCE_BY_NAME[a];
+          if (!alObj || !alObj.icon) return '';
+          return '<img src="' + esc(alObj.icon) + '" alt="' + esc(a) + '" title="' + esc(a) + '" loading="lazy">';
+        }).join('') +
+      '</span>';
     }
 
     function statusBadge(st) {
@@ -1547,6 +1749,92 @@ $html = @"
       pinSearch: '',
       quickPinTier: 1,
       pinnedOps: new Set(savedPins.filter(n => OP_BY_NAME[n]))
+    };
+
+    // Build Alliance usage index across Community Builds
+    const ALLIANCE_BUILD_COUNTS = {};
+    DATA.community.forEach(g => {
+      const seenAl = new Set();
+      (g.tabs || []).forEach(tb => {
+        (tb.allAlliances || []).forEach(alName => {
+          if (alName && !seenAl.has(alName)) {
+            seenAl.add(alName);
+            ALLIANCE_BUILD_COUNTS[alName] = (ALLIANCE_BUILD_COUNTS[alName] || 0) + 1;
+          }
+        });
+      });
+    });
+
+    const communityAllianceSelect = document.getElementById('communityAllianceSelect');
+    if (communityAllianceSelect) {
+      DATA.alliances.forEach(a => {
+        const cnt = ALLIANCE_BUILD_COUNTS[a.enName] || 0;
+        const opt = document.createElement('option');
+        opt.value = a.enName;
+        opt.textContent = (a.type === 'core' ? '\u2605 ' : '') + a.enName + ' (' + (a.type === 'core' ? 'Core' : 'Add-on') + ' \u00b7 ' + cnt + ' build' + (cnt !== 1 ? 's' : '') + ')';
+        communityAllianceSelect.appendChild(opt);
+      });
+      communityAllianceSelect.addEventListener('change', e => {
+        state.communityAlliance = e.target.value;
+        renderAllianceFilterBar();
+        renderCommunity();
+      });
+    }
+
+    function renderAllianceFilterBar() {
+      const container = document.getElementById('communityAllianceFilters');
+      if (!container) return;
+      const allBtn = '<button type="button" class="alliance-chip ' + (state.communityAlliance === 'all' ? 'active' : '') + '" onclick="filterCommunityByAlliance(\'all\')">' +
+        '<span>All Builds</span>' +
+        '<span class="strat-chip-cnt">' + DATA.community.length + '</span>' +
+      '</button>';
+      const matchBtn = '<button type="button" class="alliance-chip ' + (state.communityAlliance === 'matched' ? 'active' : '') + '" onclick="filterCommunityByAlliance(\'matched\')">' +
+        '<span>&#128204; Matching Pinned</span>' +
+        (state.pinnedOps.size > 0 ? '<span class="strat-chip-cnt">' + state.pinnedOps.size + ' Op</span>' : '') +
+      '</button>';
+      const alBtns = DATA.alliances.map(a => {
+        const cnt = ALLIANCE_BUILD_COUNTS[a.enName] || 0;
+        if (cnt === 0 && a.type !== 'core') return '';
+        const isAct = state.communityAlliance === a.enName;
+        return '<button type="button" class="alliance-chip ' + (isAct ? 'active' : '') + '" onclick="filterCommunityByAlliance(\'' + esc(a.enName).replace(/'/g, "\\'") + '\')" title="' + esc(a.enName + ' (' + (a.type === 'core' ? 'Core Alliance' : 'Add-on Alliance') + ', Req. ' + a.required + ')') + '">' +
+          (a.icon ? '<img src="' + esc(a.icon) + '" alt="" loading="lazy">' : '') +
+          '<span>' + esc(a.enName) + '</span>' +
+          '<span class="strat-chip-cnt">' + cnt + '</span>' +
+        '</button>';
+      }).join('');
+      container.innerHTML = allBtn + matchBtn + alBtns;
+      if (communityAllianceSelect) {
+        communityAllianceSelect.value = state.communityAlliance;
+      }
+    }
+
+    window.filterCommunityByAlliance = function(alName, scrollToSec) {
+      if (alName === 'all') {
+        state.communityAlliance = 'all';
+        state.communityStrategy = 'all';
+        renderStrategyFilterBar();
+      } else {
+        state.communityAlliance = (state.communityAlliance === alName && !scrollToSec) ? 'all' : alName;
+      }
+      if (state.tab !== 'all' && state.tab !== 'community') {
+        state.tab = 'community';
+        document.querySelectorAll('#mainTabs .tab-btn').forEach(b => {
+          b.classList.toggle('active', b.dataset.tab === 'community');
+        });
+        updateVisibility();
+      }
+      renderAllianceFilterBar();
+      renderCommunity();
+      if (scrollToSec) {
+        document.getElementById('sec-community').scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
+    window.toggleGuideNote = function(btn) {
+      const box = btn.closest('.guide-notes');
+      if (!box) return;
+      const expanded = box.classList.toggle('expanded');
+      btn.innerHTML = expanded ? 'Collapse Guide &#9650;' : 'Read Full Guide &#9660;';
     };
 
     // Build Strategy usage index across Community Builds
@@ -1821,8 +2109,9 @@ $html = @"
             const req = alObj ? alObj.required : 2;
             const maxTarget = (alObj && alObj.type === 'core' && cnt >= req) ? 6 : req;
             const cls = cnt >= req ? 'active' : (cnt === req - 1 ? 'near' : '');
-            return '<span class="synergy-meter ' + cls + '" onclick="filterByAlliance(\'' + esc(a).replace(/'/g, "\\'") + '\')" style="cursor:pointer">' +
-              esc(a) + ' <span>' + cnt + '/' + maxTarget + '</span>' +
+            return '<span class="synergy-meter ' + cls + '" onclick="filterByAlliance(\'' + esc(a).replace(/'/g, "\\'") + '\')" style="cursor:pointer" title="Click to view ' + esc(a) + ' Operators">' +
+              (alObj && alObj.icon ? '<img src="' + esc(alObj.icon) + '" alt="" loading="lazy">' : '') +
+              '<span>' + esc(a) + '</span> <span>' + cnt + '/' + maxTarget + '</span>' +
             '</span>';
           }).join('');
       }
@@ -1862,6 +2151,7 @@ $html = @"
             (o.icon ? '<img src="' + esc(o.icon) + '" alt="" loading="lazy">' : '') +
             (qPin ? '<span class="tier-' + o.tier + '" style="font-size:10px;font-weight:800">T' + ROMAN[o.tier] + '</span>' : '') +
             '<span>' + esc(o.enName) + '</span>' +
+            renderOpBondIcons(o.enAlliances) +
           '</button>';
         }).join('');
       }
@@ -1886,11 +2176,12 @@ $html = @"
         )).join('');
 
         const recsHtml = candidateScores.map(c => (
-          '<span class="recipe-pill" onclick="togglePinOperator(\'' + esc(c.op.enName).replace(/'/g, "\\'") + '\')" title="Click to Pin · Used in ' + c.buildCount + ' matching build(s)">' +
+          '<span class="recipe-pill" onclick="togglePinOperator(\'' + esc(c.op.enName).replace(/'/g, "\\'") + '\')" title="Click to Pin · Alliances: ' + esc(c.op.enAlliances.join(', ')) + ' · Used in ' + c.buildCount + ' matching build(s)">' +
             (c.op.icon ? '<img src="' + esc(c.op.icon) + '" alt="">' : '') +
             '<span class="recipe-pill-name">' + esc(c.op.enName) + '</span>' +
+            renderOpBondIcons(c.op.enAlliances) +
             '<span class="tier-pill tier-' + c.op.tier + '" style="font-size:10px;padding:0 4px">T' + ROMAN[c.op.tier] + '</span>' +
-            '<span style="font-size:11px;color:var(--teal);">(' + c.buildCount + ' build' + (c.buildCount > 1 ? 's' : '') + ')</span>' +
+            '<span style="font-size:11px;color:var(--teal);">(' + c.buildCount + ')</span>' +
           '</span>'
         )).join('');
 
@@ -1998,23 +2289,27 @@ $html = @"
         }).join(' ');
 
         const bondsHtml = [
-          ...(tb.seasonBonds || []).map(a => '<span class="badge-alliance core-bond" onclick="filterByAlliance(\'' + esc(a).replace(/'/g, "\\'") + '\')">&#9733; ' + esc(a) + '</span>'),
-          ...(tb.regularBonds || []).map(a => '<span class="badge-alliance" onclick="filterByAlliance(\'' + esc(a).replace(/'/g, "\\'") + '\')">' + esc(a) + '</span>')
+          ...(tb.seasonBonds || []).map(a => renderAllianceBadge(a, true, 'community')),
+          ...(tb.regularBonds || []).map(a => renderAllianceBadge(a, false, 'community'))
         ].join('');
 
         const charsHtml = tb.chars.map(c => {
           const isP = state.pinnedOps.has(c.enName);
-          return '<div class="op-card-mini ' + (isP ? 'is-pinned' : '') + '" onclick="togglePinOperator(\'' + esc(c.enName).replace(/'/g, "\\'") + '\')" title="Click to ' + (isP ? 'Unpin' : 'Pin') + ' ' + esc(c.enName) + ' (Tier ' + ROMAN[c.tier] + (c.isElite ? ', Elite' : '') + ')">' +
+          const opAlliances = OP_BY_NAME[c.enName] ? OP_BY_NAME[c.enName].enAlliances : [];
+          return '<div class="op-card-mini ' + (isP ? 'is-pinned' : '') + '" onclick="togglePinOperator(\'' + esc(c.enName).replace(/'/g, "\\'") + '\')" title="Click to ' + (isP ? 'Unpin' : 'Pin') + ' ' + esc(c.enName) + ' (Tier ' + ROMAN[c.tier] + (c.isElite ? ', Elite' : '') + (opAlliances.length ? ' · ' + opAlliances.join(', ') : '') + ')">' +
             (c.icon ? '<img src="' + esc(c.icon) + '" alt="' + esc(c.enName) + '" loading="lazy">' : '<div style="width:44px;height:44px"></div>') +
             '<span class="op-mini-tier tier-' + c.tier + '">' + ROMAN[c.tier] + '</span>' +
             (c.isElite ? '<span class="op-elite-star">E</span>' : '') +
             '<span class="op-mini-name" style="max-width:52px;font-weight:600;color:var(--text)">' + esc(c.enName) + '</span>' +
+            renderOpBondIcons(opAlliances) +
           '</div>';
         }).join('');
 
         const itemsHtml = (tb.items && tb.items.length)
           ? tb.items.map(it => renderEquipPill(it.enName)).join(' ')
           : '<span style="color:var(--muted);font-size:12px">Flexible / Situational</span>';
+
+        const isLongNote = (tb.enIdea || '').length > 180;
 
         return '<article id="guide-card-' + g.id + '" class="guide-card ' + (isMatched ? 'matched-build' : '') + '">' +
           '<div class="guide-header">' +
@@ -2056,8 +2351,9 @@ $html = @"
             '<div class="guide-label">Key Equipment</div>' +
             '<div style="display:flex;flex-wrap:wrap;gap:6px;">' + itemsHtml + '</div>' +
           '</div>' +
-          '<div class="guide-notes">' +
-            '<strong>Gameplay &amp; Tempo Guide:</strong> ' + formatEffect(tb.enIdea) +
+          '<div class="guide-notes ' + (isLongNote ? 'is-long' : '') + '">' +
+            '<div class="guide-note-body"><strong>Gameplay &amp; Tempo Guide:</strong> ' + formatEffect(tb.enIdea) + '</div>' +
+            (isLongNote ? '<button type="button" class="guide-note-toggle" onclick="toggleGuideNote(this)">Read Full Guide &#9660;</button>' : '') +
             '<div class="cn-sub" style="margin-top:6px;padding-top:6px;border-top:1px dashed var(--border);">' + esc(tb.cnIdea) + '</div>' +
           '</div>' +
         '</article>';
@@ -2080,12 +2376,17 @@ $html = @"
         return;
       }
       const rows = list.map(a => {
+        const bCnt = ALLIANCE_BUILD_COUNTS[a.enName] || 0;
+        const buildBadge = bCnt > 0
+          ? '<button type="button" class="pin-btn pinned" style="margin-top:4px;" onclick="filterCommunityByAlliance(\'' + esc(a.enName).replace(/'/g, "\\'") + '\', true)" title="View Community Builds using ' + esc(a.enName) + '">&#127942; ' + bCnt + ' Build' + (bCnt > 1 ? 's' : '') + '</button>'
+          : '';
         const opsHtml = a.operators.map(o => {
           const isP = state.pinnedOps.has(o.en);
           return '<div class="op-mini ' + (isP ? 'is-pinned' : '') + '" onclick="togglePinOperator(\'' + esc(o.en).replace(/'/g, "\\'") + '\')" title="Click to ' + (isP ? 'Unpin' : 'Pin') + ' ' + esc(o.en) + ' (Tier ' + ROMAN[o.tier] + ')">' +
             (o.icon ? '<img src="' + esc(o.icon) + '" alt="' + esc(o.en) + '" loading="lazy">' : '<div style="width:40px;height:40px;background:var(--bg-2);border-radius:6px"></div>') +
             '<span class="op-mini-tier tier-' + o.tier + '">' + ROMAN[o.tier] + '</span>' +
             '<span class="op-mini-name">' + esc(o.en) + '</span>' +
+            renderOpBondIcons(o.en) +
           '</div>';
         }).join('');
         return '<tr>' +
@@ -2094,6 +2395,7 @@ $html = @"
             '<div class="entity-name">' + esc(a.enName) + ' ' + statusBadge(a.status) + '</div>' +
             '<div class="cn-sub">' + esc(a.cnName) + '</div>' +
             '<div class="meta-line">' + (a.type === 'core' ? 'Core Alliance' : 'Add-on Alliance') + ' · Req. <span class="hl-cond">' + a.required + '</span></div>' +
+            buildBadge +
           '</td>' +
           '<td class="body-cell" data-label="Effect (Exact Scaling)" style="min-width:340px">' +
             formatEffect(a.enEffect) +
@@ -2165,9 +2467,7 @@ $html = @"
       }
       const rows = list.map(o => {
         const isP = state.pinnedOps.has(o.enName);
-        const alBadges = o.enAlliances.map(a => (
-          '<span class="badge-alliance" onclick="filterByAlliance(\'' + esc(a).replace(/'/g, "\\'") + '\')">' + esc(a) + '</span>'
-        )).join('');
+        const alBadges = o.enAlliances.map(a => renderAllianceBadge(a, undefined, 'operators')).join('');
         return '<tr class="' + (isP ? 'row-pinned' : '') + '">' +
           '<td class="icon-cell">' + (o.icon ? '<img class="icon-avatar" src="' + esc(o.icon) + '" alt="" loading="lazy" style="cursor:pointer" onclick="togglePinOperator(\'' + esc(o.enName).replace(/'/g, "\\'") + '\')">' : '') + '</td>' +
           '<td class="title-cell" style="min-width:185px">' +
@@ -2265,6 +2565,7 @@ $html = @"
 
     function renderAll() {
       renderPinnedBarAndPlanner();
+      renderAllianceFilterBar();
       renderStrategyFilterBar();
       renderCommunity();
       renderAlliances();
@@ -2332,9 +2633,7 @@ $html = @"
 
     document.getElementById('btnViewRecommendations').addEventListener('click', () => {
       state.communityAlliance = 'matched';
-      document.querySelectorAll('#communityAllianceFilters .chip').forEach(b => {
-        b.classList.toggle('active', b.dataset.alliance === 'matched');
-      });
+      renderAllianceFilterBar();
       renderCommunity();
       document.getElementById('sec-community').scrollIntoView({ behavior: 'smooth' });
     });
@@ -2363,19 +2662,6 @@ $html = @"
         btn.classList.add('active');
         state.tab = btn.dataset.tab;
         updateVisibility();
-      });
-    });
-
-    document.querySelectorAll('#communityAllianceFilters .chip').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('#communityAllianceFilters .chip').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        state.communityAlliance = btn.dataset.alliance;
-        if (btn.dataset.alliance === 'all') {
-          state.communityStrategy = 'all';
-          renderStrategyFilterBar();
-        }
-        renderCommunity();
       });
     });
 
@@ -2440,7 +2726,7 @@ $html = @"
       btnTogglePin.addEventListener('click', function() {
         const bar = document.getElementById('pinnedBar');
         const collapsed = bar.classList.toggle('mobile-collapsed');
-        this.innerHTML = collapsed ? 'Show &#9660;' : 'Hide &#9650;';
+        this.innerHTML = collapsed ? 'Expand &#9650;' : 'Hide &#9660;';
       });
     }
 
