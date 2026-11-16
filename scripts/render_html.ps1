@@ -331,11 +331,16 @@ $html = @"
     /* Main Container */
     .container {
       max-width: 1400px;
+      width: 100%;
       margin: 0 auto;
       padding: 20px;
+      min-width: 0;
     }
     .section-block {
       margin-bottom: 36px;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
     }
     .section-head {
       display: flex;
@@ -393,18 +398,28 @@ $html = @"
       border-radius: 10px;
       padding: 16px;
       margin-bottom: 18px;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
     }
     .planner-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
       gap: 14px;
       margin-top: 12px;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
     }
     .planner-card {
       background: var(--bg-2);
       border: 1px solid var(--border);
       border-radius: 8px;
       padding: 12px;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      overflow: hidden;
     }
     .planner-card h4 {
       margin: 0 0 8px 0;
@@ -415,9 +430,10 @@ $html = @"
     }
     .quickpin-tabs {
       display: grid;
-      grid-template-columns: repeat(6, 1fr);
+      grid-template-columns: repeat(6, minmax(0, 1fr));
       gap: 4px;
       margin-bottom: 8px;
+      width: 100%;
     }
     .quickpin-tab {
       background: var(--bg-1);
@@ -496,8 +512,11 @@ $html = @"
     /* Community Guide Cards */
     .guides-grid {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: minmax(0, 1fr);
       gap: 16px;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
     }
     .guide-card {
       background: var(--bg-1);
@@ -505,6 +524,10 @@ $html = @"
       border-radius: 10px;
       padding: 16px 18px;
       transition: border-color 0.15s;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      overflow: hidden;
     }
     .guide-card.matched-build {
       border-color: var(--teal);
@@ -519,12 +542,21 @@ $html = @"
       margin-bottom: 12px;
       padding-bottom: 10px;
       border-bottom: 1px solid var(--border);
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+    }
+    .guide-header > div {
+      min-width: 0;
+      max-width: 100%;
     }
     .guide-title {
       font-size: 16px;
       font-weight: 700;
       color: var(--text);
       margin: 0;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
     .guide-meta {
       font-size: 12px;
@@ -534,6 +566,8 @@ $html = @"
       flex-wrap: wrap;
       gap: 10px;
       align-items: center;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
     .guide-stats {
       display: flex;
@@ -548,13 +582,20 @@ $html = @"
     }
     .guide-row {
       display: grid;
-      grid-template-columns: 120px 1fr;
+      grid-template-columns: 120px minmax(0, 1fr);
       gap: 10px;
       align-items: start;
       margin-bottom: 10px;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
     }
-    @media (max-width: 680px) {
-      .guide-row { grid-template-columns: 1fr; gap: 4px; }
+    .guide-row > div {
+      min-width: 0;
+      max-width: 100%;
+    }
+    @media (max-width: 768px) {
+      .guide-row { grid-template-columns: minmax(0, 1fr); gap: 4px; }
     }
     .guide-label {
       font-size: 11px;
@@ -569,6 +610,9 @@ $html = @"
       flex-wrap: wrap;
       gap: 6px;
       margin-bottom: 10px;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
     }
     .phase-btn {
       background: var(--bg-2);
@@ -593,6 +637,24 @@ $html = @"
       font-size: 13px;
       color: #d6e3f0;
       margin-top: 8px;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      box-sizing: border-box;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-wrap: break-word;
+      word-break: break-word;
+    }
+    .guide-note-body {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-wrap: break-word;
+      word-break: break-word;
     }
     .op-card-mini {
       position: relative;
@@ -925,6 +987,7 @@ $html = @"
       border: 1px solid var(--border);
       border-radius: 6px;
       cursor: pointer;
+      max-width: 100%;
       transition: border-color 0.12s, background 0.12s;
     }
     .recipe-pill:hover {
@@ -935,11 +998,15 @@ $html = @"
       width: 26px;
       height: 26px;
       object-fit: contain;
+      flex-shrink: 0;
     }
     .recipe-pill-name {
       font-size: 12px;
       font-weight: 600;
       color: var(--text);
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
     .recipe-op {
       font-size: 13px;
@@ -988,6 +1055,10 @@ $html = @"
       display: flex;
       flex-direction: column;
       gap: 7px;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      overflow: hidden;
     }
     .strategy-filter-head {
       display: flex;
@@ -995,6 +1066,13 @@ $html = @"
       align-items: center;
       justify-content: space-between;
       gap: 8px;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+    }
+    .strategy-filter-head .select-filter {
+      min-width: 240px;
+      max-width: 100%;
     }
     .strategy-filter-label {
       font-size: 12px;
@@ -1249,11 +1327,21 @@ $html = @"
       }
       .sub-filters, #opTierFilters {
         width: 100%;
+        max-width: 100%;
+        min-width: 0;
         flex-wrap: nowrap !important;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
         padding-bottom: 3px;
+      }
+      .op-filters-wrap {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
       }
       .sub-filters::-webkit-scrollbar, #opTierFilters::-webkit-scrollbar { display: none; }
       .chip, .strat-chip, .alliance-chip {
@@ -1291,7 +1379,7 @@ $html = @"
         min-width: 0 !important;
       }
       .planner-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
         gap: 10px;
         margin-top: 8px;
       }
@@ -1300,7 +1388,7 @@ $html = @"
       }
       /* 2 Rows of 3 Tiers on Mobile so Tier labels & Pin badges never overflow */
       .quickpin-tabs {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 5px;
       }
       .quickpin-tab {
@@ -1311,27 +1399,54 @@ $html = @"
         max-height: 175px;
         gap: 5px;
       }
+      .guides-grid {
+        grid-template-columns: minmax(0, 1fr);
+        width: 100%;
+        max-width: 100%;
+      }
       .guide-card {
         padding: 11px;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        overflow: hidden;
       }
       .guide-header {
         flex-direction: column;
         align-items: stretch;
         gap: 8px;
+        width: 100%;
+        max-width: 100%;
       }
       .guide-title {
         font-size: 14px;
         line-height: 1.35;
+        width: 100%;
+        max-width: 100%;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+      }
+      .badge, .badge-match, .badge-alliance {
+        max-width: 100%;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        word-break: break-word;
       }
       .guide-actions-bar {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+        gap: 6px;
         width: 100%;
+        max-width: 100%;
       }
       .phase-tabs {
         flex-wrap: nowrap;
         overflow-x: auto;
+        width: 100%;
+        max-width: 100%;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
       }
@@ -1348,15 +1463,24 @@ $html = @"
         width: 40px;
         height: 40px;
       }
-      /* Collapsible long guide notes on mobile */
-      .guide-notes.is-long:not(.expanded) .guide-note-body {
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
+      .guide-notes, .guide-note-body, .guide-notes .cn-sub {
+        display: block;
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+        white-space: normal !important;
+        overflow-wrap: anywhere !important;
+        word-wrap: break-word !important;
+        word-break: break-word !important;
+        font-size: 13px;
+        line-height: 1.5;
       }
-      .guide-notes.is-long .guide-note-toggle {
-        display: inline-block;
+      .guide-notes .cn-sub {
+        display: none;
+      }
+      body.show-cn .guide-notes .cn-sub {
+        display: block;
       }
       /* Convert Data Tables into Responsive Mobile Cards */
       .table-card {
@@ -1498,7 +1622,7 @@ $html = @"
       <div class="strategy-filter-bar">
         <div class="strategy-filter-head">
           <span class="strategy-filter-label alliance-filter-label">&#128737; Filter by Alliance (Core &amp; Add-on):</span>
-          <select id="communityAllianceSelect" class="select-filter" style="min-width:250px;">
+          <select id="communityAllianceSelect" class="select-filter">
             <option value="all">All Alliances (52 Builds)</option>
             <option value="matched">&#128204; Matching Pinned Operators</option>
           </select>
@@ -1510,7 +1634,7 @@ $html = @"
       <div class="strategy-filter-bar">
         <div class="strategy-filter-head">
           <span class="strategy-filter-label">&#9876; Filter by Strategy (Strategist):</span>
-          <select id="communityStrategySelect" class="select-filter" style="min-width:250px;">
+          <select id="communityStrategySelect" class="select-filter">
             <option value="all">All Strategies (52 Builds)</option>
           </select>
         </div>
@@ -1527,7 +1651,7 @@ $html = @"
             </div>
           </div>
           <div class="planner-search-box" style="display:flex;gap:8px;align-items:center;">
-            <input id="pinPickerSearch" class="select-filter" type="search" placeholder="Quick-find Operator to pin..." style="min-width:210px;" />
+            <input id="pinPickerSearch" class="select-filter" type="search" placeholder="Quick-find Operator to pin..." />
           </div>
         </div>
         <div class="planner-grid">
@@ -1579,7 +1703,7 @@ $html = @"
     <section class="section-block" id="sec-operators">
       <div class="section-head">
         <h2 class="section-title">Operators (Alliances &amp; Stronghold Abilities)</h2>
-        <div class="sub-filters" style="flex-wrap:wrap !important;overflow-x:visible;">
+        <div class="sub-filters op-filters-wrap">
           <div id="opTierFilters" style="display:flex;flex-wrap:wrap;gap:6px;">
             <button class="chip active" data-tier="all" type="button">All Tiers</button>
             <button class="chip" data-tier="1" type="button">Tier I</button>
@@ -2351,9 +2475,8 @@ $html = @"
             '<div class="guide-label">Key Equipment</div>' +
             '<div style="display:flex;flex-wrap:wrap;gap:6px;">' + itemsHtml + '</div>' +
           '</div>' +
-          '<div class="guide-notes ' + (isLongNote ? 'is-long' : '') + '">' +
+          '<div class="guide-notes">' +
             '<div class="guide-note-body"><strong>Gameplay &amp; Tempo Guide:</strong> ' + formatEffect(tb.enIdea) + '</div>' +
-            (isLongNote ? '<button type="button" class="guide-note-toggle" onclick="toggleGuideNote(this)">Read Full Guide &#9660;</button>' : '') +
             '<div class="cn-sub" style="margin-top:6px;padding-top:6px;border-top:1px dashed var(--border);">' + esc(tb.cnIdea) + '</div>' +
           '</div>' +
         '</article>';
